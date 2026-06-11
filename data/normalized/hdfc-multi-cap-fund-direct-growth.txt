@@ -1,0 +1,1675 @@
+HDFC Multi Cap Fund Direct Growth - NAV, Mutual Fund Performance & Portfolio
+
+Stocks
+
+Invest in Stocks
+
+Invest in stocks, ETFs, IPOs with fast orders. Track returns on your stock holdings and view real-time P&L on your positions.
+
+Intraday
+
+Monitor top intraday performers in real time
+
+ETF Screener
+
+Get the best of Mutual Funds and flexibility of Stocks
+
+IPO
+
+Track upcoming and ongoing IPOs
+
+MTFs
+
+Buy now, pay later
+
+Stock Screener
+
+Filter based on RSI, PE ratio and more
+
+Stock Events
+
+Dividends, bonus, buybacks and more
+
+Demat Account
+
+Begin your stock market journey
+
+Share Market Today
+
+Live news updates from stock market
+
+F&O
+
+Trade in Futures & Options
+
+Trade in F&O using the terminal. View charts, indicators, track your orders , P&L and watchlists in a single space
+
+Indices
+
+Track markets across the globe
+
+Terminal
+
+Track charts, orders, positions, watchlists in one place
+
+Option chain
+
+Analyse chains, view payoffs, create baskets
+
+Pledge
+
+Get extra balance for trading
+
+Commodities
+
+Trade in Crude Oil, Gold, Silver and more
+
+API trading
+
+Set up and execute trades through our API
+
+Mutual Funds
+
+Invest in Mutual Funds
+
+Invest in direct mutual funds at zero charges via lump sump investments or SIPs
+
+Mutual Fund Houses
+
+Know about AMCs, funds, fund managers
+
+NFO’s
+
+Track all active NFOs in one place
+
+Mutual Funds by Groww
+
+Mutual funds by Groww designed for your investment goals
+
+Start SIP
+
+Build long-term wealth through disciplined monthly investing.
+
+Mutual Funds screener
+
+Filter funds based on risk, fund size and more
+
+Track Funds
+
+Import funds and track all investments in a single place
+
+Compare Funds
+
+More
+
+SIP calculator
+
+Estimate returns on a SIP
+
+Brokerage calculator
+
+Estimate charges for your trade/investment
+
+Margin calculator
+
+Estimate balance needed to buy/sell a stock
+
+SWP calculator
+
+Returns on your systematic withdrawal plan
+
+Pricing
+
+Brokerage and charges on Groww
+
+Blog
+
++14.96
+
+%
+
+3Y annualised
+
+-0.51
+
+%
+
+1D
+
+1M
+
+6M
+
+1Y
+
+3Y
+
+All
+
+NAV: 10 Jun '26
+
+₹18.74
+
+Min. for SIP
+
+₹100
+
+Fund size (AUM)
+
+₹19,580.68 Cr
+
+Expense ratio
+
+0.83%
+
+Rating
+
+3
+
+Return calculator
+
+Monthly investment
+
+₹5,000
+
+| Over the past | Total investment | Would've become | Historic returns | Returns |
+
+|---|---|---|---|---|
+
+| 3 months | ₹15,000 | ₹15,167 |  | +1.11% |
+
+| 6 months | ₹30,000 | ₹29,629 |  | -1.24% |
+
+| 1 year | ₹60,000 | ₹58,512 |  | -2.48% |
+
+| 3 years | ₹1,80,000 | ₹1,95,394 |  | +8.55% |
+
+Holdings (
+
+120
+
+)
+
+| Name | Sector | Instruments | Assets |
+
+|---|---|---|---|
+
+| HDFC Bank Ltd | Financial | Equity | 3.81% |
+
+| ICICI Bank Ltd | Financial | Equity | 3.40% |
+
+| Reliance Industries Ltd | Energy & Utilities | Equity | 2.89% |
+
+| Axis Bank Ltd | Financial | Equity | 2.52% |
+
+| Repo | Unspecified | Repo | 2.47% |
+
+| Britannia Industries Ltd | Consumer Staples | Equity | 2.37% |
+
+| Bharti Airtel Ltd | Technology | Equity | 2.22% |
+
+| NTPC Ltd | Energy & Utilities | Equity | 1.86% |
+
+| Larsen & Toubro Ltd | Industrials | Equity | 1.72% |
+
+| Zomato Ltd | Technology | Equity | 1.57% |
+
+| ICICI Lombard General Insurance Company Ltd | Financial | Equity | 1.42% |
+
+| State Bank of India | Financial | Equity | 1.41% |
+
+| Infosys Ltd | Technology | Equity | 1.39% |
+
+| Kotak Mahindra Bank Ltd | Financial | Equity | 1.32% |
+
+| Mahindra & Mahindra Ltd | Consumer Discretionary | Equity | 1.32% |
+
+| PNB Housing Finance Ltd | Financial | Equity | 1.28% |
+
+| Maruti Suzuki India Ltd | Consumer Discretionary | Equity | 1.25% |
+
+| Tata Steel Ltd | Materials | Equity | 1.24% |
+
+| PB Fintech Ltd | Financial | Equity | 1.24% |
+
+| Shriram Transport Finance Company Ltd | Financial | Equity | 1.17% |
+
+| Power Finance Corporation Ltd | Financial | Equity | 1.16% |
+
+| Alkem Laboratories Ltd | Healthcare | Equity | 1.13% |
+
+| Tata Communications Ltd | Technology | Equity | 1.09% |
+
+| Timken India Ltd | Industrials | Equity | 1.09% |
+
+| Tube Investments Of India Ltd | Consumer Discretionary | Equity | 1.08% |
+
+| HCL Technologies Ltd | Technology | Equity | 1.05% |
+
+| Jubilant FoodWorks Ltd | Consumer Discretionary | Equity | 1.04% |
+
+| Trent Ltd | Consumer Discretionary | Equity | 1.03% |
+
+| Five-Star Business Finance Ltd | Financial | Equity | 1.03% |
+
+| AU Small Finance Bank Ltd | Financial | Equity | 1.01% |
+
+| Balkrishna Industries Ltd | Consumer Discretionary | Equity | 1.00% |
+
+| Sona BLW Precision Forgings Ltd | Consumer Discretionary | Equity | 0.99% |
+
+| Max Healthcare Institute Ltd | Healthcare | Equity | 0.97% |
+
+| Ultratech Cement Ltd | Materials | Equity | 0.95% |
+
+| Mahanagar Gas Ltd | Energy & Utilities | Equity | 0.94% |
+
+| ABB India Ltd | Industrials | Equity | 0.91% |
+
+| Hindustan Petroleum Corporation Ltd | Energy & Utilities | Equity | 0.91% |
+
+| Interglobe Aviation Ltd | Industrials | Equity | 0.88% |
+
+| TATA CAPITAL LIMITED EQ | Financial | Equity | 0.87% |
+
+| Endurance Technologies Ltd | Consumer Discretionary | Equity | 0.84% |
+
+| Aster DM Healthcare Ltd | Healthcare | Equity | 0.84% |
+
+| Bandhan Bank Ltd | Financial | Equity | 0.84% |
+
+| Lupin Ltd | Healthcare | Equity | 0.83% |
+
+| Coforge Ltd | Technology | Equity | 0.83% |
+
+| Oil India Ltd | Energy & Utilities | Equity | 0.83% |
+
+| Prestige Estates Projects Ltd | Real Estate | Equity | 0.83% |
+
+| Mphasis Ltd | Technology | Equity | 0.82% |
+
+| Hindustan Unilever Ltd | Consumer Staples | Equity | 0.81% |
+
+| Max Financial Services Ltd | Financial | Equity | 0.81% |
+
+| Bajaj Consumer Care Ltd | Consumer Staples | Equity | 0.81% |
+
+| The Federal Bank Ltd | Financial | Equity | 0.78% |
+
+| Supreme Industries Ltd | Materials | Equity | 0.74% |
+
+| Chalet Hotels Ltd | Consumer Discretionary | Equity | 0.73% |
+
+| Havells India Ltd | Consumer Discretionary | Equity | 0.73% |
+
+| Delhivery Ltd | Industrials | Equity | 0.73% |
+
+| Akzo Nobel India Ltd | Materials | Equity | 0.72% |
+
+| Devyani International Ltd | Consumer Discretionary | Equity | 0.71% |
+
+| Prudent Corporate Advisory Services Ltd | Financial | Equity | 0.70% |
+
+| DHFL VYSYA HOUSING FINANCE LIMITED EQ | Financial | Equity | 0.67% |
+
+| Bharat Electronics Ltd | Industrials | Equity | 0.66% |
+
+| Bharat Forge Ltd | Consumer Discretionary | Equity | 0.65% |
+
+| Gabriel India Ltd | Consumer Discretionary | Equity | 0.65% |
+
+| Apar Industries Ltd | Diversified | Equity | 0.64% |
+
+| Escorts Kubota Ltd | Industrials | Equity | 0.64% |
+
+| The Indian Hotels Company Ltd | Consumer Discretionary | Equity | 0.64% |
+
+| Vesuvius India Ltd | Industrials | Equity | 0.64% |
+
+| Divi's Laboratories Ltd | Healthcare | Equity | 0.63% |
+
+| Wheels India Ltd | Consumer Discretionary | Equity | 0.62% |
+
+| Page Industries Ltd | Consumer Discretionary | Equity | 0.61% |
+
+| Persistent Systems Ltd | Technology | Equity | 0.61% |
+
+| Tata Motors Ltd | Industrials | Equity | 0.61% |
+
+| SBI Life Insurance Company Ltd | Financial | Equity | 0.60% |
+
+| Whirlpool Of India Ltd | Consumer Discretionary | Equity | 0.58% |
+
+| Dixon Technologies (India) Ltd | Consumer Discretionary | Equity | 0.58% |
+
+| Praj Industries Ltd | Industrials | Equity | 0.56% |
+
+| Apollo Tyres Ltd | Consumer Discretionary | Equity | 0.55% |
+
+| DOMS Industries Ltd. | Industrials | Equity | 0.55% |
+
+| Le Travenues Technology Ltd. | Consumer Discretionary | Equity | 0.55% |
+
+| Eicher Motors Ltd | Consumer Discretionary | Equity | 0.54% |
+
+| EIH Ltd | Consumer Discretionary | Equity | 0.53% |
+
+| Canara HSBC Life Insurance Company Ltd. | Financial | Equity | 0.51% |
+
+| Glenmark Pharmaceuticals Ltd | Healthcare | Equity | 0.50% |
+
+| Godrej Consumer Products Ltd | Consumer Staples | Equity | 0.50% |
+
+| Bikaji Foods International Ltd | Consumer Staples | Equity | 0.50% |
+
+| Vishal Mega Mart Ltd. | Consumer Staples | Equity | 0.50% |
+
+| JK Tyre & Industries Ltd | Consumer Discretionary | Equity | 0.49% |
+
+| Embassy Office Parks REIT | Real Estate | Real Estate Investment Trusts | 0.48% |
+
+| Ipca Laboratories Ltd | Healthcare | Equity | 0.47% |
+
+| Cholamandalam Financial Holdings Ltd | Financial | Equity | 0.47% |
+
+| L&T Technology Services Ltd | Technology | Equity | 0.47% |
+
+| Metro Brands Ltd | Consumer Discretionary | Equity | 0.47% |
+
+| Ajanta Pharma Ltd | Healthcare | Equity | 0.46% |
+
+| Multi Commodity Exchange Of India Ltd | Financial | Equity | 0.46% |
+
+| Eris Lifesciences Ltd | Healthcare | Equity | 0.46% |
+
+| Gland Pharma Ltd | Healthcare | Equity | 0.46% |
+
+| Birla Corporation Ltd | Materials | Equity | 0.45% |
+
+| Net Current Assets | Unspecified | Net Current Assets | 0.43% |
+
+| Gulf Oil Lubricants India Ltd | Materials | Equity | 0.42% |
+
+| Brigade Enterprises Ltd | Real Estate | Equity | 0.41% |
+
+| Kaynes Technology India Ltd | Industrials | Equity | 0.41% |
+
+| SRF Ltd | Materials | Equity | 0.39% |
+
+| Zensar Technologies Ltd | Technology | Equity | 0.39% |
+
+| Archean Chemical Industries Ltd | Materials | Equity | 0.39% |
+
+| Centum Electronics Ltd | Industrials | Equity | 0.38% |
+
+| Sai Life Sciences Ltd. | Healthcare | Equity | 0.37% |
+
+| Blue Star Ltd | Industrials | Equity | 0.35% |
+
+| LTIMindtree Ltd | Technology | Equity | 0.33% |
+
+| Kalpataru Power Transmission Ltd | Industrials | Equity | 0.32% |
+
+| Carborundum Universal Ltd | Materials | Equity | 0.31% |
+
+| Symphony Ltd | Consumer Discretionary | Equity | 0.30% |
+
+| Jubilant Ingrevia Ltd | Materials | Equity | 0.29% |
+
+| Data Patterns (India) Ltd | Industrials | Equity | 0.27% |
+
+| Medi Assist Healthcare Services Ltd. | Industrials | Equity | 0.25% |
+
+| Crompton Greaves Consumer Electricals Ltd | Consumer Discretionary | Equity | 0.24% |
+
+| Sonata Software Ltd | Technology | Equity | 0.23% |
+
+| Cera Sanitaryware Ltd | Industrials | Equity | 0.17% |
+
+| Greenply Industries Ltd | Materials | Equity | 0.17% |
+
+| Sagar Cements Ltd | Materials | Equity | 0.12% |
+
+| Jagran Prakashan Ltd | Industrials | Equity | 0.11% |
+
+| Nilkamal Ltd | Materials | Equity | 0.06% |
+
+See All
+
+Minimum investments
+
+Min. for 1st investment
+
+₹100
+
+Min. for 2nd investment
+
+₹100
+
+Min. for SIP
+
+₹100
+
+Understand terms
+
+Annualised returns
+
+Average of the yearly returns of a mutual fund over a given period.
+
+Absolute returns
+
+The total return of a mutual fund over a given period.
+
+Returns and rankings
+
+Annualised returns
+
+Absolute returns
+
+| Name | 6M | 1Y | 3Y | All |
+
+|---|---|---|---|---|
+
+| Fund returns | -5.8% | -5.7% | +15.0% | +15.0% |
+
+| Category average (Equity Multi Cap) | -0.8% | +0.9% | +18.5% | -- |
+
+| Rank (Equity Multi Cap) | -- | 34 | 14 | -- |
+
+Understand terms
+
+Expense ratio
+
+A fee payable to a mutual fund house for managing your mutual fund investments.     It is the total percentage of a company's fund assets used for administrative, management, advertising, and other expenses.
+
+Tax
+
+A percentage of your capital gains payable to the government upon exiting your mutual fund investments.     Taxation is categorized as long-term capital gains (LTCG) and short-term capital gains (STCG) depending on your holding period and the type of fund.
+
+Exit load
+
+A fee payable to a mutual fund house for exiting a fund (fully or partially) before the completion of a specified period from the date of investment.
+
+Stamp duty
+
+A form of tax payable for the purchase or sale of an asset or security.
+
+Exit Load
+
+23 Nov 2021
+
+Exit load of 1% if redeemed within 1 year.
+
+Exit load, stamp duty and tax
+
+Exit load
+
+Exit load of 1% if redeemed within 1 year.
+
+Stamp duty on investment:
+
+0.005% (from July 1st, 2020)
+
+from July 1st 2020
+
+Tax implication
+
+If you redeem within one year, returns are taxed at 20%. If you redeem after one year, returns exceeding Rs 1.25 lakh in a financial year are taxed at 12.5%.
+
+Check past data
+
+Compare similar funds
+
+|  | Name | 1Y | 3Y | Fund Size(Cr) |
+
+|---|---|---|---|---|
+
+|  | Kotak Multicap Fund Direct Growth | +2.27% | +20.90% | 25,768.71 |
+
+|  | HSBC Multi Cap Fund Direct Growth | +2.06% | +20.85% | 5,620.77 |
+
+|  | Mahindra Manulife Multi Cap Fund Direct Growth | +3.12% | +19.45% | 6,643.08 |
+
+|  | ICICI Prudential Multicap Fund Direct Plan Growth | +2.44% | +18.61% | 17,675.80 |
+
+|  | Nippon India Multi Cap Fund Direct Growth | -2.93% | +17.62% | 53,410.99 |
+
+Fund management
+
+AK
+
+Amar Kalkundrikar
+
+Sep 2025
+
+- Present
+
+View details
+
+Education
+
+Mr. Kalkundrikar has done B.Com, CA, CFA, and MBA from Columbia Business School.
+
+Experience
+
+Prior to joining HDFC Asset Management Company Limited, he has worked with Nippon India Mutual Fund, and HDFC AMC. He worked with multiple roles at HDFC MF.
+
+Also manages these schemes
+
+HDFC ELSS Tax Saver Fund Direct Plan Growth
+
+HDFC Multi Cap Fund Direct Growth
+
+DM
+
+Dhruv Muchhal
+
+Jun 2023
+
+- Present
+
+View details
+
+Education
+
+Mr. Dhruv has done B.Com, CA and CFA
+
+Experience
+
+Prior to joining HDFC MF,he has worked with Motilal Oswal Financial Services Ltd., Goldman Sachs, CRISIL Global Research & Analytics and Deloitte Haskins & Sells
+
+Also manages these schemes
+
+HDFC Flexi Cap Direct Plan Growth
+
+HDFC Value Fund Direct Plan Growth
+
+HDFC Low Duration Fund Direct Growth
+
+HDFC Focused Fund Direct Growth
+
+HDFC Floating Rate Debt Fund Direct Plan Growth
+
+HDFC Balanced Advantage Fund Direct Growth
+
+HDFC Dynamic Debt Fund Direct Plan Growth
+
+HDFC Medium Term Debt Fund Direct Growth
+
+HDFC Income Fund Direct Growth
+
+HDFC Infrastructure Fund Direct Growth
+
+HDFC Corporate Bond Fund Direct Plan Growth
+
+HDFC Hybrid Debt Fund Direct Growth
+
+HDFC Mid Cap Fund Direct Growth
+
+HDFC Equity Savings Direct Plan Growth
+
+HDFC Multi Asset Allocation Fund Direct Growth
+
+HDFC Hybrid Equity Fund Direct Plan Growth
+
+HDFC Short Term Debt Fund Direct Plan Growth
+
+HDFC ELSS Tax Saver Fund Direct Plan Growth
+
+HDFC Large Cap Fund Direct Growth
+
+HDFC Credit Risk Debt Fund Direct Growth
+
+HDFC Banking and PSU Debt Fund Direct Growth
+
+HDFC Arbitrage Fund Direct Growth
+
+HDFC Large and Mid Cap Fund Direct Growth
+
+HDFC Small Cap Fund Direct Growth
+
+HDFC Ultra Short Term Fund Direct Growth
+
+HDFC Liquid Direct Plan Growth
+
+HDFC Overnight Fund Direct Growth
+
+HDFC Money Market Fund Direct Growth
+
+HDFC Retirement Savings Fund Equity Plan Direct Growth
+
+HDFC Retirement Savings Fund Hybrid Equity Plan Direct Growth
+
+HDFC Retirement Savings Fund Hybrid Debt Plan Direct Growth
+
+HDFC Housing Opportunities Fund Direct Growth
+
+HDFC Banking & Financial Services Fund Direct Growth
+
+HDFC Multi Cap Fund Direct Growth
+
+HDFC Business Cycle Fund Direct Growth
+
+HDFC Long Duration Debt Fund Direct Growth
+
+HDFC MNC Fund Direct Growth
+
+HDFC Defence Fund Direct Growth
+
+HDFC Consumption Fund Direct Growth
+
+HDFC Transportation and Logistics Fund Direct Growth
+
+HDFC Technology Fund Direct Growth
+
+HDFC Pharma And Healthcare Fund Direct Growth
+
+HDFC Manufacturing Fund Direct Growth
+
+HDFC Children's Fund Direct Plan
+
+HDFC Innovation Fund Direct Growth
+
+HDFC Diversified Equity All Cap Active FoF Direct Growth
+
+About
+
+HDFC Multi Cap Fund Direct Growth
+
+HDFC Multi Cap Fund Direct Growth is a Equity Mutual Fund Scheme launched by HDFC Mutual Fund. This scheme was made available to investors on 10 Dec 1999. Amar Kalkundrikar is the Current Fund Manager of HDFC Multi Cap Fund Direct Growth fund. The fund currently has an Asset Under Management(AUM) of ₹9,37,048 Cr and the Latest NAV as of 10 Jun 2026 is ₹18.74.
+
+The HDFC Multi Cap Fund Direct Growth is rated Very High risk. Minimum SIP Investment is set to ₹100. Minimum Lumpsum Investment is ₹100. Exit load of 1% if redeemed within 1 year.
+
+;
+
+Investment Objective
+
+The scheme seeks to generate long term capital appreciation by investing in equity and equity related securities of large cap, mid cap and small cap companies.
+
+Fund benchmark
+
+Nifty 500 Multicap 50:25:25 Total Return Index
+
+Scheme Information Document(SID)
+
+Fund house
+
+HDFC Mutual Fund
+
+Rank (total assets)
+
+#2 in India
+
+Total AUM
+
+₹9,37,047.59 Cr
+
+Date of Incorporation
+
+10 Dec 1999
+
+Phone
+
+022 – 66316333
+
+E-mail
+
+[email protected]
+
+Website
+
+http://www.hdfcfund.com
+
+Launch Date
+
+10 Dec 1999
+
+Address
+
+"HDFC House", 2nd Floor, H. T. Parekh Marg, 165-166, BackbayReclamation, Churchgate Mumbai 400020
+
+Custodian
+
+--
+
+Registrar & Transfer Agent
+
+Cams
+
+Email
+
+[email protected]
+
+Website
+
+www.camsonline.com
+
+Address
+
+7th Floor, Tower II, Rayala Towers, 158, Anna Salai,
+
+Home
+
+>
+
+Mutual Funds
+
+>
+
+HDFC Mutual Fund
+
+>
+
+HDFC Multi Cap Fund Direct Growth
+
+Vaishnavi Tech Park, South Tower, 3rd Floor
+
+Sarjapur Main Road, Bellandur, Bengaluru – 560103
+
+Karnataka
+
+Contact Us
+
+Download the App
+
+GROWW
+
+About Us
+
+Pricing
+
+Blog
+
+Media & Press
+
+Careers
+
+Help & Support
+
+Trust & Safety
+
+Investor Relations
+
+PRODUCTS
+
+Stocks
+
+F&O
+
+MTF
+
+ETF
+
+IPO
+
+Mutual Funds
+
+Commodities
+
+Groww Terminal
+
+915 Terminal
+
+Stock Screens
+
+Algo Trading
+
+Groww Charts
+
+Groww Digest
+
+Demat Account
+
+Groww AMC
+
+PMS
+
+© 2016-
+
+2026
+
+Groww. All rights reserved.
+
+Version:
+
+7.7.3
+
+Share Market
+
+Indices
+
+F&O
+
+Mutual Funds
+
+ETFs
+
+Funds By Groww
+
+Calculators
+
+IPO
+
+Miscellaneous
+
+Top Gainers Stocks
+
+52 Weeks High Stocks
+
+Tata Motors
+
+NHPC
+
+ITC
+
+Wipro
+
+BSE
+
+NTPC
+
+Top Losers Stocks
+
+52 Weeks Low Stocks
+
+IREDA
+
+State Bank of India
+
+Adani Power
+
+CDSL
+
+Cochin Shipyard
+
+SJVN
+
+Most Traded Stocks
+
+Stocks Market Calender
+
+Tata Steel
+
+Tata Power
+
+Bharat Heavy Electricals
+
+Indian Oil Corporation
+
+HUDCO
+
+SAIL
+
+Stocks Feed
+
+Suzlon Energy
+
+Zomato (Eternal)
+
+Yes Bank
+
+Infosys
+
+NBCC
+
+IRCTC
+
+Share Market Live Update
+
+FII DII Activity
+
+IRFC
+
+Bharat Electronics
+
+HDFC Bank
+
+Vedanta
+
+Reliance Power
+
+Jaiprakash Power Ventures
+
+Stocks Sectors
+
+NIFTY 50
+
+NIFTY Midcap 100
+
+NIFTY 100
+
+US Tech 100
+
+NIFTY Realty
+
+Nikkei index
+
+SENSEX
+
+NIFTY Smallcap 100
+
+NIFTY Auto
+
+Dow Jones Futures
+
+NIFTY PSU Bank
+
+NIFTY FMCG
+
+NIFTY BANK
+
+NIFTY MIDCAP 150
+
+KOSPI Index
+
+Dow Jones Index
+
+Gift Nifty
+
+BSE BANKEX
+
+India VIX
+
+NIFTY Pharma
+
+HANG SENG Index
+
+BSE 100
+
+FTSE 100 Index
+
+S&P 500
+
+NIFTY NEXT 50
+
+NIFTY Metal
+
+DAX Index
+
+NIFTY Fin Service
+
+CAC Index
+
+Nifty Pvt Bank
+
+NIFTY Bank Options
+
+SBI Options
+
+Bajaj Finance Options
+
+Axis Bank Options
+
+Hindustan Unilever Options
+
+NIFTY Bank Futures
+
+Finnifty Futures
+
+ITC Futures
+
+ICICI Bank Futures
+
+Biocon Futures
+
+Indusind Bank Futures
+
+Crude Oil Mini Future Price
+
+Gold Petal Future Price
+
+Silver Micro Future Price
+
+Nickel Future Price
+
+Natural Gas Mini MCX Option Chain
+
+Copper MCX Option Chain
+
+NIFTY 50 Options
+
+HDFC Bank Options
+
+Wipro  Options
+
+DLF Options
+
+REC  Options
+
+Yes Bank Futures
+
+Zomato Futures
+
+Ashok Leyland Futures
+
+HDFC Bank Futures
+
+UPL Futures
+
+Adani Enterprises Futures
+
+Gold Future Price
+
+Natural Gas Future Price
+
+Zinc Future Price
+
+Gold MCX Option Chain
+
+Gold Mini MCX Option Chain
+
+Commodities Expiry Calendar
+
+Bse Sensex Options
+
+Tata Steel Options
+
+NTPC Options
+
+Bajaj Auto Options
+
+Indusind Bank Options
+
+Tata Motors Futures
+
+Infosys Futures
+
+Asian Paints Futures
+
+Lupin Futures
+
+Cipla Futures
+
+IDFC First Bank Futures
+
+Gold Mini Future Price
+
+Natural Gas Mini Future Price
+
+Copper Future Price
+
+Crude Oil MCX Option Chain
+
+Silver MCX Option Chain
+
+Finnifty Options
+
+Infosys Options
+
+Asian Paints Options
+
+Coal India Options
+
+Ashok Leyland Options
+
+Tata Steel Futures
+
+BSE Sensex Futures
+
+Wipro Futures
+
+DLF Futures
+
+Bajaj Finance Futures
+
+Piramal Enterprises Futures
+
+Gold Ten Future Price
+
+Silver Future Price
+
+Aluminium Future Price
+
+Crude Oil Mini MCX Option Chain
+
+Silver Mini MCX Option Chain
+
+Tata Motors Options
+
+ITC Options
+
+ICICI Bank Options
+
+Adani Enterprises Options
+
+NIFTY 50 Futures
+
+Coal India Futures
+
+Axis Bank Futures
+
+Vedanta Futures
+
+Reliance Industries Futures
+
+Hindustan Copper Futures
+
+Crude Oil Future Price
+
+Gold Guinea Future Price
+
+Silver Mini Future Price
+
+Electricity Future Price
+
+Natural Gas MCX Option Chain
+
+Zinc MCX Option Chain
+
+MF Screener
+
+Debt Mutual Funds
+
+Best Multicap Mutual funds
+
+Best Contra Mutual funds
+
+Best Conservative Hybrid Mutual funds
+
+SBI Contra Fund
+
+Nippon India Nifty 500 Momentum 50 Index Fund
+
+HDFC Balanced Advantage Fund
+
+Quant Mid Cap Fund
+
+Bank of India Small Cap Fund
+
+Quant Multi Asset Fund
+
+Nippon India
+
+TATA
+
+Bandhan
+
+Edelweiss
+
+HSBC
+
+Union
+
+Quantum
+
+Shriram
+
+Compare Mutual Funds
+
+Best Debt Mutual funds
+
+Best Large Cap Mutual funds
+
+Best Value Oriented Mutual funds
+
+Parag Parikh Flexi Cap Fund
+
+HDFC Mid Cap Opportunities Fund
+
+Motilal Oswal Nifty India Defence Index Fund
+
+ICICI Prudential India Opportunities Fund
+
+Kotak Small Cap Fund
+
+Canara Robeco Bluechip Equity Fund
+
+GrowwMF
+
+Motilal Oswal
+
+Aditya Birla
+
+Axis
+
+Bank of India
+
+Bajaj Finserv
+
+Helios
+
+ITI
+
+Trust
+
+MF Knowledge Centre
+
+Best Equity Mutual funds
+
+Best Small Cap Mutual funds
+
+Best Arbitrage Mutual funds
+
+Motilal Oswal Midcap Fund
+
+SBI Small Cap Fund
+
+HDFC Small Cap Fund
+
+Kotak Multicap Fund
+
+ICICI Prudential Infrastructure Fund
+
+Bandhan Nifty Alpha 50 Index Fund
+
+SBI
+
+Quant
+
+Mirae Asset
+
+DSP
+
+Baroda BNP Paribas
+
+Mahindra Manulife
+
+Sundaram
+
+Samco
+
+Taurus
+
+Mutual Fund Houses
+
+Best Hybrid Mutual funds
+
+Best ELSS Mutual funds
+
+Best Dividend Yield Mutual funds
+
+Nippon India Small Cap Fund
+
+HDFC Flexi Cap Fund
+
+Tata Small Cap Fund
+
+Tata Ethical Fund
+
+Mirae Asset ELSS Tax Saver Fund
+
+Quant Infrastructure Fund
+
+HDFC
+
+PPFAS
+
+UTI
+
+Kotak Mahindra
+
+Zerodha
+
+Invesco
+
+Navi
+
+PGIM
+
+Mutual Funds Categories
+
+Best MidCap Mutual funds
+
+Best Sectoral Mutual funds
+
+Best Aggressive Hybrid Mutual funds
+
+Quant Small Cap Fund
+
+SBI Magnum Children's Benefit Fund
+
+UTI Nifty 50 Index Fund
+
+JM Flexicap Fund
+
+HSBC Small Cap Fund
+
+Franklin India Multi Cap Fund
+
+ICICI Prudential
+
+LIC
+
+Canara Robeco
+
+Whiteoak
+
+Franklin Templeton
+
+NJ
+
+JM
+
+360 One
+
+International
+
+Silver
+
+Midcap
+
+Liquid
+
+Debt
+
+Index
+
+Bank Nifty
+
+Nifty IT
+
+Equity
+
+Nifty 50
+
+Nifty Metal
+
+Nifty Auto
+
+Commodity
+
+Nifty Next 50
+
+Healthcare
+
+Groww
+
+Gold
+
+Sensex
+
+Defence
+
+Groww Arbitrage Fund
+
+Groww ELSS Tax Saver Fund
+
+Groww Banking & Financial Services Fund
+
+Groww Gold ETF FOF
+
+Groww Gold ETF
+
+Groww Short Duration Fund
+
+Groww Aggressive Hybrid Fund
+
+Groww Nifty Smallcap 250 Index Fund
+
+Groww Multicap Fund
+
+Groww Nifty India Defence ETF
+
+Groww Liquid Fund
+
+Groww Dynamic Bond Fund
+
+Groww Nifty Non Cyclical Consumer Index Fund
+
+Groww Nifty India Railways PSU Index Fund
+
+Groww Nifty India Railways ETF
+
+Groww Large Cap Fund
+
+Groww Overnight Fund
+
+Groww Nifty EV & New Age Automotive ETF FoF
+
+Groww Nifty 200 ETF FoF
+
+Groww Value Fund
+
+Groww Nifty Total Market Index Fund
+
+Groww Nifty India Defence ETF FoF
+
+Groww Silver ETF
+
+SIP Calculator
+
+Brokerage Calculator
+
+RD Calculator
+
+HRA Calculator
+
+Home Loan EMI Calculator
+
+Lumpsum Calculator
+
+Margin Calculator
+
+FD Calculator
+
+Salary Calculator
+
+ROI Calculator
+
+SWP Calculator
+
+Stock Average Calculator
+
+EPF Calculator
+
+TDS Calculator
+
+MF Calculator
+
+SSY Calculator
+
+Income Tax Calculator
+
+EMI Calculator
+
+Step-Up SIP Calculator
+
+PPF Calculator
+
+GST Calculator
+
+Car Loan EMI Calculator
+
+What is IPO?
+
+IPO Subscription Status
+
+IPO Allotment Status
+
+Open IPOs
+
+How to Apply for an IPO
+
+Upcoming IPOs
+
+What is Grey Market Premium?
+
+Closed IPOs
+
+Mainboard IPOs
+
+IPO GMP
+
+SME IPOs
+
+NFO
+
+Pricing
+
+Trust & Safety
+
+Groww Digest
+
+Intraday
+
+Blog
+
+Investor Relations
+
+Invest in Gold
+
+Corporate Bonds
+
+Media & Press
+
+Gold Rates
+
+Invest in Silver
+
+HUF Demat Account
+
+Careers
+
+Silver Rates
+
+Sitemap
+
+About Us
+
+Help & Support
+
+Glossary
+
+Others:
+
+NSE
+
+BSE
+
+MCX
+
+Terms and Conditions
+
+Policies and Procedures
+
+Regulatory & Other Info
+
+Privacy Policy
+
+Disclosure
+
+SMART ODR
+
+Download Forms
+
+Information Security Practices
+
+Investor Charter and Grievance
+
+Bug Bounty
+
+Mutual Funds
+
+:
+
+A
+
+B
+
+C
+
+D
+
+E
+
+F
+
+G
+
+H
+
+I
+
+J
+
+K
+
+L
+
+M
+
+N
+
+O
+
+P
+
+Q
+
+R
+
+S
+
+T
+
+U
+
+V
+
+W
+
+X
+
+Y
+
+Z
+
+Others
+
+Stocks
+
+:
+
+A
+
+B
+
+C
+
+D
+
+E
+
+F
+
+G
+
+H
+
+I
+
+J
+
+K
+
+L
+
+M
+
+N
+
+O
+
+P
+
+Q
+
+R
+
+S
+
+T
+
+U
+
+V
+
+W
+
+X
+
+Y
+
+Z
+
+Others

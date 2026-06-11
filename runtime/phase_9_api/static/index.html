@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NextLeap Fund Expert</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo-container">
+                <div class="logo-icon"></div>
+                <h1>Fund Expert</h1>
+            </div>
+            <button id="new-chat-btn" class="primary-btn">
+                <span>+</span> New Conversation
+            </button>
+            <div class="history-list">
+                <p class="history-label">Session ID</p>
+                <div id="session-id-display" class="session-id">Initializing...</div>
+            </div>
+            
+            <div class="sidebar-footer">
+                <p>Powered by RAG Architecture V1.0</p>
+            </div>
+        </aside>
+
+        <!-- Main Chat Area -->
+        <main class="chat-container">
+            <header class="chat-header">
+                <h2>HDFC Mutual Funds Assistant</h2>
+                <div class="status-indicator">
+                    <span class="status-dot"></span> Online
+                </div>
+            </header>
+
+            <div id="chat-messages" class="chat-messages">
+                <div class="message assistant">
+                    <div class="avatar">
+                        <img src="https://ui-avatars.com/api/?name=F+E&background=0D8ABC&color=fff" alt="Bot">
+                    </div>
+                    <div class="bubble">
+                        Hello! I am your factual Mutual Fund assistant. I can help you find exact NAVs, AUMs, Minimum SIPs, and Expense Ratios for HDFC Mutual Funds based on our official records. How can I help you today?
+                    </div>
+                </div>
+            </div>
+
+            <div class="input-area">
+                <form id="chat-form">
+                    <input type="text" id="user-input" placeholder="Ask about HDFC Mutual Funds..." autocomplete="off" required>
+                    <button type="submit" id="send-btn" class="send-btn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                    </button>
+                </form>
+            </div>
+        </main>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

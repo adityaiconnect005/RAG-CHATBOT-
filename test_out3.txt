@@ -1,0 +1,1 @@
+[("Expense ratioA fee payable to a mutual fund house for managing your mutual fund investments.     It is the total percentage of a company's fund assets used for administrative, management, advertising, and other expenses.", 'TaxA percentage of your capital gains payable to t')]

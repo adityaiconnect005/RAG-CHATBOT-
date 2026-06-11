@@ -1,0 +1,1 @@
+[('div', 'Expense ratio', '0.68%'), ('h5', 'Expense ratio', "A fee payable to a mutual fund house for managing your mutual fund investments.     It is the total percentage of a company's fund assets used for administrative, management, advertising, and other expenses.")]
