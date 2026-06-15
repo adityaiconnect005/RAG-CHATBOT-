@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pydantic
+requests
+playwright
+beautifulsoup4==4.12.3
+langchain-text-splitters==0.0.1
+sentence-transformers==2.7.0
+chromadb>=0.5.3
+python-dotenv
+groq>=0.9.0
