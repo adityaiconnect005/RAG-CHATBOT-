@@ -66,11 +66,11 @@ jobs:
           path: data/raw/
           retention-days: 7
 
-      - name: Commit Updated Structured Data
+      - name: Commit Updated Structured Data and ChromaDB
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/structured/
+          git add data/structured/ data/chroma/
           # Only commit if there are changes
           if ! git diff --staged --quiet; then
             git commit -m "Auto-update daily mutual fund structured data [skip ci]"

@@ -15,8 +15,7 @@ version.log
 data/raw/
 data/normalized/
 data/embedded/
-data/chroma/
-# We keep data/structured/ if it's meant to be pushed, otherwise ignore it too
+# We keep data/structured/ and data/chroma/ if it's meant to be pushed, otherwise ignore it too
 data/threads.db
 
 # Frontend
