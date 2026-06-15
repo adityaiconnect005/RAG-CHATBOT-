@@ -38,22 +38,28 @@ def retrieve(query: str, top_k: int = 5) -> dict:
     """
     
     # 1. Connect to Chroma Cloud
-    chroma_host = os.environ.get("CHROMA_HOST", "").strip() or "api.trychroma.com"
+    chroma_host = os.environ.get("CHROMA_HOST", "").strip()
     chroma_api_key = os.environ.get("CHROMA_API_KEY", "").strip()
     chroma_tenant = os.environ.get("CHROMA_TENANT", "").strip() or chromadb.DEFAULT_TENANT
     chroma_database = os.environ.get("CHROMA_DATABASE", "").strip() or chromadb.DEFAULT_DATABASE
     
-    if not chroma_api_key:
-        logger.warning("CHROMA_API_KEY is not set. Might fail if authentication is required.")
+    if chroma_host:
+        logger.info(f"Initializing ChromaDB HttpClient (Cloud) at {chroma_host}...")
+        if not chroma_api_key:
+            logger.warning("CHROMA_API_KEY is not set. Might fail if authentication is required.")
 
-    client = chromadb.HttpClient(
-        host=chroma_host,
-        port=443 if "trychroma.com" in chroma_host else 8000,
-        ssl=True if "trychroma.com" in chroma_host else False,
-        headers={"x-chroma-token": chroma_api_key} if chroma_api_key else {},
-        tenant=chroma_tenant,
-        database=chroma_database
-    )
+        client = chromadb.HttpClient(
+            host=chroma_host,
+            port=443 if "trychroma.com" in chroma_host else 8000,
+            ssl=True if "trychroma.com" in chroma_host else False,
+            headers={"x-chroma-token": chroma_api_key} if chroma_api_key else {},
+            tenant=chroma_tenant,
+            database=chroma_database
+        )
+    else:
+        logger.info("Initializing local ChromaDB PersistentClient...")
+        CHROMA_DIR = BASE_DIR / "data" / "chroma"
+        client = chromadb.PersistentClient(path=str(CHROMA_DIR))
     
     collection = client.get_collection(name=COLLECTION_NAME)
     
