@@ -70,7 +70,8 @@ export default function App() {
     setSubmittedFeedback(prev => ({...prev, [msgId]: rating}));
     
     try {
-      await fetch("http://localhost:8000/api/chat/feedback", {
+      const API_BASE = import.meta.env.VITE_API_URL || "http://localhost:8000";
+      await fetch(`${API_BASE}/api/chat/feedback`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ message_id: msgId, rating })
@@ -201,7 +202,8 @@ export default function App() {
 
     // Fetch from real backend
     try {
-      const response = await fetch("http://localhost:8000/api/chat/stream", {
+      const API_BASE = import.meta.env.VITE_API_URL || "http://localhost:8000";
+      const response = await fetch(`${API_BASE}/api/chat/stream`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
