@@ -38,10 +38,10 @@ def retrieve(query: str, top_k: int = 5) -> dict:
     """
     
     # 1. Connect to Chroma Cloud
-    chroma_host = os.environ.get("CHROMA_HOST", "api.trychroma.com")
-    chroma_api_key = os.environ.get("CHROMA_API_KEY", "")
-    chroma_tenant = os.environ.get("CHROMA_TENANT", chromadb.DEFAULT_TENANT)
-    chroma_database = os.environ.get("CHROMA_DATABASE", chromadb.DEFAULT_DATABASE)
+    chroma_host = os.environ.get("CHROMA_HOST", "").strip() or "api.trychroma.com"
+    chroma_api_key = os.environ.get("CHROMA_API_KEY", "").strip()
+    chroma_tenant = os.environ.get("CHROMA_TENANT", "").strip() or chromadb.DEFAULT_TENANT
+    chroma_database = os.environ.get("CHROMA_DATABASE", "").strip() or chromadb.DEFAULT_DATABASE
     
     if not chroma_api_key:
         logger.warning("CHROMA_API_KEY is not set. Might fail if authentication is required.")
