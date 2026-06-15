@@ -124,6 +124,88 @@ Brokerage and charges on Groww
 
 Blog
 
+Search Groww....
+
+Ctrl+K
+
++
+
+1
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+.
+
+9
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+3
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+%
+
+1M return
+
++3.16%
+
+1D
+
 1M
 
 6M
@@ -132,9 +214,9 @@ Blog
 
 All
 
-NAV: 10 Jun '26
+NAV: 12 Jun '26
 
-₹9.97
+₹10.19
 
 Min. for SIP
 
@@ -146,7 +228,7 @@ Fund size (AUM)
 
 Expense ratio
 
-0.36%
+0.37%
 
 Rating
 
@@ -156,23 +238,19 @@ Return calculator
 
 Monthly investment
 
-₹5,000
+₹100
 
 | Over the past | Total investment | Would've become | Historic returns | Returns |
 
 |---|---|---|---|---|
 
-| 3 months | ₹15,000 | ₹15,171 |  | +1.14% |
+| 3 months | ₹300 | ₹308 |  | +2.67% |
 
-| 6 months | ₹30,000 | ₹29,816 |  | -0.61% |
+| 6 months | ₹600 | ₹608 |  | +1.33% |
 
-| 1 year | ₹60,000 | ₹58,675 |  | -2.21% |
+| 1 year | ₹1,200 | ₹1,199 |  | -0.08% |
 
-Holdings (
-
-32
-
-)
+Holdings (32)
 
 | Name | Sector | Instruments | Assets |
 
@@ -282,7 +360,7 @@ Absolute returns
 
 | Category average (Equity Large & MidCap) | -- | -- | +0.9% | -- |
 
-| Rank (Equity Large & MidCap) | 51 | 39 | 42 | -- |
+| Rank (Equity Large & MidCap) | 22 | 35 | 52 | -- |
 
 Understand terms
 
@@ -314,9 +392,7 @@ Exit load
 
 Nil
 
-Stamp duty on investment:
-
-0.005% (from July 1st, 2020)
+Stamp duty on investment: 0.005% (from July 1st, 2020)
 
 from July 1st 2020
 
@@ -332,15 +408,15 @@ Compare similar funds
 
 |---|---|---|---|---|
 
-|  | Motilal Oswal Large and Midcap Fund Direct Growth | +2.40% | +24.45% | 16,776.57 |
+|  | Motilal Oswal Large and Midcap Fund Direct Growth | +6.25% | +24.88% | 17,420.43 |
 
-|  | Bandhan Large & Mid Cap Fund Direct Growth | +1.27% | +21.54% | 17,460.93 |
+|  | Bandhan Large & Mid Cap Fund Direct Growth | +4.04% | +21.94% | 17,460.93 |
 
-|  | ICICI Prudential Large & Mid Cap Fund Direct Plan Growth | -2.34% | +17.64% | 30,146.91 |
+|  | ICICI Prudential Large & Mid Cap Fund Direct Plan Growth | +0.23% | +18.12% | 30,146.91 |
 
-|  | Nippon India Vision Large & Mid Cap Direct Growth | -1.64% | +17.49% | 7,232.87 |
+|  | Nippon India Vision Large & Mid Cap Direct Growth | +0.89% | +17.89% | 7,232.87 |
 
-|  | DSP Large & Mid Cap Fund Direct Plan Growth | -2.94% | +17.42% | 17,330.95 |
+|  | DSP Large & Mid Cap Fund Direct Plan Growth | -0.26% | +17.82% | 17,370.37 |
 
 Fund management
 
@@ -504,15 +580,15 @@ HDFC BSE India Sector Leaders Index Fund Direct Growth
 
 HDFC Nifty India Consumption Index Fund Direct Growth
 
-About
+About HDFC NIFTY200 Momentum 30 Index Fund Direct Growth
 
-HDFC NIFTY200 Momentum 30 Index Fund Direct Growth
+HDFC NIFTY200 Momentum 30 Index Fund Direct Growth is a Equity Mutual Fund Scheme launched by HDFC Mutual Fund. This scheme was made available to investors on 10 Dec 1999. Arun Agarwal is the Current Fund Manager of HDFC NIFTY200 Momentum 30 Index Fund Direct Growth fund. The fund currently has an A
 
-HDFC NIFTY200 Momentum 30 Index Fund Direct Growth is a Equity Mutual Fund Scheme launched by HDFC Mutual Fund. This scheme was made available to investors on 10 Dec 1999. Arun Agarwal is the Current Fund Manager of HDFC NIFTY200 Momentum 30 Index Fund Direct Growth fund. The fund currently has an Asset Under Management(AUM) of ₹9,37,048 Cr and the Latest NAV as of 10 Jun 2026 is ₹9.97.
+HDFC NIFTY200 Momentum 30 Index Fund Direct Growth is a Equity Mutual Fund Scheme launched by HDFC Mutual Fund. This scheme was made available to investors on 10 Dec 1999. Arun Agarwal is the Current Fund Manager of HDFC NIFTY200 Momentum 30 Index Fund Direct Growth fund. The fund currently has an Asset Under Management(AUM) of ₹9,34,238 Cr and the Latest NAV as of 12 Jun 2026 is ₹10.19.
 
 The HDFC NIFTY200 Momentum 30 Index Fund Direct Growth is rated Very High risk. Minimum SIP Investment is set to ₹100. Minimum Lumpsum Investment is ₹100.
 
-;
+...Read more
 
 Investment Objective
 
@@ -534,7 +610,7 @@ Rank (total assets)
 
 Total AUM
 
-₹9,37,047.59 Cr
+₹9,34,237.77 Cr
 
 Date of Incorporation
 
@@ -546,7 +622,7 @@ Phone
 
 E-mail
 
-[email protected]
+shareholders.relations@hdfcfund.com
 
 Website
 
@@ -570,7 +646,7 @@ Cams
 
 Email
 
-[email protected]
+enq_h@camsonline.com
 
 Website
 
@@ -579,6 +655,122 @@ www.camsonline.com
 Address
 
 7th Floor, Tower II, Rayala Towers, 158, Anna Salai,
+
+Recently viewed
+
+HDFC NIFTY100 Low Volatility 30 Index Fund Direct Growth
+
+--
+
+3Y
+
+HDFC Nifty100 Quality 30 Index Fund Direct Growth
+
+--
+
+3Y
+
+HDFC NIFTY Next 50 Index Fund Direct Growth
+
++18.00%
+
+3Y
+
+HDFC BSE Sensex Index Fund Direct Growth
+
++7.30%
+
+3Y
+
+FAQs
+
+How to Invest in HDFC NIFTY200 Momentum 30 Index Fund Direct Growth?
+
+You can easily invest in HDFC NIFTY200 Momentum 30 Index Fund Direct Growth in a hassle-free manner on Groww. The
+
+process is extremely simple, quick and completely paperless. Invest in a few minutes with the following steps:
+
+Log on to your Groww account
+
+Search for HDFC NIFTY200 Momentum 30 Index Fund Direct Growth from the search box
+
+In order to invest, you will have to complete all the KYC formalities which are completely online and paperless
+
+and take a few minutes to complete
+
+Once you are done with that, you can start investing in HDFC NIFTY200 Momentum 30 Index Fund Direct Growth as SIP or lumpsum as per your
+
+investment objective and risk tolerance
+
+What kind of returns does HDFC NIFTY200 Momentum 30 Index Fund Direct Growth provide?
+
+The HDFC NIFTY200 Momentum 30 Index Fund Direct Growth has been there from 28 Feb 2024 and the average annual returns provided by this fund is 0.83% since its inception.
+
+How much expense ratio is charged by HDFC NIFTY200 Momentum 30 Index Fund Direct Growth?
+
+The term
+
+Expense Ratio
+
+used for HDFC NIFTY200 Momentum 30 Index Fund Direct Growth or any other mutual fund is the annual
+
+charges one needs to pay to the Mutual Fund company for managing your investments in that fund.
+
+The Expense Ratio of HDFC NIFTY200 Momentum 30 Index Fund Direct Growth is 0.37% as of 13 Jun 2026...
+
+What is the AUM of HDFC NIFTY200 Momentum 30 Index Fund Direct Growth?
+
+The AUM, short for
+
+Assets Under Management
+
+of HDFC NIFTY200 Momentum 30 Index Fund Direct Growth is ₹617.89Cr as of 13 Jun 2026.
+
+How to Redeem HDFC NIFTY200 Momentum 30 Index Fund Direct Growth?
+
+If you want to sell your HDFC NIFTY200 Momentum 30 Index Fund Direct Growth holdings, go to your holding on the app or
+
+web and simply click on it. You will get two options - redeem & invest more; click on redeem and enter your
+
+desired amount or if you wish to redeem the entire holding amount then select the 'redeem all' checkbox.
+
+Can I invest in SIP and Lump Sum of HDFC NIFTY200 Momentum 30 Index Fund Direct Growth?
+
+You can select either
+
+SIP
+
+or
+
+Lumpsum
+
+investment of HDFC NIFTY200 Momentum 30 Index Fund Direct Growth based on
+
+your investment objective and risk tolerance.
+
+What is the NAV of HDFC NIFTY200 Momentum 30 Index Fund Direct Growth?
+
+The NAV of HDFC NIFTY200 Momentum 30 Index Fund Direct Growth is ₹10.19 as of 12 Jun 2026.
+
+What is the PE and PB ratio of HDFC NIFTY200 Momentum 30 Index Fund Direct Growth?
+
+The
+
+PE ratio
+
+ratio of HDFC NIFTY200 Momentum 30 Index Fund Direct Growth is determined by dividing the market price by
+
+its earnings per share and the
+
+PB ratio
+
+of the same is evaluated by dividing the stock price per share by its book value
+
+per share (BVPS).
+
+Looking to invest in mutual funds?
+
+Explore diversified funds designed for every investor
 
 Home
 
@@ -656,15 +848,9 @@ Groww AMC
 
 PMS
 
-© 2016-
+© 2016-2026 Groww. All rights reserved.
 
-2026
-
-Groww. All rights reserved.
-
-Version:
-
-7.7.3
+Version: 7.7.3
 
 Share Market
 
@@ -1390,9 +1576,7 @@ Investor Charter and Grievance
 
 Bug Bounty
 
-Mutual Funds
-
-:
+Mutual Funds:
 
 A
 
@@ -1448,9 +1632,7 @@ Z
 
 Others
 
-Stocks
-
-:
+Stocks:
 
 A
 

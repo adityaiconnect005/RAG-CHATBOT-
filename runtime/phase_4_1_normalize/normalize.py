@@ -50,51 +50,57 @@ def extract_structured_data(soup, scheme_id):
         "expense_ratio": None,
         "fund_size": None,
         "minimum_sip": None,
-        "rating": None
+        "rating": None,
+        "riskometer": None,
+        "benchmark": None,
+        "lock_in": None
     }
     
-    # Very basic heuristics (these will likely need refinement based on exact Groww CSS classes)
-    # 1. Search text nodes for keywords
-    text_content = soup.get_text(separator=' ', strip=True).lower()
-    
-    for td in soup.find_all(['td', 'th', 'div']):
-        text = td.get_text(strip=True).lower()
+    for div in soup.find_all(['div', 'td', 'th', 'span']):
+        # We want leaf nodes or nodes with very little text
+        if div.find('div') is not None and div.name == 'div':
+            continue # skip parent divs to avoid grabbing concatenated text
+            
+        text = div.get_text(strip=True).lower()
         if not text: continue
         
         # Expense Ratio
         if 'expense ratio' in text and len(text) < 25 and not facts['expense_ratio']:
-            next_element = td.find_next_sibling()
-            if next_element:
-                val = next_element.get_text(strip=True)
-                if len(val) < 20: facts['expense_ratio'] = val
+            val = div.find_next_sibling()
+            if val: facts['expense_ratio'] = val.get_text(strip=True)[:20]
                 
         # NAV
         if text.startswith('nav:') and len(text) < 25 and not facts['nav']:
-            next_element = td.find_next_sibling()
-            if next_element:
-                val = next_element.get_text(strip=True)
-                if len(val) < 20: facts['nav'] = val
+            val = div.find_next_sibling()
+            if val: facts['nav'] = val.get_text(strip=True)[:20]
                 
         # Fund Size / AUM
         if ('fund size' in text or 'aum' in text) and len(text) < 25 and not facts['fund_size']:
-            next_element = td.find_next_sibling()
-            if next_element:
-                val = next_element.get_text(strip=True)
-                if len(val) < 30: facts['fund_size'] = val
+            val = div.find_next_sibling()
+            if val: facts['fund_size'] = val.get_text(strip=True)[:30]
                 
         # Minimum SIP
         if ('min. for sip' in text or 'minimum sip' in text) and len(text) < 25 and not facts['minimum_sip']:
-            next_element = td.find_next_sibling()
-            if next_element:
-                val = next_element.get_text(strip=True)
-                if len(val) < 20: facts['minimum_sip'] = val
+            val = div.find_next_sibling()
+            if val: facts['minimum_sip'] = val.get_text(strip=True)[:20]
                 
         # Rating
         if text == 'rating' and len(text) < 15 and not facts['rating']:
-            next_element = td.find_next_sibling()
-            if next_element:
-                val = next_element.get_text(strip=True)
-                if len(val) < 10: facts['rating'] = val
+            val = div.find_next_sibling()
+            if val: facts['rating'] = val.get_text(strip=True)[:10]
+            
+        # Riskometer
+        if text in ['low risk', 'low to moderate risk', 'moderate risk', 'moderately high risk', 'high risk', 'very high risk'] and not facts.get('riskometer'):
+            facts['riskometer'] = div.get_text(strip=True)[:30]
+            
+        # Benchmark
+        if ('fund benchmark' in text or 'benchmark' in text) and len(text) < 25 and not facts.get('benchmark'):
+            val = div.find_next_sibling()
+            if val: facts['benchmark'] = val.get_text(strip=True)[:50]
+            
+        # Lock-in
+        if ('lock-in' in text or 'lock in' in text) and len(text) < 30 and not facts.get('lock_in'):
+            facts['lock_in'] = div.get_text(strip=True)[:30]
     
     return facts
 
@@ -111,12 +117,16 @@ def process_html_file(file_path):
     soup = BeautifulSoup(html_content, 'html.parser')
     scheme_id = file_path.stem
     
-    # 1. Boilerplate Stripping
-    for element in soup(["nav", "footer", "header", "script", "style", "aside", "svg", "button", "iframe", "noscript"]):
+    # 1. Boilerplate Stripping (Scripts/Styles only first)
+    for element in soup(["script", "style", "svg", "iframe", "noscript"]):
         element.decompose()
         
-    # 2. Extract Structured Data AFTER decomposing scripts to avoid catching JSON blobs
+    # 2. Extract Structured Data
     facts = extract_structured_data(soup, scheme_id)
+    
+    # 3. Boilerplate Stripping (UI elements)
+    for element in soup(["nav", "footer", "header", "aside", "button"]):
+        element.decompose()
         
     # Remove obvious UI elements (generic class names typical in SPAs)
     # Note: We keep main content divs

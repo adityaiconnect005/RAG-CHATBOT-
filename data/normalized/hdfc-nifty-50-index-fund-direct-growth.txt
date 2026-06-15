@@ -124,15 +124,85 @@ Brokerage and charges on Groww
 
 Blog
 
-+8.64
+Search Groww....
+
+Ctrl+K
+
++
+
+9
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+.
+
+2
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+1
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
 
 %
 
 3Y annualised
 
--0.12
-
-%
++2.02%
 
 1D
 
@@ -148,9 +218,9 @@ Blog
 
 All
 
-NAV: 10 Jun '26
+NAV: 12 Jun '26
 
-₹226.10
+₹230.14
 
 Min. for SIP
 
@@ -162,7 +232,7 @@ Fund size (AUM)
 
 Expense ratio
 
-0.26%
+0.31%
 
 Rating
 
@@ -172,25 +242,21 @@ Return calculator
 
 Monthly investment
 
-₹5,000
+₹100
 
 | Over the past | Total investment | Would've become | Historic returns | Returns |
 
 |---|---|---|---|---|
 
-| 1 year | ₹60,000 | ₹57,310 |  | -4.48% |
+| 1 year | ₹1,200 | ₹1,146 |  | -4.50% |
 
-| 3 years | ₹1,80,000 | ₹1,87,531 |  | +4.18% |
+| 3 years | ₹3,600 | ₹3,751 |  | +4.19% |
 
-| 5 years | ₹3,00,000 | ₹3,57,744 |  | +19.25% |
+| 5 years | ₹6,000 | ₹7,155 |  | +19.25% |
 
-| 10 years | ₹6,00,000 | ₹10,75,753 |  | +79.29% |
+| 10 years | ₹12,000 | ₹21,515 |  | +79.29% |
 
-Holdings (
-
-52
-
-)
+Holdings (52)
 
 | Name | Sector | Instruments | Assets |
 
@@ -336,11 +402,11 @@ Absolute returns
 
 |---|---|---|---|---|
 
-| Fund returns | +8.6% | +9.0% | +12.0% | +11.6% |
+| Fund returns | +9.2% | +9.3% | +12.2% | +11.8% |
 
 | Category average (Equity Large Cap) | +15.1% | +15.0% | +13.2% | -- |
 
-| Rank (Equity Large Cap) | 70 | 47 | 23 | -- |
+| Rank (Equity Large Cap) | 70 | 48 | 23 | -- |
 
 Understand terms
 
@@ -380,9 +446,7 @@ Exit load
 
 Exit load of 0.25% if redeemed within 3 days
 
-Stamp duty on investment:
-
-0.005% (from July 1st, 2020)
+Stamp duty on investment: 0.005% (from July 1st, 2020)
 
 from July 1st 2020
 
@@ -398,15 +462,15 @@ Compare similar funds
 
 |---|---|---|---|---|
 
-|  | Invesco India Largecap Fund Direct Growth | -2.01% | +14.62% | 1,749.02 |
+|  | Invesco India Largecap Fund Direct Growth | +0.96% | +15.23% | 1,748.94 |
 
-|  | WhiteOak Capital Large Cap Fund Direct Growth | -3.04% | +14.43% | 1,163.57 |
+|  | WhiteOak Capital Large Cap Fund Direct Growth | -0.44% | +14.91% | 1,170.63 |
 
-|  | Nippon India Large Cap Fund Direct Growth | -4.58% | +13.88% | 51,660.30 |
+|  | Nippon India Large Cap Fund Direct Growth | -1.87% | +14.41% | 51,660.30 |
 
-|  | ICICI Prudential Large Cap Fund Direct Growth | -5.05% | +13.43% | 76,296.98 |
+|  | ICICI Prudential Large Cap Fund Direct Growth | -2.62% | +14.01% | 76,296.98 |
 
-|  | DSP Large Cap Fund Direct Growth | -7.00% | +13.18% | 7,192.01 |
+|  | DSP Large Cap Fund Direct Growth | -4.32% | +13.93% | 7,175.42 |
 
 Fund management
 
@@ -570,15 +634,15 @@ HDFC BSE India Sector Leaders Index Fund Direct Growth
 
 HDFC Nifty India Consumption Index Fund Direct Growth
 
-About
+About HDFC NIFTY 50 Index Fund Direct Growth
 
-HDFC NIFTY 50 Index Fund Direct Growth
+HDFC NIFTY 50 Index Fund Direct Growth is a Equity Mutual Fund Scheme launched by HDFC Mutual Fund. This scheme was made available to investors on 10 Dec 1999. Arun Agarwal is the Current Fund Manager of HDFC NIFTY 50 Index Fund Direct Growth fund. The fund currently has an Asset Under Management(AU
 
-HDFC NIFTY 50 Index Fund Direct Growth is a Equity Mutual Fund Scheme launched by HDFC Mutual Fund. This scheme was made available to investors on 10 Dec 1999. Arun Agarwal is the Current Fund Manager of HDFC NIFTY 50 Index Fund Direct Growth fund. The fund currently has an Asset Under Management(AUM) of ₹9,37,048 Cr and the Latest NAV as of 10 Jun 2026 is ₹226.10.
+HDFC NIFTY 50 Index Fund Direct Growth is a Equity Mutual Fund Scheme launched by HDFC Mutual Fund. This scheme was made available to investors on 10 Dec 1999. Arun Agarwal is the Current Fund Manager of HDFC NIFTY 50 Index Fund Direct Growth fund. The fund currently has an Asset Under Management(AUM) of ₹9,34,238 Cr and the Latest NAV as of 12 Jun 2026 is ₹230.14.
 
 The HDFC NIFTY 50 Index Fund Direct Growth is rated Very High risk. Minimum SIP Investment is set to ₹100. Minimum Lumpsum Investment is ₹100. Exit load of 0.25% if redeemed within 3 days
 
-;
+...Read more
 
 Investment Objective
 
@@ -600,7 +664,7 @@ Rank (total assets)
 
 Total AUM
 
-₹9,37,047.59 Cr
+₹9,34,237.77 Cr
 
 Date of Incorporation
 
@@ -612,7 +676,7 @@ Phone
 
 E-mail
 
-[email protected]
+shareholders.relations@hdfcfund.com
 
 Website
 
@@ -636,7 +700,7 @@ Cams
 
 Email
 
-[email protected]
+enq_h@camsonline.com
 
 Website
 
@@ -645,6 +709,122 @@ www.camsonline.com
 Address
 
 7th Floor, Tower II, Rayala Towers, 158, Anna Salai,
+
+Recently viewed
+
+HDFC Transportation and Logistics Fund Direct Growth
+
+--
+
+3Y
+
+HDFC Manufacturing Fund Direct Growth
+
+--
+
+3Y
+
+HDFC Value Fund Direct Plan Growth
+
++17.49%
+
+3Y
+
+HDFC Technology Fund Direct Growth
+
+--
+
+3Y
+
+FAQs
+
+How to Invest in HDFC NIFTY 50 Index Fund Direct Growth?
+
+You can easily invest in HDFC NIFTY 50 Index Fund Direct Growth in a hassle-free manner on Groww. The
+
+process is extremely simple, quick and completely paperless. Invest in a few minutes with the following steps:
+
+Log on to your Groww account
+
+Search for HDFC NIFTY 50 Index Fund Direct Growth from the search box
+
+In order to invest, you will have to complete all the KYC formalities which are completely online and paperless
+
+and take a few minutes to complete
+
+Once you are done with that, you can start investing in HDFC NIFTY 50 Index Fund Direct Growth as SIP or lumpsum as per your
+
+investment objective and risk tolerance
+
+What kind of returns does HDFC NIFTY 50 Index Fund Direct Growth provide?
+
+The HDFC NIFTY 50 Index Fund Direct Growth has been there from 01 Jan 2013 and the average annual returns provided by this fund is 11.79% since its inception.
+
+How much expense ratio is charged by HDFC NIFTY 50 Index Fund Direct Growth?
+
+The term
+
+Expense Ratio
+
+used for HDFC NIFTY 50 Index Fund Direct Growth or any other mutual fund is the annual
+
+charges one needs to pay to the Mutual Fund company for managing your investments in that fund.
+
+The Expense Ratio of HDFC NIFTY 50 Index Fund Direct Growth is 0.31% as of 13 Jun 2026...
+
+What is the AUM of HDFC NIFTY 50 Index Fund Direct Growth?
+
+The AUM, short for
+
+Assets Under Management
+
+of HDFC NIFTY 50 Index Fund Direct Growth is ₹23,154.96Cr as of 13 Jun 2026.
+
+How to Redeem HDFC NIFTY 50 Index Fund Direct Growth?
+
+If you want to sell your HDFC NIFTY 50 Index Fund Direct Growth holdings, go to your holding on the app or
+
+web and simply click on it. You will get two options - redeem & invest more; click on redeem and enter your
+
+desired amount or if you wish to redeem the entire holding amount then select the 'redeem all' checkbox.
+
+Can I invest in SIP and Lump Sum of HDFC NIFTY 50 Index Fund Direct Growth?
+
+You can select either
+
+SIP
+
+or
+
+Lumpsum
+
+investment of HDFC NIFTY 50 Index Fund Direct Growth based on
+
+your investment objective and risk tolerance.
+
+What is the NAV of HDFC NIFTY 50 Index Fund Direct Growth?
+
+The NAV of HDFC NIFTY 50 Index Fund Direct Growth is ₹230.14 as of 12 Jun 2026.
+
+What is the PE and PB ratio of HDFC NIFTY 50 Index Fund Direct Growth?
+
+The
+
+PE ratio
+
+ratio of HDFC NIFTY 50 Index Fund Direct Growth is determined by dividing the market price by
+
+its earnings per share and the
+
+PB ratio
+
+of the same is evaluated by dividing the stock price per share by its book value
+
+per share (BVPS).
+
+Looking to invest in mutual funds?
+
+Explore diversified funds designed for every investor
 
 Home
 
@@ -722,15 +902,9 @@ Groww AMC
 
 PMS
 
-© 2016-
+© 2016-2026 Groww. All rights reserved.
 
-2026
-
-Groww. All rights reserved.
-
-Version:
-
-7.7.3
+Version: 7.7.3
 
 Share Market
 
@@ -1456,9 +1630,7 @@ Investor Charter and Grievance
 
 Bug Bounty
 
-Mutual Funds
-
-:
+Mutual Funds:
 
 A
 
@@ -1514,9 +1686,7 @@ Z
 
 Others
 
-Stocks
-
-:
+Stocks:
 
 A
 

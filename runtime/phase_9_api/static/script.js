@@ -6,16 +6,79 @@ const userInput = document.getElementById('user-input');
 const sendBtn = document.getElementById('send-btn');
 const sessionIdDisplay = document.getElementById('session-id-display');
 const newChatBtn = document.getElementById('new-chat-btn');
+const recentChatsList = document.getElementById('recent-chats-list');
 
 async function initSession() {
     try {
         const response = await fetch('/api/chat/new');
         const data = await response.json();
         currentThreadId = data.thread_id;
-        sessionIdDisplay.textContent = currentThreadId;
+        if (sessionIdDisplay) {
+            sessionIdDisplay.textContent = currentThreadId;
+        }
+        await loadRecentChats();
     } catch (error) {
         console.error('Failed to initialize session', error);
-        sessionIdDisplay.textContent = "Error connecting to server";
+        if (sessionIdDisplay) {
+            sessionIdDisplay.textContent = "Error connecting to server";
+        }
+    }
+}
+
+async function loadRecentChats() {
+    try {
+        const response = await fetch('/api/chat/threads');
+        const data = await response.json();
+        
+        recentChatsList.innerHTML = '';
+        data.threads.forEach(thread => {
+            const li = document.createElement('li');
+            li.classList.add('chat-history-item');
+            
+            // Truncate title if it's too long
+            let displayTitle = thread.title;
+            if (displayTitle && displayTitle.length > 30) {
+                displayTitle = displayTitle.substring(0, 30) + '...';
+            }
+            
+            li.textContent = displayTitle;
+            li.title = thread.title; // Show full on hover
+            li.addEventListener('click', () => loadChatHistory(thread.id));
+            recentChatsList.appendChild(li);
+        });
+    } catch (error) {
+        console.error('Failed to load recent chats', error);
+    }
+}
+
+async function loadChatHistory(threadId) {
+    try {
+        const response = await fetch(`/api/chat/history?thread_id=${threadId}`);
+        const data = await response.json();
+        
+        currentThreadId = threadId;
+        
+        if (sessionIdDisplay) {
+            sessionIdDisplay.textContent = currentThreadId;
+        }
+
+        chatMessages.innerHTML = `
+            <div class="message assistant">
+                <div class="avatar">
+                    <img src="https://ui-avatars.com/api/?name=F+E&background=0D8ABC&color=fff" alt="Bot">
+                </div>
+                <div class="bubble">
+                    Loaded history for session.
+                </div>
+            </div>
+        `;
+        
+        data.history.forEach(msg => {
+            appendMessage(msg.role, msg.content);
+        });
+        
+    } catch (error) {
+        console.error('Failed to load chat history', error);
     }
 }
 
@@ -36,8 +99,41 @@ function appendMessage(role, content) {
     
     const bubbleDiv = document.createElement('div');
     bubbleDiv.classList.add('bubble');
-    // Basic formatting for line breaks
-    bubbleDiv.innerHTML = content.replace(/\n/g, '<br>');
+    
+    let mainContent = content;
+    let followUpQuestions = [];
+    
+    // Parse out ```json blocks
+    const jsonMatch = content.match(/```json\s*([\s\S]*?)\s*```/);
+    if (jsonMatch) {
+        try {
+            const data = JSON.parse(jsonMatch[1]);
+            if (data.follow_up_questions) {
+                followUpQuestions = data.follow_up_questions;
+            }
+        } catch(e) {
+            console.error("Failed to parse follow up JSON", e);
+        }
+        mainContent = content.replace(jsonMatch[0], '').trim();
+    }
+    
+    bubbleDiv.innerHTML = mainContent.replace(/\n/g, '<br>');
+    
+    if (followUpQuestions.length > 0 && role === 'assistant') {
+        const followUpDiv = document.createElement('div');
+        followUpDiv.classList.add('follow-ups');
+        followUpQuestions.forEach(q => {
+            const btn = document.createElement('button');
+            btn.classList.add('follow-up-btn');
+            btn.textContent = q;
+            btn.addEventListener('click', () => {
+                userInput.value = q;
+                chatForm.dispatchEvent(new Event('submit', { cancelable: true, bubbles: true }));
+            });
+            followUpDiv.appendChild(btn);
+        });
+        bubbleDiv.appendChild(followUpDiv);
+    }
     
     msgDiv.appendChild(avatarDiv);
     msgDiv.appendChild(bubbleDiv);
@@ -106,6 +202,7 @@ chatForm.addEventListener('submit', async (e) => {
         
         if (response.ok) {
             appendMessage('assistant', data.message);
+            await loadRecentChats();
         } else {
             appendMessage('assistant', `Error: ${data.detail || 'Failed to get response'}`);
         }
@@ -118,7 +215,7 @@ chatForm.addEventListener('submit', async (e) => {
     }
 });
 
-newChatBtn.addEventListener('click', () => {
+newChatBtn.addEventListener('click', async () => {
     chatMessages.innerHTML = `
         <div class="message assistant">
             <div class="avatar">
@@ -129,7 +226,7 @@ newChatBtn.addEventListener('click', () => {
             </div>
         </div>
     `;
-    initSession();
+    await initSession();
 });
 
 // Start

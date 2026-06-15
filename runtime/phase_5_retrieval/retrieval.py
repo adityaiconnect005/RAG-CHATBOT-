@@ -19,6 +19,17 @@ load_dotenv(BASE_DIR / ".env")
 
 COLLECTION_NAME = "hdfc_mutual_funds"
 
+# Initialize the embedding model lazily so it doesn't block API startup
+EMBEDDING_MODEL = None
+
+def get_embedding_model():
+    global EMBEDDING_MODEL
+    if EMBEDDING_MODEL is None:
+        logger.info("Loading embedding model (BAAI/bge-small-en-v1.5) lazily...")
+        logging.getLogger("sentence_transformers").setLevel(logging.WARNING)
+        EMBEDDING_MODEL = SentenceTransformer('BAAI/bge-small-en-v1.5')
+    return EMBEDDING_MODEL
+
 def retrieve(query: str, top_k: int = 5) -> dict:
     """
     Embeds the query, retrieves chunks from Chroma Cloud, and merges chunks
@@ -47,18 +58,12 @@ def retrieve(query: str, top_k: int = 5) -> dict:
     collection = client.get_collection(name=COLLECTION_NAME)
     
     # 2. Embed the query
-    logger.info("Loading embedding model (BAAI/bge-small-en-v1.5)...")
-    # Silence the sentence_transformers load logs
-    logging.getLogger("sentence_transformers").setLevel(logging.WARNING)
-    
-    model = SentenceTransformer('BAAI/bge-small-en-v1.5')
-    
     # BGE specifically requires this prefix for queries
     query_prefix = "Represent this sentence for searching relevant passages: "
     full_query = query_prefix + query
     
     logger.info(f"Embedding query: '{query}'")
-    query_embedding = model.encode([full_query], normalize_embeddings=True)[0].tolist()
+    query_embedding = get_embedding_model().encode([full_query], normalize_embeddings=True)[0].tolist()
     
     # 3. Resolve Scheme via Query Router
     sys.path.append(str(BASE_DIR))
@@ -71,10 +76,10 @@ def retrieve(query: str, top_k: int = 5) -> dict:
         query_filter = {"source_url": f"https://groww.in/mutual-funds/{target_scheme_id}"}
     
     # 4. Search Chroma
-    logger.info(f"Querying ChromaDB for top {top_k} results...")
+    logger.info(f"Querying ChromaDB for top 3 results...")
     results = collection.query(
         query_embeddings=[query_embedding],
-        n_results=top_k,
+        n_results=3,
         where=query_filter,
         include=["documents", "metadatas", "distances"]
     )
@@ -125,7 +130,15 @@ def retrieve(query: str, top_k: int = 5) -> dict:
                     structured_text += f"AUM / Fund Size: {facts.get('fund_size', 'N/A')}\n"
                     structured_text += f"Minimum SIP: {facts.get('minimum_sip', 'N/A')}\n"
                     structured_text += f"Expense Ratio: {facts.get('expense_ratio', 'N/A')}\n"
-                    structured_text += f"Rating: {facts.get('rating', 'N/A')} Stars\n\n"
+                    structured_text += f"Rating: {facts.get('rating', 'N/A')} Stars\n"
+                    structured_text += f"Riskometer: {facts.get('riskometer', 'N/A')}\n"
+                    structured_text += f"Benchmark: {facts.get('benchmark', 'N/A')}\n"
+                    structured_text += f"Lock-in: {facts.get('lock_in', 'N/A')}\n"
+                    
+                    # Inject returns specifically to bypass table parsing ambiguity
+                    structured_text += f"1Y Return: {facts.get('return1y', 'N/A')}\n"
+                    structured_text += f"3Y Return: {facts.get('return3y', 'N/A')}\n"
+                    structured_text += f"5Y Return: {facts.get('return5y', 'N/A')}\n\n"
                     
                     # Prepend to context
                     final_context_string = structured_text + final_context_string

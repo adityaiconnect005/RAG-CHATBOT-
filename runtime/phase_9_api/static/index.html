@@ -13,17 +13,52 @@
         <aside class="sidebar">
             <div class="logo-container">
                 <div class="logo-icon"></div>
-                <h1>Fund Expert</h1>
+                <h1>Groww Fund Expert</h1>
             </div>
             <button id="new-chat-btn" class="primary-btn">
                 <span>+</span> New Conversation
             </button>
-            <div class="history-list">
-                <p class="history-label">Session ID</p>
-                <div id="session-id-display" class="session-id">Initializing...</div>
+            <div class="recent-chats">
+                <p class="history-label">Recent Chats</p>
+                <ul id="recent-chats-list" class="chat-list">
+                    <!-- Populated via JS -->
+                </ul>
+            </div>
+
+            <div class="supported-funds">
+                <p class="history-label">Supported Funds</p>
+                <ul class="fund-list">
+                    <li class="fund-item">HDFC Focused Fund</li>
+                    <li class="fund-item">HDFC Small Cap Fund</li>
+                    <li class="fund-item">HDFC Mid-Cap Fund</li>
+                    <li class="fund-item">HDFC Equity Fund</li>
+                    <li class="fund-item">HDFC Large and Mid Cap Fund</li>
+                    <li class="fund-item">HDFC Balanced Advantage Fund</li>
+                    <li class="fund-item">HDFC Multi Cap Fund</li>
+                    <li class="fund-item">HDFC Defence Fund</li>
+                    <li class="fund-item">HDFC Pharma & Healthcare Fund</li>
+                    <li class="fund-item">HDFC Technology Fund</li>
+                    <li class="fund-item">HDFC Value Fund</li>
+                    <li class="fund-item">HDFC Manufacturing Fund</li>
+                    <li class="fund-item">HDFC Transportation & Logistics</li>
+                    <li class="fund-item">HDFC NIFTY 50 Index Fund</li>
+                    <li class="fund-item">HDFC BSE Sensex Index Fund</li>
+                    <li class="fund-item">HDFC NIFTY Next 50 Index Fund</li>
+                    <li class="fund-item">HDFC NIFTY100 Quality 30 Index</li>
+                    <li class="fund-item">HDFC NIFTY100 Low Volatility 30</li>
+                    <li class="fund-item">HDFC NIFTY200 Momentum 30</li>
+                    <li class="fund-item">HDFC Short Term Opportunities</li>
+                    <li class="fund-item">HDFC Liquid Fund</li>
+                    <li class="fund-item">HDFC Money Market Fund</li>
+                    <li class="fund-item">HDFC Ultra Short Term Fund</li>
+                    <li class="fund-item">HDFC Low Duration Fund</li>
+                    <li class="fund-item">HDFC Medium Term Debt Fund</li>
+                    <li class="fund-item">HDFC Gold ETF Fund of Fund</li>
+                    <li class="fund-item">HDFC Silver ETF Fund of Fund</li>
+                </ul>
             </div>
             
-            <div class="sidebar-footer">
+            <div class="sidebar-footer" style="display: none;">
                 <p>Powered by RAG Architecture V1.0</p>
             </div>
         </aside>

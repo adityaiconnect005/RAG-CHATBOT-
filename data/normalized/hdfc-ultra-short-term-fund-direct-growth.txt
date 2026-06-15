@@ -124,15 +124,85 @@ Brokerage and charges on Groww
 
 Blog
 
-+7.21
+Search Groww....
+
+Ctrl+K
+
++
+
+7
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+.
+
+2
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+0
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
 
 %
 
 3Y annualised
 
-+0.03
-
-%
++0.03%
 
 1D
 
@@ -148,7 +218,7 @@ Blog
 
 All
 
-NAV: 10 Jun '26
+NAV: 12 Jun '26
 
 ₹16.39
 
@@ -172,25 +242,21 @@ Return calculator
 
 Monthly investment
 
-₹5,000
+₹100
 
 | Over the past | Total investment | Would've become | Historic returns | Returns |
 
 |---|---|---|---|---|
 
-| 6 months | ₹30,000 | ₹30,393 |  | +1.31% |
+| 6 months | ₹600 | ₹608 |  | +1.33% |
 
-| 1 year | ₹60,000 | ₹61,670 |  | +2.78% |
+| 1 year | ₹1,200 | ₹1,233 |  | +2.75% |
 
-| 3 years | ₹1,80,000 | ₹1,98,957 |  | +10.53% |
+| 3 years | ₹3,600 | ₹3,979 |  | +10.53% |
 
-| 5 years | ₹3,00,000 | ₹3,55,337 |  | +18.45% |
+| 5 years | ₹6,000 | ₹7,107 |  | +18.45% |
 
-Holdings (
-
-135
-
-)
+Holdings (135)
 
 | Name | Sector | Instruments | Assets |
 
@@ -538,9 +604,7 @@ Exit load
 
 Nil
 
-Stamp duty on investment:
-
-0.005% (from July 1st, 2020)
+Stamp duty on investment: 0.005% (from July 1st, 2020)
 
 from July 1st 2020
 
@@ -556,15 +620,15 @@ Compare similar funds
 
 |---|---|---|---|---|
 
-|  | Tata Ultra Short Term Fund Direct Growth | +6.61% | +7.45% | 5,454.00 |
+|  | Tata Ultra Short Term Fund Direct Growth | +6.65% | +7.44% | 5,454.00 |
 
-|  | Axis Ultra Short Duration Fund Direct Growth | +6.44% | +7.40% | 6,167.96 |
+|  | Axis Ultra Short Duration Fund Direct Growth | +6.47% | +7.40% | 6,167.96 |
 
-|  | Invesco India Ultra Short Duration Fund Direct Growth | +6.34% | +7.29% | 1,197.43 |
+|  | Invesco India Ultra Short Duration Fund Direct Growth | +6.36% | +7.29% | 1,197.43 |
 
-|  | Mahindra Manulife Ultra Short Duration Fund Direct Growth | +6.34% | +7.29% | 213.25 |
+|  | Mahindra Manulife Ultra Short Duration Fund Direct Growth | +6.37% | +7.28% | 213.25 |
 
-|  | LIC MF Ultra Short Duration Fund Direct Growth | +6.31% | +7.09% | 371.37 |
+|  | LIC MF Ultra Short Duration Fund Direct Growth | +6.33% | +7.08% | 371.37 |
 
 Fund management
 
@@ -762,15 +826,15 @@ HDFC Income Plus Arbitrage Omni FoF Direct Growth
 
 HDFC CRISIL IBX Financial Services 9 12 Months Debt Index Fund Direct Growth
 
-About
+About HDFC Ultra Short Term Fund Direct Growth
 
-HDFC Ultra Short Term Fund Direct Growth
+HDFC Ultra Short Term Fund Direct Growth is a Debt Mutual Fund Scheme launched by HDFC Mutual Fund. This scheme was made available to investors on 10 Dec 1999. Anil Bamboli is the Current Fund Manager of HDFC Ultra Short Term Fund Direct Growth fund. The fund currently has an Asset Under Management(
 
-HDFC Ultra Short Term Fund Direct Growth is a Debt Mutual Fund Scheme launched by HDFC Mutual Fund. This scheme was made available to investors on 10 Dec 1999. Anil Bamboli is the Current Fund Manager of HDFC Ultra Short Term Fund Direct Growth fund. The fund currently has an Asset Under Management(AUM) of ₹9,37,048 Cr and the Latest NAV as of 10 Jun 2026 is ₹16.39.
+HDFC Ultra Short Term Fund Direct Growth is a Debt Mutual Fund Scheme launched by HDFC Mutual Fund. This scheme was made available to investors on 10 Dec 1999. Anil Bamboli is the Current Fund Manager of HDFC Ultra Short Term Fund Direct Growth fund. The fund currently has an Asset Under Management(AUM) of ₹9,34,238 Cr and the Latest NAV as of 12 Jun 2026 is ₹16.39.
 
 The HDFC Ultra Short Term Fund Direct Growth is rated Moderate risk. Minimum SIP Investment is set to ₹100. Minimum Lumpsum Investment is ₹100.
 
-;
+...Read more
 
 Investment Objective
 
@@ -792,7 +856,7 @@ Rank (total assets)
 
 Total AUM
 
-₹9,37,047.59 Cr
+₹9,34,237.77 Cr
 
 Date of Incorporation
 
@@ -804,7 +868,7 @@ Phone
 
 E-mail
 
-[email protected]
+shareholders.relations@hdfcfund.com
 
 Website
 
@@ -828,7 +892,7 @@ Cams
 
 Email
 
-[email protected]
+enq_h@camsonline.com
 
 Website
 
@@ -837,6 +901,122 @@ www.camsonline.com
 Address
 
 7th Floor, Tower II, Rayala Towers, 158, Anna Salai,
+
+Recently viewed
+
+HDFC Money Market Fund Direct Growth
+
++7.33%
+
+3Y
+
+HDFC Liquid Direct Plan Growth
+
++6.95%
+
+3Y
+
+HDFC Short Term Debt Fund Direct Plan Growth
+
++7.60%
+
+3Y
+
+HDFC NIFTY200 Momentum 30 Index Fund Direct Growth
+
+--
+
+3Y
+
+FAQs
+
+How to Invest in HDFC Ultra Short Term Fund Direct Growth?
+
+You can easily invest in HDFC Ultra Short Term Fund Direct Growth in a hassle-free manner on Groww. The
+
+process is extremely simple, quick and completely paperless. Invest in a few minutes with the following steps:
+
+Log on to your Groww account
+
+Search for HDFC Ultra Short Term Fund Direct Growth from the search box
+
+In order to invest, you will have to complete all the KYC formalities which are completely online and paperless
+
+and take a few minutes to complete
+
+Once you are done with that, you can start investing in HDFC Ultra Short Term Fund Direct Growth as SIP or lumpsum as per your
+
+investment objective and risk tolerance
+
+What kind of returns does HDFC Ultra Short Term Fund Direct Growth provide?
+
+The HDFC Ultra Short Term Fund Direct Growth has been there from 25 Sep 2018 and the average annual returns provided by this fund is 6.61% since its inception.
+
+How much expense ratio is charged by HDFC Ultra Short Term Fund Direct Growth?
+
+The term
+
+Expense Ratio
+
+used for HDFC Ultra Short Term Fund Direct Growth or any other mutual fund is the annual
+
+charges one needs to pay to the Mutual Fund company for managing your investments in that fund.
+
+The Expense Ratio of HDFC Ultra Short Term Fund Direct Growth is 0.39% as of 13 Jun 2026...
+
+What is the AUM of HDFC Ultra Short Term Fund Direct Growth?
+
+The AUM, short for
+
+Assets Under Management
+
+of HDFC Ultra Short Term Fund Direct Growth is ₹16,657.58Cr as of 13 Jun 2026.
+
+How to Redeem HDFC Ultra Short Term Fund Direct Growth?
+
+If you want to sell your HDFC Ultra Short Term Fund Direct Growth holdings, go to your holding on the app or
+
+web and simply click on it. You will get two options - redeem & invest more; click on redeem and enter your
+
+desired amount or if you wish to redeem the entire holding amount then select the 'redeem all' checkbox.
+
+Can I invest in SIP and Lump Sum of HDFC Ultra Short Term Fund Direct Growth?
+
+You can select either
+
+SIP
+
+or
+
+Lumpsum
+
+investment of HDFC Ultra Short Term Fund Direct Growth based on
+
+your investment objective and risk tolerance.
+
+What is the NAV of HDFC Ultra Short Term Fund Direct Growth?
+
+The NAV of HDFC Ultra Short Term Fund Direct Growth is ₹16.39 as of 12 Jun 2026.
+
+What is the PE and PB ratio of HDFC Ultra Short Term Fund Direct Growth?
+
+The
+
+PE ratio
+
+ratio of HDFC Ultra Short Term Fund Direct Growth is determined by dividing the market price by
+
+its earnings per share and the
+
+PB ratio
+
+of the same is evaluated by dividing the stock price per share by its book value
+
+per share (BVPS).
+
+Looking to invest in mutual funds?
+
+Explore diversified funds designed for every investor
 
 Home
 
@@ -914,15 +1094,9 @@ Groww AMC
 
 PMS
 
-© 2016-
+© 2016-2026 Groww. All rights reserved.
 
-2026
-
-Groww. All rights reserved.
-
-Version:
-
-7.7.3
+Version: 7.7.3
 
 Share Market
 
@@ -1648,9 +1822,7 @@ Investor Charter and Grievance
 
 Bug Bounty
 
-Mutual Funds
-
-:
+Mutual Funds:
 
 A
 
@@ -1706,9 +1878,7 @@ Z
 
 Others
 
-Stocks
-
-:
+Stocks:
 
 A
 

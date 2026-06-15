@@ -54,6 +54,7 @@ def main():
     steps = [
         ("Phase 4.0 (Scrape)", "runtime/phase_4_0_scrape/scrape.py"),
         ("Phase 4.1 (Normalize)", "runtime/phase_4_1_normalize/normalize.py"),
+        ("Inject Returns", "runtime/inject_returns.py"),
         ("Phase 4.2 (Embed)", "runtime/phase_4_2_embed/embed.py"),
         ("Phase 4.3 (Index)", "runtime/phase_4_3_index/index.py")
     ]

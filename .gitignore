@@ -1,1 +1,25 @@
 .env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Logs
+*.log
+startup.log
+version.log
+
+# Data directories (do not push large scraped/embedded data to GitHub)
+data/raw/
+data/normalized/
+data/embedded/
+data/chroma/
+# We keep data/structured/ if it's meant to be pushed, otherwise ignore it too
+data/threads.db
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+.DS_Store

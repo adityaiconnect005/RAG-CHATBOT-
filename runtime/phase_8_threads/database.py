@@ -31,6 +31,14 @@ def init_db():
                 FOREIGN KEY(thread_id) REFERENCES threads(id)
             )
         ''')
+        cursor.execute('''
+            CREATE TABLE IF NOT EXISTS feedback (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                message_id TEXT,
+                rating INTEGER,
+                timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+            )
+        ''')
         conn.commit()
 
 def create_thread() -> str:
@@ -43,10 +51,18 @@ def create_thread() -> str:
     return thread_id
 
 def list_threads() -> list:
-    """Lists all active threads ordered by creation time."""
+    """Lists all active threads that have messages, ordered by the latest message time."""
     with sqlite3.connect(DB_PATH) as conn:
         cursor = conn.cursor()
-        cursor.execute('SELECT id, created_at FROM threads ORDER BY created_at DESC')
+        query = '''
+            SELECT t.id, t.created_at, 
+                   (SELECT content FROM messages WHERE thread_id = t.id AND role = 'user' ORDER BY timestamp ASC LIMIT 1) as title,
+                   (SELECT MAX(timestamp) FROM messages WHERE thread_id = t.id) as last_msg_time
+            FROM threads t
+            WHERE title IS NOT NULL
+            ORDER BY last_msg_time DESC
+        '''
+        cursor.execute(query)
         return cursor.fetchall()
 
 def add_message(thread_id: str, role: str, content: str):
@@ -70,6 +86,16 @@ def get_history(thread_id: str, limit: int = 4) -> list:
         rows = cursor.fetchall()
         # Return chronologically (oldest first in the context window)
         return [{"role": r[0], "content": r[1]} for r in reversed(rows)]
+
+def insert_feedback(message_id: str, rating: int):
+    """Saves a user feedback rating (1 or -1) for a specific message."""
+    with sqlite3.connect(DB_PATH) as conn:
+        cursor = conn.cursor()
+        cursor.execute(
+            'INSERT INTO feedback (message_id, rating) VALUES (?, ?)',
+            (message_id, rating)
+        )
+        conn.commit()
 
 # Initialize on import
 init_db()

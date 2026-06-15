@@ -18,7 +18,7 @@ sys.path.append(str(BASE_DIR))
 load_dotenv(BASE_DIR / ".env")
 
 from runtime.phase_5_retrieval.retrieval import retrieve
-from runtime.phase_6_generation.generation import generate_response
+from runtime.phase_6_generation.generation import generate_response, generate_response_stream
 
 # --- Rule-based Safety ---
 
@@ -83,6 +83,42 @@ def answer(query: str) -> str:
         return f"I can only provide factual information directly from the official scheme documents. Please refer to the source for more details.\n\nSource: {citation_url}"
         
     return final_output
+
+def answer_stream(query: str):
+    """
+    Streaming version of the main orchestrator.
+    """
+    educational_url = os.environ.get("EDUCATIONAL_URL", "https://www.amfiindia.com/investor-corner")
+    
+    # 1. Pre-Retrieval Safety Check
+    if is_advisory_query(query):
+        logger.info("Advisory query detected. Refusing safely.")
+        yield f"I am a factual assistant and cannot provide financial advice, recommendations, or fund comparisons. Please consult a registered financial advisor.\n\nFor more information, visit: {educational_url}"
+        return
+    
+    # 2. Retrieval
+    logger.info("Executing Retrieval...")
+    retrieval_result = retrieve(query, top_k=5)
+    
+    context = retrieval_result.get("context", "")
+    citation_url = retrieval_result.get("citation_url")
+    
+    if not context or not citation_url:
+        yield "I'm sorry, I couldn't find any information about that in the indexed scheme documents."
+        return
+        
+    # 3. Generation Stream
+    logger.info("Executing Generation (Stream)...")
+    generated_text = ""
+    for chunk in generate_response_stream(query, context, citation_url):
+        generated_text += chunk
+        yield chunk
+    
+    # 4. Post-Generation Safety Check (Retroactive)
+    if not check_output_safety(generated_text):
+        logger.error("Generation failed final safety checks retroactively.")
+        # We can't retract what was already streamed, but we can append a strong warning.
+        yield f"\n\n[WARNING]: I can only provide factual information directly from the official scheme documents. Please refer to the source for more details.\n\nSource: {citation_url}"
 
 def main():
     parser = argparse.ArgumentParser(description="Phase 7: Full Pipeline Orchestrator with Safety")

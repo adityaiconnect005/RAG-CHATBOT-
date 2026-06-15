@@ -124,15 +124,107 @@ Brokerage and charges on Groww
 
 Blog
 
-+14.35
+Search Groww....
+
+Ctrl+K
+
++
+
+1
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+4
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+.
+
+7
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+0
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
 
 %
 
 3Y annualised
 
--0.28
-
-%
++1.56%
 
 1D
 
@@ -148,9 +240,9 @@ Blog
 
 All
 
-NAV: 10 Jun '26
+NAV: 12 Jun '26
 
-₹548.19
+₹555.44
 
 Min. for SIP
 
@@ -162,7 +254,7 @@ Fund size (AUM)
 
 Expense ratio
 
-0.75%
+0.77%
 
 Rating
 
@@ -172,25 +264,21 @@ Return calculator
 
 Monthly investment
 
-₹5,000
+₹100
 
 | Over the past | Total investment | Would've become | Historic returns | Returns |
 
 |---|---|---|---|---|
 
-| 1 year | ₹60,000 | ₹58,642 |  | -2.26% |
+| 1 year | ₹1,200 | ₹1,188 |  | -1.00% |
 
-| 3 years | ₹1,80,000 | ₹1,94,023 |  | +7.79% |
+| 3 years | ₹3,600 | ₹3,930 |  | +9.17% |
 
-| 5 years | ₹3,00,000 | ₹4,03,039 |  | +34.35% |
+| 5 years | ₹6,000 | ₹8,161 |  | +36.02% |
 
-| 10 years | ₹6,00,000 | ₹12,83,595 |  | +113.93% |
+| 10 years | ₹12,000 | ₹25,990 |  | +116.58% |
 
-Holdings (
-
-319
-
-)
+Holdings (319)
 
 | Name | Sector | Instruments | Assets |
 
@@ -870,7 +958,7 @@ Absolute returns
 
 |---|---|---|---|---|
 
-| Fund returns | +14.3% | +14.8% | +14.6% | +14.5% |
+| Fund returns | +14.7% | +15.0% | +14.7% | +14.6% |
 
 | Category average (Hybrid Dynamic Asset Allocation) | +11.9% | +10.7% | +9.6% | -- |
 
@@ -918,9 +1006,7 @@ Exit load
 
 Exit Load for units in excess of 15% of the investment,1% will be charged for redemption within 1 year.
 
-Stamp duty on investment:
-
-0.005% (from July 1st, 2020)
+Stamp duty on investment: 0.005% (from July 1st, 2020)
 
 from July 1st 2020
 
@@ -936,15 +1022,15 @@ Compare similar funds
 
 |---|---|---|---|---|
 
-|  | Quant Dynamic Asset Allocation Fund Direct Growth | -2.19% | +18.60% | 922.29 |
+|  | Quant Dynamic Asset Allocation Fund Direct Growth | -0.50% | +18.81% | 922.29 |
 
-|  | HDFC Balanced Advantage Fund Direct Growth | -2.53% | +14.35% | 1,04,016.21 |
+|  | HDFC Balanced Advantage Fund Direct Growth | -0.44% | +14.70% | 1,04,016.21 |
 
-|  | DSP Dynamic Asset Allocation Fund Direct Growth | +2.95% | +11.60% | 3,661.26 |
+|  | Nippon India Balanced Advantage Fund Direct Growth | +2.98% | +11.91% | 9,573.76 |
 
-|  | Nippon India Balanced Advantage Fund Direct Growth | +1.21% | +11.58% | 9,573.76 |
+|  | ICICI Prudential Balanced Advantage Direct Growth | +3.71% | +11.88% | 70,569.60 |
 
-|  | ICICI Prudential Balanced Advantage Direct Growth | +2.38% | +11.57% | 70,569.60 |
+|  | DSP Dynamic Asset Allocation Fund Direct Growth | +4.23% | +11.85% | 3,664.90 |
 
 Fund management
 
@@ -1338,15 +1424,15 @@ HDFC Large and Mid Cap Fund Direct Growth
 
 HDFC Dividend Yield Fund Direct Growth
 
-About
+About HDFC Balanced Advantage Fund Direct Growth
 
-HDFC Balanced Advantage Fund Direct Growth
+HDFC Balanced Advantage Fund Direct Growth is a Hybrid Mutual Fund Scheme launched by HDFC Mutual Fund. This scheme was made available to investors on 10 Dec 1999. Anil Bamboli is the Current Fund Manager of HDFC Balanced Advantage Fund Direct Growth fund. The fund currently has an Asset Under Manag
 
-HDFC Balanced Advantage Fund Direct Growth is a Hybrid Mutual Fund Scheme launched by HDFC Mutual Fund. This scheme was made available to investors on 10 Dec 1999. Anil Bamboli is the Current Fund Manager of HDFC Balanced Advantage Fund Direct Growth fund. The fund currently has an Asset Under Management(AUM) of ₹9,37,048 Cr and the Latest NAV as of 10 Jun 2026 is ₹548.19.
+HDFC Balanced Advantage Fund Direct Growth is a Hybrid Mutual Fund Scheme launched by HDFC Mutual Fund. This scheme was made available to investors on 10 Dec 1999. Anil Bamboli is the Current Fund Manager of HDFC Balanced Advantage Fund Direct Growth fund. The fund currently has an Asset Under Management(AUM) of ₹9,34,238 Cr and the Latest NAV as of 12 Jun 2026 is ₹555.44.
 
 The HDFC Balanced Advantage Fund Direct Growth is rated Very High risk. Minimum SIP Investment is set to ₹100. Minimum Lumpsum Investment is ₹100. Exit Load for units in excess of 15% of the investment,1% will be charged for redemption within 1 year.
 
-;
+...Read more
 
 Investment Objective
 
@@ -1368,7 +1454,7 @@ Rank (total assets)
 
 Total AUM
 
-₹9,37,047.59 Cr
+₹9,34,237.77 Cr
 
 Date of Incorporation
 
@@ -1380,7 +1466,7 @@ Phone
 
 E-mail
 
-[email protected]
+shareholders.relations@hdfcfund.com
 
 Website
 
@@ -1404,7 +1490,7 @@ Cams
 
 Email
 
-[email protected]
+enq_h@camsonline.com
 
 Website
 
@@ -1413,6 +1499,130 @@ www.camsonline.com
 Address
 
 7th Floor, Tower II, Rayala Towers, 158, Anna Salai,
+
+Other plans in the same fund
+
+| Name |
+
+|---|
+
+| HDFC Balanced Advantage Fund Direct IDCW |
+
+Recently viewed
+
+HDFC Large and Mid Cap Fund Direct Growth
+
++16.63%
+
+3Y
+
+HDFC Flexi Cap Direct Plan Growth
+
++17.82%
+
+3Y
+
+HDFC Mid Cap Fund Direct Growth
+
++21.05%
+
+3Y
+
+HDFC Small Cap Fund Direct Growth
+
++14.55%
+
+3Y
+
+FAQs
+
+How to Invest in HDFC Balanced Advantage Fund Direct Growth?
+
+You can easily invest in HDFC Balanced Advantage Fund Direct Growth in a hassle-free manner on Groww. The
+
+process is extremely simple, quick and completely paperless. Invest in a few minutes with the following steps:
+
+Log on to your Groww account
+
+Search for HDFC Balanced Advantage Fund Direct Growth from the search box
+
+In order to invest, you will have to complete all the KYC formalities which are completely online and paperless
+
+and take a few minutes to complete
+
+Once you are done with that, you can start investing in HDFC Balanced Advantage Fund Direct Growth as SIP or lumpsum as per your
+
+investment objective and risk tolerance
+
+What kind of returns does HDFC Balanced Advantage Fund Direct Growth provide?
+
+The HDFC Balanced Advantage Fund Direct Growth has been there from 01 Jan 2013 and the average annual returns provided by this fund is 14.57% since its inception.
+
+How much expense ratio is charged by HDFC Balanced Advantage Fund Direct Growth?
+
+The term
+
+Expense Ratio
+
+used for HDFC Balanced Advantage Fund Direct Growth or any other mutual fund is the annual
+
+charges one needs to pay to the Mutual Fund company for managing your investments in that fund.
+
+The Expense Ratio of HDFC Balanced Advantage Fund Direct Growth is 0.77% as of 13 Jun 2026...
+
+What is the AUM of HDFC Balanced Advantage Fund Direct Growth?
+
+The AUM, short for
+
+Assets Under Management
+
+of HDFC Balanced Advantage Fund Direct Growth is ₹1,04,016.21Cr as of 13 Jun 2026.
+
+How to Redeem HDFC Balanced Advantage Fund Direct Growth?
+
+If you want to sell your HDFC Balanced Advantage Fund Direct Growth holdings, go to your holding on the app or
+
+web and simply click on it. You will get two options - redeem & invest more; click on redeem and enter your
+
+desired amount or if you wish to redeem the entire holding amount then select the 'redeem all' checkbox.
+
+Can I invest in SIP and Lump Sum of HDFC Balanced Advantage Fund Direct Growth?
+
+You can select either
+
+SIP
+
+or
+
+Lumpsum
+
+investment of HDFC Balanced Advantage Fund Direct Growth based on
+
+your investment objective and risk tolerance.
+
+What is the NAV of HDFC Balanced Advantage Fund Direct Growth?
+
+The NAV of HDFC Balanced Advantage Fund Direct Growth is ₹555.44 as of 12 Jun 2026.
+
+What is the PE and PB ratio of HDFC Balanced Advantage Fund Direct Growth?
+
+The
+
+PE ratio
+
+ratio of HDFC Balanced Advantage Fund Direct Growth is determined by dividing the market price by
+
+its earnings per share and the
+
+PB ratio
+
+of the same is evaluated by dividing the stock price per share by its book value
+
+per share (BVPS).
+
+Looking to invest in mutual funds?
+
+Explore diversified funds designed for every investor
 
 Home
 
@@ -1490,15 +1700,9 @@ Groww AMC
 
 PMS
 
-© 2016-
+© 2016-2026 Groww. All rights reserved.
 
-2026
-
-Groww. All rights reserved.
-
-Version:
-
-7.7.3
+Version: 7.7.3
 
 Share Market
 
@@ -2224,9 +2428,7 @@ Investor Charter and Grievance
 
 Bug Bounty
 
-Mutual Funds
-
-:
+Mutual Funds:
 
 A
 
@@ -2282,9 +2484,7 @@ Z
 
 Others
 
-Stocks
-
-:
+Stocks:
 
 A
 

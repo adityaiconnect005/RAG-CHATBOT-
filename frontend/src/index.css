@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@theme {
+  --color-groww-primary: #00D09C;
+  --color-groww-dark: #1F2937;
+  --color-groww-bg: #F7F8FA;
+  --color-groww-card: #FFFFFF;
+  --color-groww-border: #E5E7EB;
+  --color-groww-text: #111827;
+  --color-groww-text-secondary: #6B7280;
+  --color-groww-hover: #F9FAFB;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  body {
+    background-color: var(--color-groww-bg);
+    color: var(--color-groww-text);
+    margin: 0;
+    padding: 0;
+    font-family: Inter, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+}
+
+/* Custom scrollbar for webkit */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}

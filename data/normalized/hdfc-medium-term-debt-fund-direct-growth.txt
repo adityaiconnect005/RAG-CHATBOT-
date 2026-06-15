@@ -124,15 +124,85 @@ Brokerage and charges on Groww
 
 Blog
 
-+7.73
+Search Groww....
+
+Ctrl+K
+
++
+
+7
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+.
+
+7
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+5
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
 
 %
 
 3Y annualised
 
-+0.03
-
-%
++0.13%
 
 1D
 
@@ -148,9 +218,9 @@ Blog
 
 All
 
-NAV: 10 Jun '26
+NAV: 12 Jun '26
 
-₹64.75
+₹64.80
 
 Min. for SIP
 
@@ -172,25 +242,21 @@ Return calculator
 
 Monthly investment
 
-₹5,000
+₹100
 
 | Over the past | Total investment | Would've become | Historic returns | Returns |
 
 |---|---|---|---|---|
 
-| 1 year | ₹60,000 | ₹61,769 |  | +2.95% |
+| 1 year | ₹1,200 | ₹1,236 |  | +3.00% |
 
-| 3 years | ₹1,80,000 | ₹2,00,763 |  | +11.54% |
+| 3 years | ₹3,600 | ₹4,017 |  | +11.58% |
 
-| 5 years | ₹3,00,000 | ₹3,59,862 |  | +19.95% |
+| 5 years | ₹6,000 | ₹7,201 |  | +20.02% |
 
-| 10 years | ₹6,00,000 | ₹8,75,513 |  | +45.92% |
+| 10 years | ₹12,000 | ₹17,518 |  | +45.98% |
 
-Holdings (
-
-68
-
-)
+Holdings (68)
 
 | Name | Sector | Instruments | Assets |
 
@@ -368,7 +434,7 @@ Absolute returns
 
 |---|---|---|---|---|
 
-| Fund returns | +7.7% | +6.7% | +7.8% | +8.1% |
+| Fund returns | +7.8% | +6.7% | +7.8% | +8.1% |
 
 | Category average (Debt Medium Duration) | +7.6% | +6.6% | +7.0% | -- |
 
@@ -408,9 +474,7 @@ Exit load
 
 Nil
 
-Stamp duty on investment:
-
-0.005% (from July 1st, 2020)
+Stamp duty on investment: 0.005% (from July 1st, 2020)
 
 from July 1st 2020
 
@@ -426,15 +490,15 @@ Compare similar funds
 
 |---|---|---|---|---|
 
-|  | Aditya Birla Sun Life Medium Term Plan Direct Growth | +8.62% | +10.43% | 3,127.29 |
+|  | Aditya Birla Sun Life Medium Term Plan Direct Growth | +8.82% | +10.43% | 3,127.29 |
 
-|  | HDFC Medium Term Debt Fund Direct Growth | +5.90% | +7.73% | 3,693.69 |
+|  | HDFC Medium Term Debt Fund Direct Growth | +6.09% | +7.75% | 3,693.69 |
 
-|  | DSP Bond Direct Growth | +4.34% | +7.24% | 250.53 |
+|  | DSP Bond Direct Growth | +4.67% | +7.25% | 250.53 |
 
-|  | Bandhan Medium Duration Fund Direct Growth | +4.84% | +7.17% | 1,285.87 |
+|  | Bandhan Medium Duration Fund Direct Growth | +4.98% | +7.15% | 1,285.87 |
 
-|  | Invesco India Medium Duration Fund Direct Growth | +4.20% | +7.07% | 167.36 |
+|  | Invesco India Medium Duration Fund Direct Growth | +4.45% | +7.08% | 167.36 |
 
 Fund management
 
@@ -658,15 +722,15 @@ HDFC Credit Risk Debt Fund Direct Growth
 
 HDFC Income Plus Arbitrage Omni FoF Direct Growth
 
-About
+About HDFC Medium Term Debt Fund Direct Growth
 
-HDFC Medium Term Debt Fund Direct Growth
+HDFC Medium Term Debt Fund Direct Growth is a Debt Mutual Fund Scheme launched by HDFC Mutual Fund. This scheme was made available to investors on 10 Dec 1999. Anil Bamboli is the Current Fund Manager of HDFC Medium Term Debt Fund Direct Growth fund. The fund currently has an Asset Under Management(
 
-HDFC Medium Term Debt Fund Direct Growth is a Debt Mutual Fund Scheme launched by HDFC Mutual Fund. This scheme was made available to investors on 10 Dec 1999. Anil Bamboli is the Current Fund Manager of HDFC Medium Term Debt Fund Direct Growth fund. The fund currently has an Asset Under Management(AUM) of ₹9,37,048 Cr and the Latest NAV as of 10 Jun 2026 is ₹64.75.
+HDFC Medium Term Debt Fund Direct Growth is a Debt Mutual Fund Scheme launched by HDFC Mutual Fund. This scheme was made available to investors on 10 Dec 1999. Anil Bamboli is the Current Fund Manager of HDFC Medium Term Debt Fund Direct Growth fund. The fund currently has an Asset Under Management(AUM) of ₹9,34,238 Cr and the Latest NAV as of 12 Jun 2026 is ₹64.80.
 
 The HDFC Medium Term Debt Fund Direct Growth is rated Moderately High risk. Minimum SIP Investment is set to ₹100. Minimum Lumpsum Investment is ₹100.
 
-;
+...Read more
 
 Investment Objective
 
@@ -688,7 +752,7 @@ Rank (total assets)
 
 Total AUM
 
-₹9,37,047.59 Cr
+₹9,34,237.77 Cr
 
 Date of Incorporation
 
@@ -700,7 +764,7 @@ Phone
 
 E-mail
 
-[email protected]
+shareholders.relations@hdfcfund.com
 
 Website
 
@@ -724,7 +788,7 @@ Cams
 
 Email
 
-[email protected]
+enq_h@camsonline.com
 
 Website
 
@@ -733,6 +797,130 @@ www.camsonline.com
 Address
 
 7th Floor, Tower II, Rayala Towers, 158, Anna Salai,
+
+Other plans in the same fund
+
+| Name |
+
+|---|
+
+| HDFC Medium Term Debt Fund Direct IDCW |
+
+Recently viewed
+
+HDFC Low Duration Fund Direct Growth
+
++7.54%
+
+3Y
+
+HDFC Ultra Short Term Fund Direct Growth
+
++7.20%
+
+3Y
+
+HDFC Money Market Fund Direct Growth
+
++7.33%
+
+3Y
+
+HDFC Liquid Direct Plan Growth
+
++6.95%
+
+3Y
+
+FAQs
+
+How to Invest in HDFC Medium Term Debt Fund Direct Growth?
+
+You can easily invest in HDFC Medium Term Debt Fund Direct Growth in a hassle-free manner on Groww. The
+
+process is extremely simple, quick and completely paperless. Invest in a few minutes with the following steps:
+
+Log on to your Groww account
+
+Search for HDFC Medium Term Debt Fund Direct Growth from the search box
+
+In order to invest, you will have to complete all the KYC formalities which are completely online and paperless
+
+and take a few minutes to complete
+
+Once you are done with that, you can start investing in HDFC Medium Term Debt Fund Direct Growth as SIP or lumpsum as per your
+
+investment objective and risk tolerance
+
+What kind of returns does HDFC Medium Term Debt Fund Direct Growth provide?
+
+The HDFC Medium Term Debt Fund Direct Growth has been there from 01 Jan 2013 and the average annual returns provided by this fund is 8.12% since its inception.
+
+How much expense ratio is charged by HDFC Medium Term Debt Fund Direct Growth?
+
+The term
+
+Expense Ratio
+
+used for HDFC Medium Term Debt Fund Direct Growth or any other mutual fund is the annual
+
+charges one needs to pay to the Mutual Fund company for managing your investments in that fund.
+
+The Expense Ratio of HDFC Medium Term Debt Fund Direct Growth is 0.69% as of 13 Jun 2026...
+
+What is the AUM of HDFC Medium Term Debt Fund Direct Growth?
+
+The AUM, short for
+
+Assets Under Management
+
+of HDFC Medium Term Debt Fund Direct Growth is ₹3,693.69Cr as of 13 Jun 2026.
+
+How to Redeem HDFC Medium Term Debt Fund Direct Growth?
+
+If you want to sell your HDFC Medium Term Debt Fund Direct Growth holdings, go to your holding on the app or
+
+web and simply click on it. You will get two options - redeem & invest more; click on redeem and enter your
+
+desired amount or if you wish to redeem the entire holding amount then select the 'redeem all' checkbox.
+
+Can I invest in SIP and Lump Sum of HDFC Medium Term Debt Fund Direct Growth?
+
+You can select either
+
+SIP
+
+or
+
+Lumpsum
+
+investment of HDFC Medium Term Debt Fund Direct Growth based on
+
+your investment objective and risk tolerance.
+
+What is the NAV of HDFC Medium Term Debt Fund Direct Growth?
+
+The NAV of HDFC Medium Term Debt Fund Direct Growth is ₹64.80 as of 12 Jun 2026.
+
+What is the PE and PB ratio of HDFC Medium Term Debt Fund Direct Growth?
+
+The
+
+PE ratio
+
+ratio of HDFC Medium Term Debt Fund Direct Growth is determined by dividing the market price by
+
+its earnings per share and the
+
+PB ratio
+
+of the same is evaluated by dividing the stock price per share by its book value
+
+per share (BVPS).
+
+Looking to invest in mutual funds?
+
+Explore diversified funds designed for every investor
 
 Home
 
@@ -810,15 +998,9 @@ Groww AMC
 
 PMS
 
-© 2016-
+© 2016-2026 Groww. All rights reserved.
 
-2026
-
-Groww. All rights reserved.
-
-Version:
-
-7.7.3
+Version: 7.7.3
 
 Share Market
 
@@ -1544,9 +1726,7 @@ Investor Charter and Grievance
 
 Bug Bounty
 
-Mutual Funds
-
-:
+Mutual Funds:
 
 A
 
@@ -1602,9 +1782,7 @@ Z
 
 Others
 
-Stocks
-
-:
+Stocks:
 
 A
 

@@ -124,15 +124,85 @@ Brokerage and charges on Groww
 
 Blog
 
-+7.56
+Search Groww....
+
+Ctrl+K
+
++
+
+7
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+.
+
+5
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+4
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
 
 %
 
 3Y annualised
 
-+0.03
-
-%
++0.05%
 
 1D
 
@@ -148,7 +218,7 @@ Blog
 
 All
 
-NAV: 10 Jun '26
+NAV: 12 Jun '26
 
 ₹66.45
 
@@ -172,25 +242,21 @@ Return calculator
 
 Monthly investment
 
-₹5,000
+₹100
 
 | Over the past | Total investment | Would've become | Historic returns | Returns |
 
 |---|---|---|---|---|
 
-| 1 year | ₹60,000 | ₹61,547 |  | +2.58% |
+| 1 year | ₹1,200 | ₹1,231 |  | +2.58% |
 
-| 3 years | ₹1,80,000 | ₹1,99,502 |  | +10.83% |
+| 3 years | ₹3,600 | ₹3,990 |  | +10.83% |
 
-| 5 years | ₹3,00,000 | ₹3,57,125 |  | +19.04% |
+| 5 years | ₹6,000 | ₹7,142 |  | +19.03% |
 
-| 10 years | ₹6,00,000 | ₹8,54,860 |  | +42.48% |
+| 10 years | ₹12,000 | ₹17,097 |  | +42.48% |
 
-Holdings (
-
-180
-
-)
+Holdings (180)
 
 | Name | Sector | Instruments | Assets |
 
@@ -592,7 +658,7 @@ Absolute returns
 
 |---|---|---|---|---|
 
-| Fund returns | +7.6% | +6.7% | +7.2% | +7.7% |
+| Fund returns | +7.5% | +6.7% | +7.2% | +7.6% |
 
 | Category average (Debt Low Duration) | +7.1% | +5.9% | +6.5% | -- |
 
@@ -628,9 +694,7 @@ Exit load
 
 Nil
 
-Stamp duty on investment:
-
-0.005% (from July 1st, 2020)
+Stamp duty on investment: 0.005% (from July 1st, 2020)
 
 from July 1st 2020
 
@@ -646,15 +710,15 @@ Compare similar funds
 
 |---|---|---|---|---|
 
-|  | ICICI Prudential Savings Fund Direct Plan Growth | +6.20% | +7.58% | 25,884.88 |
+|  | ICICI Prudential Savings Fund Direct Plan Growth | +6.25% | +7.57% | 25,884.88 |
 
-|  | Kotak Low Duration Fund Direct Growth | +6.18% | +7.56% | 13,370.42 |
+|  | Kotak Low Duration Fund Direct Growth | +6.22% | +7.54% | 13,370.42 |
 
-|  | Mirae Asset Low Duration Fund Direct Growth | +6.12% | +7.44% | 2,176.25 |
+|  | Mirae Asset Low Duration Fund Direct Growth | +6.21% | +7.44% | 2,176.25 |
 
-|  | Axis Treasury Advantage Fund Direct Growth | +6.15% | +7.44% | 5,803.01 |
+|  | Axis Treasury Advantage Fund Direct Growth | +6.24% | +7.44% | 5,803.01 |
 
-|  | LIC MF Low Duration Fund Direct Growth | +6.16% | +7.33% | 1,607.70 |
+|  | LIC MF Low Duration Fund Direct Growth | +6.19% | +7.32% | 1,607.70 |
 
 Fund management
 
@@ -868,15 +932,15 @@ HDFC CRISIL IBX Financial Services 3 6 Months Debt Index Fund Direct Growth
 
 HDFC CRISIL IBX Financial Services 9 12 Months Debt Index Fund Direct Growth
 
-About
+About HDFC Low Duration Fund Direct Growth
 
-HDFC Low Duration Fund Direct Growth
+HDFC Low Duration Fund Direct Growth is a Debt Mutual Fund Scheme launched by HDFC Mutual Fund. This scheme was made available to investors on 10 Dec 1999. Praveen Jain is the Current Fund Manager of HDFC Low Duration Fund Direct Growth fund. The fund currently has an Asset Under Management(AUM) of
 
-HDFC Low Duration Fund Direct Growth is a Debt Mutual Fund Scheme launched by HDFC Mutual Fund. This scheme was made available to investors on 10 Dec 1999. Praveen Jain is the Current Fund Manager of HDFC Low Duration Fund Direct Growth fund. The fund currently has an Asset Under Management(AUM) of ₹9,37,048 Cr and the Latest NAV as of 10 Jun 2026 is ₹66.45.
+HDFC Low Duration Fund Direct Growth is a Debt Mutual Fund Scheme launched by HDFC Mutual Fund. This scheme was made available to investors on 10 Dec 1999. Praveen Jain is the Current Fund Manager of HDFC Low Duration Fund Direct Growth fund. The fund currently has an Asset Under Management(AUM) of ₹9,34,238 Cr and the Latest NAV as of 12 Jun 2026 is ₹66.45.
 
 The HDFC Low Duration Fund Direct Growth is rated Moderate risk. Minimum SIP Investment is set to ₹100. Minimum Lumpsum Investment is ₹100.
 
-;
+...Read more
 
 Investment Objective
 
@@ -898,7 +962,7 @@ Rank (total assets)
 
 Total AUM
 
-₹9,37,047.59 Cr
+₹9,34,237.77 Cr
 
 Date of Incorporation
 
@@ -910,7 +974,7 @@ Phone
 
 E-mail
 
-[email protected]
+shareholders.relations@hdfcfund.com
 
 Website
 
@@ -934,7 +998,7 @@ Cams
 
 Email
 
-[email protected]
+enq_h@camsonline.com
 
 Website
 
@@ -943,6 +1007,122 @@ www.camsonline.com
 Address
 
 7th Floor, Tower II, Rayala Towers, 158, Anna Salai,
+
+Recently viewed
+
+HDFC Ultra Short Term Fund Direct Growth
+
++7.20%
+
+3Y
+
+HDFC Money Market Fund Direct Growth
+
++7.33%
+
+3Y
+
+HDFC Liquid Direct Plan Growth
+
++6.95%
+
+3Y
+
+HDFC Short Term Debt Fund Direct Plan Growth
+
++7.60%
+
+3Y
+
+FAQs
+
+How to Invest in HDFC Low Duration Fund Direct Growth?
+
+You can easily invest in HDFC Low Duration Fund Direct Growth in a hassle-free manner on Groww. The
+
+process is extremely simple, quick and completely paperless. Invest in a few minutes with the following steps:
+
+Log on to your Groww account
+
+Search for HDFC Low Duration Fund Direct Growth from the search box
+
+In order to invest, you will have to complete all the KYC formalities which are completely online and paperless
+
+and take a few minutes to complete
+
+Once you are done with that, you can start investing in HDFC Low Duration Fund Direct Growth as SIP or lumpsum as per your
+
+investment objective and risk tolerance
+
+What kind of returns does HDFC Low Duration Fund Direct Growth provide?
+
+The HDFC Low Duration Fund Direct Growth has been there from 01 Jan 2013 and the average annual returns provided by this fund is 7.65% since its inception.
+
+How much expense ratio is charged by HDFC Low Duration Fund Direct Growth?
+
+The term
+
+Expense Ratio
+
+used for HDFC Low Duration Fund Direct Growth or any other mutual fund is the annual
+
+charges one needs to pay to the Mutual Fund company for managing your investments in that fund.
+
+The Expense Ratio of HDFC Low Duration Fund Direct Growth is 0.46% as of 13 Jun 2026...
+
+What is the AUM of HDFC Low Duration Fund Direct Growth?
+
+The AUM, short for
+
+Assets Under Management
+
+of HDFC Low Duration Fund Direct Growth is ₹20,217.88Cr as of 13 Jun 2026.
+
+How to Redeem HDFC Low Duration Fund Direct Growth?
+
+If you want to sell your HDFC Low Duration Fund Direct Growth holdings, go to your holding on the app or
+
+web and simply click on it. You will get two options - redeem & invest more; click on redeem and enter your
+
+desired amount or if you wish to redeem the entire holding amount then select the 'redeem all' checkbox.
+
+Can I invest in SIP and Lump Sum of HDFC Low Duration Fund Direct Growth?
+
+You can select either
+
+SIP
+
+or
+
+Lumpsum
+
+investment of HDFC Low Duration Fund Direct Growth based on
+
+your investment objective and risk tolerance.
+
+What is the NAV of HDFC Low Duration Fund Direct Growth?
+
+The NAV of HDFC Low Duration Fund Direct Growth is ₹66.45 as of 12 Jun 2026.
+
+What is the PE and PB ratio of HDFC Low Duration Fund Direct Growth?
+
+The
+
+PE ratio
+
+ratio of HDFC Low Duration Fund Direct Growth is determined by dividing the market price by
+
+its earnings per share and the
+
+PB ratio
+
+of the same is evaluated by dividing the stock price per share by its book value
+
+per share (BVPS).
+
+Looking to invest in mutual funds?
+
+Explore diversified funds designed for every investor
 
 Home
 
@@ -1020,15 +1200,9 @@ Groww AMC
 
 PMS
 
-© 2016-
+© 2016-2026 Groww. All rights reserved.
 
-2026
-
-Groww. All rights reserved.
-
-Version:
-
-7.7.3
+Version: 7.7.3
 
 Share Market
 
@@ -1754,9 +1928,7 @@ Investor Charter and Grievance
 
 Bug Bounty
 
-Mutual Funds
-
-:
+Mutual Funds:
 
 A
 
@@ -1812,9 +1984,7 @@ Z
 
 Others
 
-Stocks
-
-:
+Stocks:
 
 A
 

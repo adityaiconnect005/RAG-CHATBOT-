@@ -124,15 +124,85 @@ Brokerage and charges on Groww
 
 Blog
 
-+7.34
+Search Groww....
+
+Ctrl+K
+
++
+
+7
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+.
+
+3
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+3
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
 
 %
 
 3Y annualised
 
-+0.02
-
-%
++0.04%
 
 1D
 
@@ -148,9 +218,9 @@ Blog
 
 All
 
-NAV: 10 Jun '26
+NAV: 12 Jun '26
 
-₹6,181.80
+₹6,181.81
 
 Min. for SIP
 
@@ -172,25 +242,21 @@ Return calculator
 
 Monthly investment
 
-₹5,000
+₹100
 
 | Over the past | Total investment | Would've become | Historic returns | Returns |
 
 |---|---|---|---|---|
 
-| 1 year | ₹60,000 | ₹61,676 |  | +2.79% |
+| 1 year | ₹1,200 | ₹1,233 |  | +2.75% |
 
-| 3 years | ₹1,80,000 | ₹1,99,319 |  | +10.73% |
+| 3 years | ₹3,600 | ₹3,985 |  | +10.69% |
 
-| 5 years | ₹3,00,000 | ₹3,56,547 |  | +18.85% |
+| 5 years | ₹6,000 | ₹7,128 |  | +18.80% |
 
-| 10 years | ₹6,00,000 | ₹8,41,792 |  | +40.30% |
+| 10 years | ₹12,000 | ₹16,830 |  | +40.25% |
 
-Holdings (
-
-109
-
-)
+Holdings (109)
 
 | Name | Sector | Instruments | Assets |
 
@@ -454,7 +520,7 @@ Absolute returns
 
 | Category average (Debt Money Market) | +7.2% | +5.9% | +6.5% | -- |
 
-| Rank (Debt Money Market) | 7 | 6 | 5 | -- |
+| Rank (Debt Money Market) | 9 | 6 | 5 | -- |
 
 Understand terms
 
@@ -486,9 +552,7 @@ Exit load
 
 Nil
 
-Stamp duty on investment:
-
-0.005% (from July 1st, 2020)
+Stamp duty on investment: 0.005% (from July 1st, 2020)
 
 from July 1st 2020
 
@@ -504,15 +568,15 @@ Compare similar funds
 
 |---|---|---|---|---|
 
-|  | Tata Money Market Fund Direct Growth | +6.22% | +7.48% | 33,029.98 |
+|  | Tata Money Market Fund Direct Growth | +6.24% | +7.47% | 33,029.98 |
 
-|  | Bandhan Money Market Fund Direct Growth | +6.18% | +7.36% | 15,908.02 |
+|  | Bandhan Money Market Fund Direct Growth | +6.21% | +7.35% | 14,977.42 |
 
-|  | Franklin India Money Market Fund Direct Growth | +6.07% | +7.34% | 4,442.84 |
+|  | Franklin India Money Market Fund Direct Growth | +6.09% | +7.33% | 4,442.84 |
 
-|  | HDFC Money Market Fund Direct Growth | +6.09% | +7.34% | 28,704.74 |
+|  | HDFC Money Market Fund Direct Growth | +6.11% | +7.33% | 28,704.74 |
 
-|  | Union Money Market Fund Direct Growth | +6.23% | +7.11% | 1,135.78 |
+|  | Union Money Market Fund Direct Growth | +6.26% | +7.11% | 1,135.78 |
 
 Fund management
 
@@ -662,15 +726,15 @@ HDFC Innovation Fund Direct Growth
 
 HDFC Diversified Equity All Cap Active FoF Direct Growth
 
-About
+About HDFC Money Market Fund Direct Growth
 
-HDFC Money Market Fund Direct Growth
+HDFC Money Market Fund Direct Growth is a Debt Mutual Fund Scheme launched by HDFC Mutual Fund. This scheme was made available to investors on 10 Dec 1999. Praveen Jain is the Current Fund Manager of HDFC Money Market Fund Direct Growth fund. The fund currently has an Asset Under Management(AUM) of
 
-HDFC Money Market Fund Direct Growth is a Debt Mutual Fund Scheme launched by HDFC Mutual Fund. This scheme was made available to investors on 10 Dec 1999. Praveen Jain is the Current Fund Manager of HDFC Money Market Fund Direct Growth fund. The fund currently has an Asset Under Management(AUM) of ₹9,37,048 Cr and the Latest NAV as of 10 Jun 2026 is ₹6,181.80.
+HDFC Money Market Fund Direct Growth is a Debt Mutual Fund Scheme launched by HDFC Mutual Fund. This scheme was made available to investors on 10 Dec 1999. Praveen Jain is the Current Fund Manager of HDFC Money Market Fund Direct Growth fund. The fund currently has an Asset Under Management(AUM) of ₹9,34,238 Cr and the Latest NAV as of 12 Jun 2026 is ₹6,181.81.
 
 The HDFC Money Market Fund Direct Growth is rated Moderate risk. Minimum SIP Investment is set to ₹100. Minimum Lumpsum Investment is ₹100.
 
-;
+...Read more
 
 Investment Objective
 
@@ -692,7 +756,7 @@ Rank (total assets)
 
 Total AUM
 
-₹9,37,047.59 Cr
+₹9,34,237.77 Cr
 
 Date of Incorporation
 
@@ -704,7 +768,7 @@ Phone
 
 E-mail
 
-[email protected]
+shareholders.relations@hdfcfund.com
 
 Website
 
@@ -728,7 +792,7 @@ Cams
 
 Email
 
-[email protected]
+enq_h@camsonline.com
 
 Website
 
@@ -737,6 +801,122 @@ www.camsonline.com
 Address
 
 7th Floor, Tower II, Rayala Towers, 158, Anna Salai,
+
+Recently viewed
+
+HDFC Liquid Direct Plan Growth
+
++6.95%
+
+3Y
+
+HDFC Short Term Debt Fund Direct Plan Growth
+
++7.60%
+
+3Y
+
+HDFC NIFTY200 Momentum 30 Index Fund Direct Growth
+
+--
+
+3Y
+
+HDFC NIFTY100 Low Volatility 30 Index Fund Direct Growth
+
+--
+
+3Y
+
+FAQs
+
+How to Invest in HDFC Money Market Fund Direct Growth?
+
+You can easily invest in HDFC Money Market Fund Direct Growth in a hassle-free manner on Groww. The
+
+process is extremely simple, quick and completely paperless. Invest in a few minutes with the following steps:
+
+Log on to your Groww account
+
+Search for HDFC Money Market Fund Direct Growth from the search box
+
+In order to invest, you will have to complete all the KYC formalities which are completely online and paperless
+
+and take a few minutes to complete
+
+Once you are done with that, you can start investing in HDFC Money Market Fund Direct Growth as SIP or lumpsum as per your
+
+investment objective and risk tolerance
+
+What kind of returns does HDFC Money Market Fund Direct Growth provide?
+
+The HDFC Money Market Fund Direct Growth has been there from 01 Jan 2013 and the average annual returns provided by this fund is 7.29% since its inception.
+
+How much expense ratio is charged by HDFC Money Market Fund Direct Growth?
+
+The term
+
+Expense Ratio
+
+used for HDFC Money Market Fund Direct Growth or any other mutual fund is the annual
+
+charges one needs to pay to the Mutual Fund company for managing your investments in that fund.
+
+The Expense Ratio of HDFC Money Market Fund Direct Growth is 0.22% as of 13 Jun 2026...
+
+What is the AUM of HDFC Money Market Fund Direct Growth?
+
+The AUM, short for
+
+Assets Under Management
+
+of HDFC Money Market Fund Direct Growth is ₹28,704.74Cr as of 13 Jun 2026.
+
+How to Redeem HDFC Money Market Fund Direct Growth?
+
+If you want to sell your HDFC Money Market Fund Direct Growth holdings, go to your holding on the app or
+
+web and simply click on it. You will get two options - redeem & invest more; click on redeem and enter your
+
+desired amount or if you wish to redeem the entire holding amount then select the 'redeem all' checkbox.
+
+Can I invest in SIP and Lump Sum of HDFC Money Market Fund Direct Growth?
+
+You can select either
+
+SIP
+
+or
+
+Lumpsum
+
+investment of HDFC Money Market Fund Direct Growth based on
+
+your investment objective and risk tolerance.
+
+What is the NAV of HDFC Money Market Fund Direct Growth?
+
+The NAV of HDFC Money Market Fund Direct Growth is ₹6,181.81 as of 12 Jun 2026.
+
+What is the PE and PB ratio of HDFC Money Market Fund Direct Growth?
+
+The
+
+PE ratio
+
+ratio of HDFC Money Market Fund Direct Growth is determined by dividing the market price by
+
+its earnings per share and the
+
+PB ratio
+
+of the same is evaluated by dividing the stock price per share by its book value
+
+per share (BVPS).
+
+Looking to invest in mutual funds?
+
+Explore diversified funds designed for every investor
 
 Home
 
@@ -814,15 +994,9 @@ Groww AMC
 
 PMS
 
-© 2016-
+© 2016-2026 Groww. All rights reserved.
 
-2026
-
-Groww. All rights reserved.
-
-Version:
-
-7.7.3
+Version: 7.7.3
 
 Share Market
 
@@ -1548,9 +1722,7 @@ Investor Charter and Grievance
 
 Bug Bounty
 
-Mutual Funds
-
-:
+Mutual Funds:
 
 A
 
@@ -1606,9 +1778,7 @@ Z
 
 Others
 
-Stocks
-
-:
+Stocks:
 
 A
 

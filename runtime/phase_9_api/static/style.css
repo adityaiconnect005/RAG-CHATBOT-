@@ -54,9 +54,10 @@ body {
 }
 
 .sidebar h1 {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     letter-spacing: 0.5px;
+    white-space: nowrap;
 }
 
 .primary-btn {
@@ -79,9 +80,12 @@ body {
     border-color: var(--accent);
 }
 
-.history-list {
+.recent-chats {
     margin-top: 32px;
     flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
 }
 
 .history-label {
@@ -90,6 +94,41 @@ body {
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 12px;
+    flex-shrink: 0;
+}
+
+.chat-history-item {
+    font-size: 13px;
+    color: var(--text-muted);
+    padding: 8px 12px 8px 0; /* added right padding to avoid scrollbar overlap */
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    transition: color 0.2s ease;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.chat-history-item:hover {
+    color: var(--accent-hover);
+}
+
+.chat-list {
+    list-style: none;
+    max-height: 200px;
+    overflow-y: auto;
+    padding-right: 8px;
+}
+
+.chat-list::-webkit-scrollbar {
+    width: 4px;
+}
+.chat-list::-webkit-scrollbar-track {
+    background: rgba(255,255,255,0.05);
+}
+.chat-list::-webkit-scrollbar-thumb {
+    background: rgba(255,255,255,0.2);
+    border-radius: 4px;
 }
 
 .session-id {
@@ -100,6 +139,48 @@ body {
     background: rgba(0,0,0,0.2);
     border-radius: 4px;
     word-break: break-all;
+}
+
+.supported-funds {
+    margin-top: 24px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    min-height: 0;
+}
+
+.fund-list {
+    list-style: none;
+    overflow-y: auto;
+    padding-right: 8px;
+    margin-top: 12px;
+    flex: 1;
+    min-height: 0;
+}
+
+.fund-list::-webkit-scrollbar {
+    width: 4px;
+}
+.fund-list::-webkit-scrollbar-track {
+    background: rgba(255,255,255,0.05);
+}
+.fund-list::-webkit-scrollbar-thumb {
+    background: rgba(255,255,255,0.2);
+    border-radius: 4px;
+}
+
+.fund-item {
+    font-size: 13px;
+    color: var(--text-muted);
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    transition: color 0.2s ease;
+}
+
+.fund-item:hover {
+    color: var(--accent-hover);
+    cursor: default;
 }
 
 .sidebar-footer {
@@ -289,4 +370,28 @@ body {
 @keyframes typing {
     0%, 80%, 100% { transform: scale(0); }
     40% { transform: scale(1); }
+}
+
+.follow-ups {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.follow-up-btn {
+    background: rgba(59, 130, 246, 0.1);
+    color: var(--accent);
+    border: 1px solid rgba(59, 130, 246, 0.2);
+    padding: 10px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 13px;
+    text-align: left;
+    transition: all 0.2s ease;
+}
+
+.follow-up-btn:hover {
+    background: rgba(59, 130, 246, 0.2);
+    border-color: var(--accent);
 }

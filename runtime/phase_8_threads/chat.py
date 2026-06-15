@@ -18,7 +18,7 @@ sys.path.append(str(BASE_DIR))
 load_dotenv(BASE_DIR / ".env")
 
 from runtime.phase_8_threads.database import create_thread, list_threads, add_message, get_history
-from runtime.phase_7_safety.safety import answer
+from runtime.phase_7_safety.safety import answer, answer_stream
 
 def expand_query(current_query: str, history: list) -> str:
     """
@@ -40,8 +40,8 @@ def expand_query(current_query: str, history: list) -> str:
         
     system_prompt = """You are a query expansion assistant. 
 Your task is to rewrite the latest User Query to make it fully self-contained based on the Conversation History.
-Specifically, if the User Query uses pronouns like 'it', 'its', 'this fund', replace them with the actual name of the Mutual Fund being discussed.
-PAY CLOSE ATTENTION to the MOST RECENT messages in the history. If multiple funds have been discussed, you MUST use the fund mentioned in the immediately preceding user question or assistant response.
+Specifically, if the User Query uses pronouns like 'it', 'its', 'this fund', replace them with the actual name of the Mutual Fund being discussed in the Conversation History.
+CRITICAL RULE: If the User Query already EXPLICITLY names a specific mutual fund (e.g., "HDFC Top 100 Fund", "HDFC Small Cap Fund"), you MUST NOT change or replace the name of the fund! NEVER replace an explicitly named fund with a different fund from the history.
 DO NOT answer the query. ONLY output the rewritten query string. If no changes are needed, output the original query exactly."""
 
     user_prompt = f"""Conversation History:
@@ -57,9 +57,9 @@ Rewritten Query:"""
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_prompt}
             ],
-            model="llama-3.3-70b-versatile",
+            model="llama-3.1-8b-instant",
             temperature=0.0,
-            max_tokens=50
+            max_tokens=256
         )
         expanded = response.choices[0].message.content.strip()
         logger.info(f"Query expanded from '{current_query}' to '{expanded}'")
@@ -95,6 +95,23 @@ def post_user_message(thread_id: str, user_message: str) -> str:
     add_message(thread_id, "assistant", assistant_response)
     
     return assistant_response
+
+def post_user_message_stream(thread_id: str, user_message: str):
+    """
+    Handles a user message and yields chunks of the assistant's response.
+    """
+    clean_message = user_message.strip().strip("\"'")
+    history = get_history(thread_id, limit=4)
+    expanded_query = expand_query(clean_message, history)
+    expanded_query = expanded_query.strip().strip("\"'")
+    add_message(thread_id, "user", clean_message)
+    
+    full_response = ""
+    for chunk in answer_stream(expanded_query):
+        full_response += chunk
+        yield chunk
+        
+    add_message(thread_id, "assistant", full_response)
 
 def main():
     parser = argparse.ArgumentParser(description="Phase 8: Multi-Thread CLI")

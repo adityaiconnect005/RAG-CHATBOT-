@@ -10,6 +10,8 @@ on:
 jobs:
   scrape-and-ingest:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     
     steps:
       - name: Checkout repository
@@ -29,6 +31,9 @@ jobs:
           pip install -r runtime/phase_4_2_embed/requirements.txt
           pip install -r runtime/phase_4_3_index/requirements.txt
 
+      - name: Install Playwright Browsers
+        run: python -m playwright install chromium
+
       - name: Run Phase 4.0 - Scraping Service
         run: |
           python runtime/phase_4_0_scrape/scrape.py
@@ -36,6 +41,10 @@ jobs:
       - name: Run Phase 4.1 - Normalize
         run: |
           python runtime/phase_4_1_normalize/normalize.py
+          
+      - name: Run Inject Returns
+        run: |
+          python runtime/inject_returns.py
           
       - name: Run Phase 4.2 - Chunk & Embed
         run: |
@@ -57,4 +66,15 @@ jobs:
           path: data/raw/
           retention-days: 7
 
-
+      - name: Commit Updated Structured Data
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/structured/
+          # Only commit if there are changes
+          if ! git diff --staged --quiet; then
+            git commit -m "Auto-update daily mutual fund structured data [skip ci]"
+            git push
+          else
+            echo "No changes to structured data to commit."
+          fi

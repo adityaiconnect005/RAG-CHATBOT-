@@ -42,11 +42,12 @@ def resolve_scheme(query: str):
     # Example: "hdfc equity fund" -> check if any scheme starts with "hdfc-equity-fund"
     # For now, we do a fallback simple substring match on the core name
     for scheme_id in known_schemes:
-        # Strip generic suffixes for fuzzy matching
-        core_name = scheme_id.replace('-direct-plan-growth', '').replace('-direct-growth', '').replace('-', ' ')
+        # Strip generic suffixes and dashes for fuzzy matching
+        core_name = scheme_id.replace('-direct-plan-growth', '').replace('-direct-growth', '').replace('-', '')
+        query_stripped = query_lower.replace(' ', '').replace('-', '')
         
-        # E.g. "hdfc equity fund" in query?
-        if core_name in query_lower:
+        # E.g. "hdfctaxsaver" in "whatisthelockinperiodforthehdfctaxsaverfund"?
+        if core_name in query_stripped:
             return scheme_id
             
     return None

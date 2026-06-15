@@ -1,20 +1,15 @@
 import json
 import os
 import time
-import requests
 import logging
 from pathlib import Path
+from playwright.sync_api import sync_playwright
 
 # Setup logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
 # Constants
-HEADERS = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 RAGBot/1.0',
-    'Accept-Language': 'en-US,en;q=0.9',
-    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-}
 DELAY_BETWEEN_REQUESTS = 2  # seconds
 
 def load_urls(filepath):
@@ -50,33 +45,48 @@ def scrape_and_save():
     success_count = 0
     fail_count = 0
 
-    for item in urls:
-        scheme_id = item.get('id')
-        url = item.get('url')
-        
-        if not scheme_id or not url:
-            logger.warning(f"Invalid item format in urls.json: {item}")
-            continue
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        context = browser.new_context(
+            user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 RAGBot/1.0',
+            viewport={'width': 1280, 'height': 720}
+        )
+        page = context.new_page()
+
+        for item in urls:
+            scheme_id = item.get('id')
+            url = item.get('url')
             
-        logger.info(f"Fetching: {scheme_id} ({url})")
-        
-        try:
-            response = requests.get(url, headers=HEADERS, timeout=10)
-            response.raise_for_status()
-            
-            output_file = raw_dir / f"{scheme_id}.html"
-            with open(output_file, 'w', encoding='utf-8') as f:
-                f.write(response.text)
+            if not scheme_id or not url:
+                logger.warning(f"Invalid item format in urls.json: {item}")
+                continue
                 
-            logger.info(f"Successfully saved to {output_file}")
-            success_count += 1
+            logger.info(f"Fetching: {scheme_id} ({url})")
             
-        except requests.exceptions.RequestException as e:
-            logger.error(f"Failed to fetch {url}: {e}")
-            fail_count += 1
+            try:
+                # Wait until network is idle to ensure client-side rendering is complete
+                page.goto(url, wait_until='networkidle', timeout=60000)
+                
+                # Sleep briefly to allow any final JS rendering (like NAV updates) to paint
+                time.sleep(3)
+                
+                html_content = page.content()
+                
+                output_file = raw_dir / f"{scheme_id}.html"
+                with open(output_file, 'w', encoding='utf-8') as f:
+                    f.write(html_content)
+                    
+                logger.info(f"Successfully saved to {output_file}")
+                success_count += 1
+                
+            except Exception as e:
+                logger.error(f"Failed to fetch {url}: {e}")
+                fail_count += 1
+                
+            # Rate limiting
+            time.sleep(DELAY_BETWEEN_REQUESTS)
             
-        # Rate limiting
-        time.sleep(DELAY_BETWEEN_REQUESTS)
+        browser.close()
 
     logger.info(f"Scrape complete. Success: {success_count}, Failures: {fail_count}")
 
