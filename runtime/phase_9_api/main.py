@@ -36,6 +36,16 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+@app.on_event("startup")
+def preload_model():
+    print("Pre-loading embedding model on startup to avoid OOM or timeout during chat...")
+    try:
+        from runtime.phase_5_retrieval.retrieval import get_embedding_model
+        get_embedding_model()
+        print("Model pre-loaded successfully.")
+    except Exception as e:
+        print(f"Error pre-loading model: {e}")
+
 # API Models
 class ChatRequest(BaseModel):
     thread_id: str
