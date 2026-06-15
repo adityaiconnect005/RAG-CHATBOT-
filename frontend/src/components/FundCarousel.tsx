@@ -46,7 +46,7 @@ export default function FundCarousel({ fundsList, onFundClick }: FundCarouselPro
 
   // Data Fetching
   useEffect(() => {
-    let timeoutId: NodeJS.Timeout;
+    let timeoutId: ReturnType<typeof setTimeout>;
     let isCurrent = true;
     
     const fetchHistory = async (isRetry = false) => {
