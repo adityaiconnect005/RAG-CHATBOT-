@@ -70,7 +70,7 @@ export default function App() {
     setSubmittedFeedback(prev => ({...prev, [msgId]: rating}));
     
     try {
-      const API_BASE = import.meta.env.VITE_API_URL || "";
+      const API_BASE = import.meta.env.VITE_API_URL || "http://localhost:8000";
       await fetch(`${API_BASE}/api/chat/feedback`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -200,11 +200,9 @@ export default function App() {
     setInput('');
     setIsTyping(true);
 
-    const replyId = (Date.now() + 1).toString();
-
     // Fetch from real backend
     try {
-      const API_BASE = import.meta.env.VITE_API_URL || "";
+      const API_BASE = import.meta.env.VITE_API_URL || "http://localhost:8000";
       const response = await fetch(`${API_BASE}/api/chat/stream`, {
         method: "POST",
         headers: {
@@ -227,9 +225,10 @@ export default function App() {
       const reader = response.body.getReader();
       const decoder = new TextDecoder("utf-8");
 
+      const replyId = (Date.now() + 1).toString();
       let streamedContent = "";
 
-      // Initialize the empty message in the state only after connection succeeds
+      // Initialize the empty message in the state
       setMessages(prev => [...prev, {
         id: replyId,
         role: 'assistant',
@@ -264,22 +263,13 @@ export default function App() {
       
     } catch (error) {
       console.error("Error communicating with backend:", error);
-      // If we already added the empty message, update it with the error. Otherwise, append the error.
-      setMessages(prev => {
-        const msgExists = prev.some(m => m.id === replyId);
-        const errorMsg: Message = {
-          id: replyId,
-          content: "I'm having trouble connecting to the backend server. Please try again later or check your connection.",
-          role: 'refusal',
-          timestamp: new Date()
-        };
-        
-        if (msgExists) {
-          return prev.map(m => m.id === replyId ? errorMsg : m);
-        } else {
-          return [...prev, errorMsg];
-        }
-      });
+      const errorMsg: Message = {
+        id: (Date.now() + 1).toString(),
+        content: "I'm having trouble connecting to the backend server. Please make sure the Python API is running on localhost:8000.",
+        role: 'refusal',
+        timestamp: new Date()
+      };
+      setMessages(prev => [...prev, errorMsg]);
     } finally {
       setIsTyping(false);
     }

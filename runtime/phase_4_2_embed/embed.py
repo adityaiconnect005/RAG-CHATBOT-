@@ -6,7 +6,7 @@ from pathlib import Path
 from typing import List, Dict, Any
 
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-import chromadb.utils.embedding_functions as embedding_functions
+from sentence_transformers import SentenceTransformer
 
 # Setup logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -19,7 +19,7 @@ URLS_FILE = BASE_DIR / "runtime" / "phase_4_0_scrape" / "urls.json"
 EMBEDDED_DIR = BASE_DIR / "data" / "embedded"
 
 # Embedding Model
-EMBEDDING_MODEL_NAME = "default (all-MiniLM-L6-v2)"
+EMBEDDING_MODEL_NAME = "BAAI/bge-small-en-v1.5"
 
 def load_urls() -> Dict[str, str]:
     if not URLS_FILE.exists():
@@ -45,11 +45,7 @@ def main():
     chunks_file_path = EMBEDDED_DIR / "chunks.jsonl"
     
     logger.info(f"Loading embedding model: {EMBEDDING_MODEL_NAME}...")
-    ef = embedding_functions.DefaultEmbeddingFunction()
-    class ModelWrapper:
-        def encode(self, texts, normalize_embeddings=False):
-            return ef(texts)
-    model = ModelWrapper()
+    model = SentenceTransformer(EMBEDDING_MODEL_NAME)
     
     # Initialize Text Splitter
     text_splitter = RecursiveCharacterTextSplitter(

@@ -6,8 +6,6 @@ on:
     - cron: '45 3 * * *'
   workflow_dispatch:
     # Allows manual trigger
-  repository_dispatch:
-    types: [ping_cron]
 
 jobs:
   scrape-and-ingest:

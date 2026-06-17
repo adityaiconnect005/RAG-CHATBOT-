@@ -3,7 +3,7 @@ import json
 import random
 import datetime
 import requests
-import difflib
+import datetime
 from pathlib import Path
 from fastapi import FastAPI, HTTPException
 from fastapi.staticfiles import StaticFiles
@@ -183,58 +183,24 @@ def fetch_real_nav_history(fund_name: str, days: int = 90) -> list:
         return REAL_DATA_CACHE[fund_name]
         
     # 1. Search for scheme code
-    search_term = fund_name.replace("-", " ").strip()
-    search_res = requests.get(f"https://api.mfapi.in/mf/search?q={search_term}", timeout=10.0)
+    search_res = requests.get(f"https://api.mfapi.in/mf/search?q={fund_name}", timeout=1.5)
     search_res.raise_for_status()
     search_data = search_res.json()
     if not search_data:
         raise Exception(f"No scheme found for {fund_name}")
         
-    target_name = fund_name.replace("-", " ").lower()
-    target_words = set(target_name.split())
-    best_match = None
-    best_score = -1
+    scheme_code = search_data[0]['schemeCode']
     
-    for item in search_data:
-        name_lower = item['schemeName'].lower().replace("-", " ")
-        name_words = set(name_lower.split())
-        
-        common = target_words.intersection(name_words)
-        score = len(common) / len(target_words)
-        
-        penalty = len(name_words) * 0.01
-        score -= penalty
-            
-        if score > best_score:
-            best_score = score
-            best_match = item
-            
-    scheme_code = best_match['schemeCode'] if best_match else search_data[0]['schemeCode']
-
     # 2. Fetch history
-    history_res = requests.get(f"https://api.mfapi.in/mf/{scheme_code}", timeout=10.0)
+    history_res = requests.get(f"https://api.mfapi.in/mf/{scheme_code}", timeout=1.5)
     history_res.raise_for_status()
     history_data = history_res.json().get('data', [])
     
     if not history_data:
-        raise Exception(f"No history found for {fund_name}")
+        raise Exception("No history data returned")
         
-    # mfapi.in can sometimes return data Oldest First depending on the scheme
-    # We must enforce Newest First sorting before taking the slice
-    # Also filter out future dates or empty NAVs (e.g. Liquid funds declaring future NAVs as 0.0)
-    today_dt = datetime.datetime.now()
-    valid_history = []
-    for x in history_data:
-        try:
-            dt = datetime.datetime.strptime(x['date'], "%d-%m-%Y")
-            if dt <= today_dt and float(x['nav']) > 0:
-                valid_history.append((dt, x))
-        except:
-            pass
-            
-    valid_history.sort(key=lambda x: x[0], reverse=True)
-    history_data = [x[1] for x in valid_history]
-        
+    # 3. Process data (slice, reverse, format)
+    # mfapi returns newest first, so we slice up to `days` then reverse
     recent = history_data[:days]
     recent.reverse()
     

@@ -3,7 +3,6 @@ import json
 import logging
 from pathlib import Path
 from bs4 import BeautifulSoup
-import re
 
 # Setup logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -45,8 +44,6 @@ def convert_table_to_markdown(table):
 
 def extract_structured_data(soup, scheme_id):
     """Heuristic-based extraction of key numbers from the DOM."""
-    import re
-    
     facts = {
         "scheme_id": scheme_id,
         "nav": None,
@@ -59,40 +56,52 @@ def extract_structured_data(soup, scheme_id):
         "lock_in": None
     }
     
-    def get_next_value(label_regex):
-        tags = soup.find_all(string=re.compile(label_regex, re.I))
-        for tag in tags:
-            if len(tag.strip()) > 35: continue
-            parent = tag.parent
-            while parent and parent.name != 'body':
-                sibling = parent.find_next_sibling()
-                while sibling:
-                    text = sibling.get_text(strip=True)
-                    if text: return text[:50]
-                    sibling = sibling.find_next_sibling()
-                parent = parent.parent
-        return None
-
-    facts['expense_ratio'] = get_next_value(r'expense ratio')
-    facts['nav'] = get_next_value(r'^nav(:|$)')
-    facts['fund_size'] = get_next_value(r'fund size|aum')
-    facts['minimum_sip'] = get_next_value(r'minimum sip|min\. for sip')
-    facts['rating'] = get_next_value(r'^rating$')
-    
-    riskometer_tags = soup.find_all(string=re.compile(r'low risk|low to moderate risk|moderate risk|moderately high risk|high risk|very high risk', re.I))
-    if riskometer_tags:
-        facts['riskometer'] = riskometer_tags[0].strip()[:30]
+    for div in soup.find_all(['div', 'td', 'th', 'span']):
+        # We want leaf nodes or nodes with very little text
+        if div.find('div') is not None and div.name == 'div':
+            continue # skip parent divs to avoid grabbing concatenated text
+            
+        text = div.get_text(strip=True).lower()
+        if not text: continue
         
-    facts['benchmark'] = get_next_value(r'fund benchmark|benchmark')
+        # Expense Ratio
+        if 'expense ratio' in text and len(text) < 25 and not facts['expense_ratio']:
+            val = div.find_next_sibling()
+            if val: facts['expense_ratio'] = val.get_text(strip=True)[:20]
+                
+        # NAV
+        if text.startswith('nav:') and len(text) < 25 and not facts['nav']:
+            val = div.find_next_sibling()
+            if val: facts['nav'] = val.get_text(strip=True)[:20]
+                
+        # Fund Size / AUM
+        if ('fund size' in text or 'aum' in text) and len(text) < 25 and not facts['fund_size']:
+            val = div.find_next_sibling()
+            if val: facts['fund_size'] = val.get_text(strip=True)[:30]
+                
+        # Minimum SIP
+        if ('min. for sip' in text or 'minimum sip' in text) and len(text) < 25 and not facts['minimum_sip']:
+            val = div.find_next_sibling()
+            if val: facts['minimum_sip'] = val.get_text(strip=True)[:20]
+                
+        # Rating
+        if text == 'rating' and len(text) < 15 and not facts['rating']:
+            val = div.find_next_sibling()
+            if val: facts['rating'] = val.get_text(strip=True)[:10]
+            
+        # Riskometer
+        if text in ['low risk', 'low to moderate risk', 'moderate risk', 'moderately high risk', 'high risk', 'very high risk'] and not facts.get('riskometer'):
+            facts['riskometer'] = div.get_text(strip=True)[:30]
+            
+        # Benchmark
+        if ('fund benchmark' in text or 'benchmark' in text) and len(text) < 25 and not facts.get('benchmark'):
+            val = div.find_next_sibling()
+            if val: facts['benchmark'] = val.get_text(strip=True)[:50]
+            
+        # Lock-in
+        if ('lock-in' in text or 'lock in' in text) and len(text) < 30 and not facts.get('lock_in'):
+            facts['lock_in'] = div.get_text(strip=True)[:30]
     
-    lock_in_tags = soup.find_all(string=re.compile(r'lock-in|lock in', re.I))
-    if lock_in_tags:
-        for t in lock_in_tags:
-            text = t.parent.get_text(strip=True)
-            if len(text) < 30:
-                facts['lock_in'] = text
-                break
-
     return facts
 
 def process_html_file(file_path):
@@ -132,12 +141,6 @@ def process_html_file(file_path):
         
     # 4. Output Generation
     clean_text = soup.get_text(separator='\n\n', strip=True)
-    
-    # Strip stale NAV dates from Groww (e.g. "NAV: 12 Jun '26") so Chatbot doesn't hallucinate old dates
-    clean_text = re.sub(r"NAV:\s+\d{1,2}\s+[a-zA-Z]{3}\s+'\d{2}", "NAV:", clean_text)
-    
-    # Strip stale "as of" dates for Expense Ratio, AUM, etc. (e.g. "as of 13 Jun 2026")
-    clean_text = re.sub(r"\s*as of \d{1,2}\s+[a-zA-Z]{3}\s+\d{2,4}", "", clean_text, flags=re.IGNORECASE)
     
     # Basic cleanup of excessive newlines
     lines = [line.strip() for line in clean_text.splitlines() if line.strip()]
