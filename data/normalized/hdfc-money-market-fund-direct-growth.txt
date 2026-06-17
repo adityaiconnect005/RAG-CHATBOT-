@@ -218,7 +218,7 @@ Ctrl+K
 
 All
 
-NAV: 12 Jun '26
+NAV:
 
 ₹6,181.81
 
@@ -730,7 +730,7 @@ About HDFC Money Market Fund Direct Growth
 
 HDFC Money Market Fund Direct Growth is a Debt Mutual Fund Scheme launched by HDFC Mutual Fund. This scheme was made available to investors on 10 Dec 1999. Praveen Jain is the Current Fund Manager of HDFC Money Market Fund Direct Growth fund. The fund currently has an Asset Under Management(AUM) of
 
-HDFC Money Market Fund Direct Growth is a Debt Mutual Fund Scheme launched by HDFC Mutual Fund. This scheme was made available to investors on 10 Dec 1999. Praveen Jain is the Current Fund Manager of HDFC Money Market Fund Direct Growth fund. The fund currently has an Asset Under Management(AUM) of ₹9,34,238 Cr and the Latest NAV as of 12 Jun 2026 is ₹6,181.81.
+HDFC Money Market Fund Direct Growth is a Debt Mutual Fund Scheme launched by HDFC Mutual Fund. This scheme was made available to investors on 10 Dec 1999. Praveen Jain is the Current Fund Manager of HDFC Money Market Fund Direct Growth fund. The fund currently has an Asset Under Management(AUM) of ₹9,34,238 Cr and the Latest NAV is ₹6,181.81.
 
 The HDFC Money Market Fund Direct Growth is rated Moderate risk. Minimum SIP Investment is set to ₹100. Minimum Lumpsum Investment is ₹100.
 
@@ -862,7 +862,7 @@ used for HDFC Money Market Fund Direct Growth or any other mutual fund is the an
 
 charges one needs to pay to the Mutual Fund company for managing your investments in that fund.
 
-The Expense Ratio of HDFC Money Market Fund Direct Growth is 0.22% as of 13 Jun 2026...
+The Expense Ratio of HDFC Money Market Fund Direct Growth is 0.22%...
 
 What is the AUM of HDFC Money Market Fund Direct Growth?
 
@@ -870,7 +870,7 @@ The AUM, short for
 
 Assets Under Management
 
-of HDFC Money Market Fund Direct Growth is ₹28,704.74Cr as of 13 Jun 2026.
+of HDFC Money Market Fund Direct Growth is ₹28,704.74Cr.
 
 How to Redeem HDFC Money Market Fund Direct Growth?
 
@@ -896,7 +896,7 @@ your investment objective and risk tolerance.
 
 What is the NAV of HDFC Money Market Fund Direct Growth?
 
-The NAV of HDFC Money Market Fund Direct Growth is ₹6,181.81 as of 12 Jun 2026.
+The NAV of HDFC Money Market Fund Direct Growth is ₹6,181.81.
 
 What is the PE and PB ratio of HDFC Money Market Fund Direct Growth?
 

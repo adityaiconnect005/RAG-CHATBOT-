@@ -3,6 +3,7 @@ import json
 import logging
 from pathlib import Path
 from bs4 import BeautifulSoup
+import re
 
 # Setup logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -131,6 +132,12 @@ def process_html_file(file_path):
         
     # 4. Output Generation
     clean_text = soup.get_text(separator='\n\n', strip=True)
+    
+    # Strip stale NAV dates from Groww (e.g. "NAV: 12 Jun '26") so Chatbot doesn't hallucinate old dates
+    clean_text = re.sub(r"NAV:\s+\d{1,2}\s+[a-zA-Z]{3}\s+'\d{2}", "NAV:", clean_text)
+    
+    # Strip stale "as of" dates for Expense Ratio, AUM, etc. (e.g. "as of 13 Jun 2026")
+    clean_text = re.sub(r"\s*as of \d{1,2}\s+[a-zA-Z]{3}\s+\d{2,4}", "", clean_text, flags=re.IGNORECASE)
     
     # Basic cleanup of excessive newlines
     lines = [line.strip() for line in clean_text.splitlines() if line.strip()]

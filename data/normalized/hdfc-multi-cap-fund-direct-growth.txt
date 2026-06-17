@@ -238,7 +238,7 @@ Ctrl+K
 
 All
 
-NAV: 12 Jun '26
+NAV:
 
 ₹19.03
 
@@ -762,7 +762,7 @@ About HDFC Multi Cap Fund Direct Growth
 
 HDFC Multi Cap Fund Direct Growth is a Equity Mutual Fund Scheme launched by HDFC Mutual Fund. This scheme was made available to investors on 10 Dec 1999. Amar Kalkundrikar is the Current Fund Manager of HDFC Multi Cap Fund Direct Growth fund. The fund currently has an Asset Under Management(AUM) of
 
-HDFC Multi Cap Fund Direct Growth is a Equity Mutual Fund Scheme launched by HDFC Mutual Fund. This scheme was made available to investors on 10 Dec 1999. Amar Kalkundrikar is the Current Fund Manager of HDFC Multi Cap Fund Direct Growth fund. The fund currently has an Asset Under Management(AUM) of ₹9,34,238 Cr and the Latest NAV as of 12 Jun 2026 is ₹19.03.
+HDFC Multi Cap Fund Direct Growth is a Equity Mutual Fund Scheme launched by HDFC Mutual Fund. This scheme was made available to investors on 10 Dec 1999. Amar Kalkundrikar is the Current Fund Manager of HDFC Multi Cap Fund Direct Growth fund. The fund currently has an Asset Under Management(AUM) of ₹9,34,238 Cr and the Latest NAV is ₹19.03.
 
 The HDFC Multi Cap Fund Direct Growth is rated Very High risk. Minimum SIP Investment is set to ₹100. Minimum Lumpsum Investment is ₹100. Exit load of 1% if redeemed within 1 year.
 
@@ -902,7 +902,7 @@ used for HDFC Multi Cap Fund Direct Growth or any other mutual fund is the annua
 
 charges one needs to pay to the Mutual Fund company for managing your investments in that fund.
 
-The Expense Ratio of HDFC Multi Cap Fund Direct Growth is 0.97% as of 13 Jun 2026...
+The Expense Ratio of HDFC Multi Cap Fund Direct Growth is 0.97%...
 
 What is the AUM of HDFC Multi Cap Fund Direct Growth?
 
@@ -910,7 +910,7 @@ The AUM, short for
 
 Assets Under Management
 
-of HDFC Multi Cap Fund Direct Growth is ₹19,580.68Cr as of 13 Jun 2026.
+of HDFC Multi Cap Fund Direct Growth is ₹19,580.68Cr.
 
 How to Redeem HDFC Multi Cap Fund Direct Growth?
 
@@ -936,7 +936,7 @@ your investment objective and risk tolerance.
 
 What is the NAV of HDFC Multi Cap Fund Direct Growth?
 
-The NAV of HDFC Multi Cap Fund Direct Growth is ₹19.03 as of 12 Jun 2026.
+The NAV of HDFC Multi Cap Fund Direct Growth is ₹19.03.
 
 What is the PE and PB ratio of HDFC Multi Cap Fund Direct Growth?
 

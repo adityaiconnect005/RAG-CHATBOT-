@@ -240,7 +240,7 @@ Ctrl+K
 
 All
 
-NAV: 12 Jun '26
+NAV:
 
 ₹840.27
 
@@ -694,7 +694,7 @@ About HDFC Value Fund Direct Plan Growth
 
 HDFC Value Fund Direct Plan Growth is a Equity Mutual Fund Scheme launched by HDFC Mutual Fund. This scheme was made available to investors on 10 Dec 1999. Gopal Agrawal is the Current Fund Manager of HDFC Value Fund Direct Plan Growth fund. The fund currently has an Asset Under Management(AUM) of ₹
 
-HDFC Value Fund Direct Plan Growth is a Equity Mutual Fund Scheme launched by HDFC Mutual Fund. This scheme was made available to investors on 10 Dec 1999. Gopal Agrawal is the Current Fund Manager of HDFC Value Fund Direct Plan Growth fund. The fund currently has an Asset Under Management(AUM) of ₹9,34,238 Cr and the Latest NAV as of 12 Jun 2026 is ₹840.27.
+HDFC Value Fund Direct Plan Growth is a Equity Mutual Fund Scheme launched by HDFC Mutual Fund. This scheme was made available to investors on 10 Dec 1999. Gopal Agrawal is the Current Fund Manager of HDFC Value Fund Direct Plan Growth fund. The fund currently has an Asset Under Management(AUM) of ₹9,34,238 Cr and the Latest NAV is ₹840.27.
 
 The HDFC Value Fund Direct Plan Growth is rated Very High risk. Minimum SIP Investment is set to ₹100. Minimum Lumpsum Investment is ₹100. Exit load of 1% if redeemed within 1 year
 
@@ -834,7 +834,7 @@ used for HDFC Value Fund Direct Plan Growth or any other mutual fund is the annu
 
 charges one needs to pay to the Mutual Fund company for managing your investments in that fund.
 
-The Expense Ratio of HDFC Value Fund Direct Plan Growth is 1.14% as of 13 Jun 2026...
+The Expense Ratio of HDFC Value Fund Direct Plan Growth is 1.14%...
 
 What is the AUM of HDFC Value Fund Direct Plan Growth?
 
@@ -842,7 +842,7 @@ The AUM, short for
 
 Assets Under Management
 
-of HDFC Value Fund Direct Plan Growth is ₹7,313.73Cr as of 13 Jun 2026.
+of HDFC Value Fund Direct Plan Growth is ₹7,313.73Cr.
 
 How to Redeem HDFC Value Fund Direct Plan Growth?
 
@@ -868,7 +868,7 @@ your investment objective and risk tolerance.
 
 What is the NAV of HDFC Value Fund Direct Plan Growth?
 
-The NAV of HDFC Value Fund Direct Plan Growth is ₹840.27 as of 12 Jun 2026.
+The NAV of HDFC Value Fund Direct Plan Growth is ₹840.27.
 
 What is the PE and PB ratio of HDFC Value Fund Direct Plan Growth?
 

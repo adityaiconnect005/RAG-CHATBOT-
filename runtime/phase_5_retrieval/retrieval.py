@@ -1,4 +1,4 @@
-﻿import os
+import os
 os.environ['OMP_NUM_THREADS'] = '1'
 os.environ['MKL_NUM_THREADS'] = '1'
 os.environ['OPENBLAS_NUM_THREADS'] = '1'
@@ -10,7 +10,7 @@ import argparse
 from pathlib import Path
 
 import chromadb
-from sentence_transformers import SentenceTransformer
+import chromadb.utils.embedding_functions as embedding_functions
 from dotenv import load_dotenv
 
 # Setup logging
@@ -29,9 +29,12 @@ EMBEDDING_MODEL = None
 def get_embedding_model():
     global EMBEDDING_MODEL
     if EMBEDDING_MODEL is None:
-        logger.info("Loading embedding model (BAAI/bge-small-en-v1.5) lazily...")
-        logging.getLogger("sentence_transformers").setLevel(logging.WARNING)
-        EMBEDDING_MODEL = SentenceTransformer('BAAI/bge-small-en-v1.5')
+        logger.info("Loading embedding model (default all-MiniLM-L6-v2) lazily...")
+        ef = embedding_functions.DefaultEmbeddingFunction()
+        class ModelWrapper:
+            def encode(self, texts, normalize_embeddings=False):
+                return ef(texts)
+        EMBEDDING_MODEL = ModelWrapper()
     return EMBEDDING_MODEL
 
 def retrieve(query: str, top_k: int = 5) -> dict:
@@ -68,9 +71,8 @@ def retrieve(query: str, top_k: int = 5) -> dict:
     collection = client.get_collection(name=COLLECTION_NAME)
     
     # 2. Embed the query
-    # BGE specifically requires this prefix for queries
-    query_prefix = "Represent this sentence for searching relevant passages: "
-    full_query = query_prefix + query
+    # Default embedding doesn't need the BGE prefix, so we just use the raw query
+    full_query = query
     
     logger.info(f"Embedding query: '{query}'")
     query_embedding = get_embedding_model().encode([full_query], normalize_embeddings=True)[0].tolist()
