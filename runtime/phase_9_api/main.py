@@ -36,6 +36,9 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+import asyncio
+from runtime.inject_returns import inject_returns
+
 @app.on_event("startup")
 def preload_model():
     print("Pre-loading embedding model on startup to avoid OOM or timeout during chat...")
@@ -45,6 +48,29 @@ def preload_model():
         print("Model pre-loaded successfully.")
     except Exception as e:
         print(f"Error pre-loading model: {e}")
+        
+    asyncio.create_task(background_nav_updater())
+
+async def background_nav_updater():
+    """Runs in the background and updates scheme_facts.json every 12 hours"""
+    while True:
+        try:
+            print("Running background NAV auto-updater...")
+            # Run in a separate thread so it doesn't block the async event loop
+            await asyncio.to_thread(inject_returns)
+            
+            # Reload SCHEME_FACTS
+            global SCHEME_FACTS
+            if FACTS_PATH.exists():
+                with open(FACTS_PATH, "r", encoding="utf-8") as f:
+                    SCHEME_FACTS = json.load(f)
+                    
+            print("Background NAV auto-updater completed.")
+        except Exception as e:
+            print(f"Background auto-updater failed: {e}")
+            
+        # Sleep for 12 hours
+        await asyncio.sleep(12 * 3600)
 
 # API Models
 class ChatRequest(BaseModel):
@@ -174,13 +200,18 @@ def get_exact_risk_level(fund_name: str) -> str:
         return "High"
     return "Very High"
 
-# In-memory cache to prevent repeated slow API calls
+# In-memory cache with TTL to prevent serving stale data forever
 REAL_DATA_CACHE = {}
+CACHE_TTL_SECONDS = 2 * 3600 # 2 hours
 
 def fetch_real_nav_history(fund_name: str, days: int = 90) -> list:
     """Fetches real NAV data from mfapi.in"""
+    now = datetime.datetime.now()
     if fund_name in REAL_DATA_CACHE:
-        return REAL_DATA_CACHE[fund_name]
+        cached_entry = REAL_DATA_CACHE[fund_name]
+        # Return cache if it's less than 2 hours old
+        if (now - cached_entry["time"]).total_seconds() < CACHE_TTL_SECONDS:
+            return cached_entry["data"]
         
     # 1. Search for scheme code
     search_term = fund_name.replace("-", " ").strip()
@@ -247,7 +278,10 @@ def fetch_real_nav_history(fund_name: str, days: int = 90) -> list:
             "nav": float(item['nav'])
         })
         
-    REAL_DATA_CACHE[fund_name] = formatted_history
+    REAL_DATA_CACHE[fund_name] = {
+        "time": now,
+        "data": formatted_history
+    }
     return formatted_history
 
 @app.get("/api/funds/history")

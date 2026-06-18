@@ -19,50 +19,51 @@ def inject_returns():
         
     updated = 0
     
-    for file_path in raw_dir.glob("*.html"):
-        scheme_id = file_path.stem
-        if scheme_id not in facts_db:
-            continue
-            
-        with open(file_path, 'r', encoding='utf-8') as f:
-            html_content = f.read()
-            
-        soup = BeautifulSoup(html_content, 'html.parser')
-        
+    for scheme_id in facts_db.keys():
+        file_path = raw_dir / f"{scheme_id}.html"
         found_data = False
-        for table in soup.find_all('table'):
-            if 'Fund returns' in table.text:
-                # Find headers
-                headers = []
-                thead = table.find('thead')
-                if thead:
-                    headers = [th.get_text(strip=True) for th in thead.find_all(['th', 'td'])]
-                else:
-                    first_tr = table.find('tr')
-                    if first_tr:
-                        headers = [th.get_text(strip=True) for th in first_tr.find_all(['th', 'td'])]
+        
+        if file_path.exists():
+            with open(file_path, 'r', encoding='utf-8') as f:
+                html_content = f.read()
                 
-                # Find the row with 'Fund returns'
-                for row in table.find_all('tr'):
-                    cells = [td.get_text(strip=True) for td in row.find_all(['td', 'th'])]
-                    if cells and cells[0] == 'Fund returns':
-                        for i, header in enumerate(headers):
-                            if i < len(cells):
-                                if '1Y' in header:
-                                    facts_db[scheme_id]['return1y'] = cells[i]
-                                elif '3Y' in header:
-                                    facts_db[scheme_id]['return3y'] = cells[i]
-                                elif '5Y' in header:
-                                    facts_db[scheme_id]['return5y'] = cells[i]
-                        found_data = True
-                        break
-                if found_data:
-                    break
+            soup = BeautifulSoup(html_content, 'html.parser')
+            
+            for table in soup.find_all('table'):
+                if 'Fund returns' in table.text:
+                    # Find headers
+                    headers = []
+                    thead = table.find('thead')
+                    if thead:
+                        headers = [th.get_text(strip=True) for th in thead.find_all(['th', 'td'])]
+                    else:
+                        first_tr = table.find('tr')
+                        if first_tr:
+                            headers = [th.get_text(strip=True) for th in first_tr.find_all(['th', 'td'])]
                     
-        if found_data:
-            updated += 1
+                    # Find the row with 'Fund returns'
+                    for row in table.find_all('tr'):
+                        cells = [td.get_text(strip=True) for td in row.find_all(['td', 'th'])]
+                        if cells and cells[0] == 'Fund returns':
+                            for i, header in enumerate(headers):
+                                if i < len(cells):
+                                    if '1Y' in header:
+                                        facts_db[scheme_id]['return1y'] = cells[i]
+                                    elif '3Y' in header:
+                                        facts_db[scheme_id]['return3y'] = cells[i]
+                                    elif '5Y' in header:
+                                        facts_db[scheme_id]['return5y'] = cells[i]
+                            found_data = True
+                            break
+                    if found_data:
+                        break
+                        
+            if found_data:
+                updated += 1
+            else:
+                print(f"No table found for {scheme_id}")
         else:
-            print(f"No table found for {scheme_id}")
+            print(f"Skipping HTML parse for {scheme_id}: HTML file missing")
             
         # 2. Update NAV with Live Data from mfapi.in
         max_retries = 3
