@@ -221,8 +221,8 @@ def fetch_real_nav_history(fund_name: str, days: int = 90) -> list:
     if not search_data:
         raise Exception(f"No scheme found for {fund_name}")
         
-    target_name = fund_name.replace("-", " ").lower()
-    target_words = set(target_name.split())
+    # Fuzzy Name Matching via Set Word Intersection
+    target_words = set(search_term.lower().split())
     best_match = None
     best_score = -1
     
@@ -231,11 +231,12 @@ def fetch_real_nav_history(fund_name: str, days: int = 90) -> list:
         name_words = set(name_lower.split())
         
         common = target_words.intersection(name_words)
-        score = len(common) / len(target_words)
+        score = len(common) / len(target_words.union(name_words))
         
+        # Tie-breaker logic: favor funds that don't have extra words like "Equity" or "Plan B"
         penalty = len(name_words) * 0.01
         score -= penalty
-            
+        
         if score > best_score:
             best_score = score
             best_match = item
