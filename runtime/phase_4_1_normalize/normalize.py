@@ -43,7 +43,9 @@ def convert_table_to_markdown(table):
     return markdown
 
 def extract_structured_data(soup, scheme_id):
-    """Heuristic-based extraction of key numbers from the DOM."""
+    """Extraction of key numbers from __NEXT_DATA__ JSON in the DOM."""
+    import logging
+    logger = logging.getLogger(__name__)
     facts = {
         "scheme_id": scheme_id,
         "nav": None,
@@ -56,52 +58,35 @@ def extract_structured_data(soup, scheme_id):
         "lock_in": None
     }
     
-    for div in soup.find_all(['div', 'td', 'th', 'span']):
-        # We want leaf nodes or nodes with very little text
-        if div.find('div') is not None and div.name == 'div':
-            continue # skip parent divs to avoid grabbing concatenated text
+    script = soup.find('script', id='__NEXT_DATA__')
+    if script and script.string:
+        try:
+            import json
+            data = json.loads(script.string)
+            props = data.get('props') or {}
+            pageProps = props.get('pageProps') or {}
+            mf_data = pageProps.get('mfServerSideData') or {}
             
-        text = div.get_text(strip=True).lower()
-        if not text: continue
-        
-        # Expense Ratio
-        if 'expense ratio' in text and len(text) < 25 and not facts['expense_ratio']:
-            val = div.find_next_sibling()
-            if val: facts['expense_ratio'] = val.get_text(strip=True)[:20]
+            if mf_data:
+                facts['expense_ratio'] = str(mf_data.get('expense_ratio')) + "%" if mf_data.get('expense_ratio') is not None else None
                 
-        # NAV
-        if text.startswith('nav:') and len(text) < 25 and not facts['nav']:
-            val = div.find_next_sibling()
-            if val: facts['nav'] = val.get_text(strip=True)[:20]
+                # Format AUM nicely
+                aum = mf_data.get('aum')
+                if aum is not None:
+                    facts['fund_size'] = f"₹{aum:,.2f} Cr"
+                    
+                facts['minimum_sip'] = f"₹{mf_data.get('min_sip_investment')}" if mf_data.get('min_sip_investment') is not None else None
+                facts['rating'] = str(mf_data.get('groww_rating')) if mf_data.get('groww_rating') is not None else "--"
+                facts['riskometer'] = mf_data.get('nfo_risk')
+                facts['benchmark'] = mf_data.get('benchmark_name')
                 
-        # Fund Size / AUM
-        if ('fund size' in text or 'aum' in text) and len(text) < 25 and not facts['fund_size']:
-            val = div.find_next_sibling()
-            if val: facts['fund_size'] = val.get_text(strip=True)[:30]
+                lock_in = mf_data.get('additional_details') or {}
+                lock_in_yrs = lock_in.get('lock_in_yrs')
+                facts['lock_in'] = f"{lock_in_yrs} Years" if lock_in_yrs else None
                 
-        # Minimum SIP
-        if ('min. for sip' in text or 'minimum sip' in text) and len(text) < 25 and not facts['minimum_sip']:
-            val = div.find_next_sibling()
-            if val: facts['minimum_sip'] = val.get_text(strip=True)[:20]
-                
-        # Rating
-        if text == 'rating' and len(text) < 15 and not facts['rating']:
-            val = div.find_next_sibling()
-            if val: facts['rating'] = val.get_text(strip=True)[:10]
+        except Exception as e:
+            logger.error(f"Error parsing __NEXT_DATA__ for {scheme_id}: {e}")
             
-        # Riskometer
-        if text in ['low risk', 'low to moderate risk', 'moderate risk', 'moderately high risk', 'high risk', 'very high risk'] and not facts.get('riskometer'):
-            facts['riskometer'] = div.get_text(strip=True)[:30]
-            
-        # Benchmark
-        if ('fund benchmark' in text or 'benchmark' in text) and len(text) < 25 and not facts.get('benchmark'):
-            val = div.find_next_sibling()
-            if val: facts['benchmark'] = val.get_text(strip=True)[:50]
-            
-        # Lock-in
-        if ('lock-in' in text or 'lock in' in text) and len(text) < 30 and not facts.get('lock_in'):
-            facts['lock_in'] = div.get_text(strip=True)[:30]
-    
     return facts
 
 def process_html_file(file_path):
@@ -117,13 +102,13 @@ def process_html_file(file_path):
     soup = BeautifulSoup(html_content, 'html.parser')
     scheme_id = file_path.stem
     
-    # 1. Boilerplate Stripping (Scripts/Styles only first)
+    # 1. Extract Structured Data FIRST before deleting scripts
+    facts = extract_structured_data(soup, scheme_id)
+    
+    # 2. Boilerplate Stripping (Scripts/Styles)
     for element in soup(["script", "style", "svg", "iframe", "noscript"]):
         element.decompose()
         
-    # 2. Extract Structured Data
-    facts = extract_structured_data(soup, scheme_id)
-    
     # 3. Boilerplate Stripping (UI elements)
     for element in soup(["nav", "footer", "header", "aside", "button"]):
         element.decompose()

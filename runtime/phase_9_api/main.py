@@ -48,29 +48,6 @@ def preload_model():
         print("Model pre-loaded successfully.")
     except Exception as e:
         print(f"Error pre-loading model: {e}")
-        
-    asyncio.create_task(background_nav_updater())
-
-async def background_nav_updater():
-    """Runs in the background and updates scheme_facts.json every 12 hours"""
-    while True:
-        try:
-            print("Running background NAV auto-updater...")
-            # Run in a separate thread so it doesn't block the async event loop
-            await asyncio.to_thread(inject_returns)
-            
-            # Reload SCHEME_FACTS
-            global SCHEME_FACTS
-            if FACTS_PATH.exists():
-                with open(FACTS_PATH, "r", encoding="utf-8") as f:
-                    SCHEME_FACTS = json.load(f)
-                    
-            print("Background NAV auto-updater completed.")
-        except Exception as e:
-            print(f"Background auto-updater failed: {e}")
-            
-        # Sleep for 12 hours
-        await asyncio.sleep(12 * 3600)
 
 # API Models
 class ChatRequest(BaseModel):
