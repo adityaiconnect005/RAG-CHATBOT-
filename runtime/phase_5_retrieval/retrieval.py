@@ -1,4 +1,4 @@
-﻿import os
+import os
 os.environ['OMP_NUM_THREADS'] = '1'
 os.environ['MKL_NUM_THREADS'] = '1'
 os.environ['OPENBLAS_NUM_THREADS'] = '1'
@@ -10,8 +10,9 @@ import argparse
 from pathlib import Path
 
 import chromadb
-from sentence_transformers import SentenceTransformer
 from dotenv import load_dotenv
+import requests
+import logging
 
 # Setup logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -23,16 +24,49 @@ load_dotenv(BASE_DIR / ".env")
 
 COLLECTION_NAME = "hdfc_mutual_funds"
 
-# Initialize the embedding model lazily so it doesn't block API startup
-EMBEDDING_MODEL = None
+def get_embedding(query: str) -> list:
+    """
+    Fetches the embedding for the query from the free HuggingFace Inference API.
+    This avoids loading the massive PyTorch model locally.
+    """
+    hf_token = os.environ.get("HF_TOKEN", "").strip()
+    headers = {"Authorization": f"Bearer {hf_token}"} if hf_token else {}
+    
+    # BGE specifically requires this prefix for queries
+    query_prefix = "Represent this sentence for searching relevant passages: "
+    full_query = query_prefix + query
+    
+    logger.info("Calling HuggingFace Inference API for embeddings...")
+    for attempt in range(3):
+        try:
+            res = requests.post(
+                "https://api-inference.huggingface.co/pipeline/feature-extraction/BAAI/bge-small-en-v1.5",
+                headers=headers,
+                json={"inputs": [full_query]},
+                timeout=10
+            )
+            if res.status_code == 200:
+                embeddings = res.json()
+                if isinstance(embeddings, list) and len(embeddings) > 0:
+                    vector = embeddings[0]
+                    # Normalize vector
+                    norm = sum(x**2 for x in vector) ** 0.5
+                    if norm > 0:
+                        vector = [x/norm for x in vector]
+                    return vector
+            elif res.status_code == 503:
+                # Model is loading on HF servers, wait and retry
+                import time
+                time.sleep(2)
+                continue
+            else:
+                logger.error(f"HF API returned {res.status_code}: {res.text}")
+        except Exception as e:
+            logger.error(f"HF API Request failed: {e}")
+            
+    # Fallback to zero vector if completely down (so the app doesn't crash)
+    return [0.0] * 384
 
-def get_embedding_model():
-    global EMBEDDING_MODEL
-    if EMBEDDING_MODEL is None:
-        logger.info("Loading embedding model (BAAI/bge-small-en-v1.5) lazily...")
-        logging.getLogger("sentence_transformers").setLevel(logging.WARNING)
-        EMBEDDING_MODEL = SentenceTransformer('BAAI/bge-small-en-v1.5')
-    return EMBEDDING_MODEL
 
 def retrieve(query: str, top_k: int = 5) -> dict:
     """
@@ -68,12 +102,9 @@ def retrieve(query: str, top_k: int = 5) -> dict:
     collection = client.get_collection(name=COLLECTION_NAME)
     
     # 2. Embed the query
-    # BGE specifically requires this prefix for queries
-    query_prefix = "Represent this sentence for searching relevant passages: "
-    full_query = query_prefix + query
-    
     logger.info(f"Embedding query: '{query}'")
-    query_embedding = get_embedding_model().encode([full_query], normalize_embeddings=True)[0].tolist()
+    query_embedding = get_embedding(query)
+
     
     # 3. Resolve Scheme via Query Router
     sys.path.append(str(BASE_DIR))
