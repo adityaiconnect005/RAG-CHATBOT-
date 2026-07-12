@@ -74,18 +74,6 @@
     "return3y": "+16.6%",
     "return5y": "+16.9%"
   },
-  "hdfc-nifty200-momentum-30-index-fund-direct-growth": {
-    "scheme_id": "hdfc-nifty200-momentum-30-index-fund-direct-growth",
-    "nav": null,
-    "expense_ratio": "0.37%",
-    "fund_size": "\u20b9620.44 Cr",
-    "minimum_sip": "\u20b9100",
-    "rating": "--",
-    "riskometer": "Very High",
-    "benchmark": "Nifty 200 Momentum 30 Total Return Index",
-    "lock_in": null,
-    "return1y": "-3.4%"
-  },
   "hdfc-nifty-50-index-fund-direct-growth": {
     "scheme_id": "hdfc-nifty-50-index-fund-direct-growth",
     "nav": "Rs 17.09830 (as of 10-07-2026)",
@@ -150,7 +138,7 @@
   },
   "hdfc-liquid-fund-direct-growth": {
     "scheme_id": "hdfc-liquid-fund-direct-growth",
-    "nav": "Rs 5517.55250 (as of 10-07-2026)",
+    "nav": "Rs 5519.34690 (as of 12-07-2026)",
     "expense_ratio": "0.2%",
     "fund_size": "\u20b965,878.25 Cr",
     "minimum_sip": "\u20b9100",
@@ -368,7 +356,7 @@
   },
   "hdfc-mid-cap-fund-direct-growth": {
     "scheme_id": "hdfc-mid-cap-fund-direct-growth",
-    "nav": null,
+    "nav": "Rs 231.97000 (as of 10-07-2026)",
     "expense_ratio": "0.75%",
     "fund_size": "\u20b9100,858.31 Cr",
     "minimum_sip": "\u20b9100",
