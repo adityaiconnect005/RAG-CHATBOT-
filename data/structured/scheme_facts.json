@@ -46,8 +46,8 @@
     "riskometer": "Very High",
     "benchmark": "Nifty India Defence Total Return Index",
     "lock_in": null,
-    "return1y": "+22.8%",
-    "return3y": "+41.3%"
+    "return1y": "+23.2%",
+    "return3y": "+41.0%"
   },
   "hdfc-money-market-fund-direct-growth": {
     "scheme_id": "hdfc-money-market-fund-direct-growth",
@@ -85,7 +85,7 @@
     "riskometer": "Moderately High Riskometer",
     "benchmark": "NIFTY 50 Hybrid Composite Debt 50:50 Index",
     "lock_in": null,
-    "return3y": "+13.4%",
+    "return3y": "+13.2%",
     "return5y": "+15.2%"
   },
   "hdfc-equity-fund-direct-growth": {
@@ -260,12 +260,12 @@
     "riskometer": "Very High",
     "benchmark": "Nifty 500 Multicap 50:25:25 Total Return Index",
     "lock_in": null,
-    "return1y": "-3.5%",
+    "return1y": "-3.0%",
     "return3y": "+13.7%"
   },
   "hdfc-liquid-fund-direct-growth": {
     "scheme_id": "hdfc-liquid-fund-direct-growth",
-    "nav": "Rs 5529.82080 (as of 24-07-2026)",
+    "nav": "Rs 5531.64700 (as of 26-07-2026)",
     "expense_ratio": "0.2%",
     "fund_size": "\u20b965,878.25 Cr",
     "minimum_sip": "\u20b9100",
@@ -298,7 +298,7 @@
     "riskometer": "Very High",
     "benchmark": "NIFTY Next 50 Total Return Index",
     "lock_in": null,
-    "return1y": "+5.7%",
+    "return1y": "+5.8%",
     "return3y": "+17.8%"
   },
   "hdfc-taxsaver-direct-growth": {
@@ -324,8 +324,8 @@
     "riskometer": "Moderately High Riskometer",
     "benchmark": "Domestic Price of Gold",
     "lock_in": null,
-    "return3y": "+32.7%",
-    "return5y": "+23.5%"
+    "return3y": "+32.6%",
+    "return5y": "+23.3%"
   },
   "hdfc-mid-cap-fund-direct-growth": {
     "scheme_id": "hdfc-mid-cap-fund-direct-growth",
