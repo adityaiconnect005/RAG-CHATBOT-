@@ -22,7 +22,7 @@
     "riskometer": "Very High",
     "benchmark": "BSE Teck Total Return Index",
     "lock_in": null,
-    "return1y": "-14.8%"
+    "return1y": "-15.2%"
   },
   "hdfc-nifty100-quality-30-index-fund-direct-growth": {
     "scheme_id": "hdfc-nifty100-quality-30-index-fund-direct-growth",
@@ -34,7 +34,7 @@
     "riskometer": "Very High",
     "benchmark": "NIFTY 100 Quality 30 Total Return Index",
     "lock_in": null,
-    "return1y": "-0.7%"
+    "return1y": "+0.9%"
   },
   "hdfc-defence-fund-direct-growth": {
     "scheme_id": "hdfc-defence-fund-direct-growth",
@@ -131,14 +131,13 @@
   "hdfc-pharma-and-healthcare-fund-direct-growth": {
     "scheme_id": "hdfc-pharma-and-healthcare-fund-direct-growth",
     "nav": "Rs 21.25300 (as of 24-07-2026)",
-    "expense_ratio": "1.12%",
-    "fund_size": "\u20b92,611.33 Cr",
-    "minimum_sip": "\u20b9100",
-    "rating": "--",
-    "riskometer": "Very High",
-    "benchmark": "BSE Healthcare Total Return Index",
-    "lock_in": null,
-    "return1y": "+19.3%"
+    "expense_ratio": null,
+    "fund_size": null,
+    "minimum_sip": null,
+    "rating": null,
+    "riskometer": null,
+    "benchmark": null,
+    "lock_in": null
   },
   "hdfc-large-and-mid-cap-fund-direct-growth": {
     "scheme_id": "hdfc-large-and-mid-cap-fund-direct-growth",
@@ -163,7 +162,7 @@
     "riskometer": "Very High",
     "benchmark": "NIFTY 100 Low Volatility 30 Total Return Index",
     "lock_in": null,
-    "return1y": "+0.2%"
+    "return1y": "+1.0%"
   },
   "hdfc-mutual-funds": {
     "scheme_id": "hdfc-mutual-funds",
@@ -212,7 +211,7 @@
     "riskometer": "Very High",
     "benchmark": "Nifty 200 Momentum 30 Total Return Index",
     "lock_in": null,
-    "return1y": "-2.3%"
+    "return1y": "-2.9%"
   },
   "hdfc-bse-sensex-index-fund-direct-growth": {
     "scheme_id": "hdfc-bse-sensex-index-fund-direct-growth",
@@ -237,7 +236,7 @@
     "riskometer": "Very High",
     "benchmark": "Nifty India Manufacturing Total Return Index",
     "lock_in": null,
-    "return1y": "+6.4%"
+    "return1y": "+5.6%"
   },
   "hdfc-top-100-fund-direct-growth": {
     "scheme_id": "hdfc-top-100-fund-direct-growth",
@@ -286,7 +285,7 @@
     "riskometer": "Very High",
     "benchmark": "Nifty Transportation & Logistics Total Return Index",
     "lock_in": null,
-    "return1y": "+13.5%"
+    "return1y": "+13.0%"
   },
   "hdfc-nifty-next-50-index-fund-direct-growth": {
     "scheme_id": "hdfc-nifty-next-50-index-fund-direct-growth",
