@@ -103,7 +103,7 @@
   },
   "hdfc-ultra-short-term-fund-direct-growth": {
     "scheme_id": "hdfc-ultra-short-term-fund-direct-growth",
-    "nav": "Rs 16.59240 (as of 07-08-2026)",
+    "nav": null,
     "expense_ratio": "0.39%",
     "fund_size": "\u20b916,677.73 Cr",
     "minimum_sip": "\u20b9100",
@@ -130,7 +130,7 @@
   },
   "hdfc-pharma-and-healthcare-fund-direct-growth": {
     "scheme_id": "hdfc-pharma-and-healthcare-fund-direct-growth",
-    "nav": "Rs 22.19000 (as of 07-08-2026)",
+    "nav": null,
     "expense_ratio": "1.11%",
     "fund_size": "\u20b92,611.33 Cr",
     "minimum_sip": "\u20b9100",
@@ -265,7 +265,7 @@
   },
   "hdfc-liquid-fund-direct-growth": {
     "scheme_id": "hdfc-liquid-fund-direct-growth",
-    "nav": "Rs 5544.13390 (as of 07-08-2026)",
+    "nav": "Rs 5545.95190 (as of 09-08-2026)",
     "expense_ratio": "0.2%",
     "fund_size": "\u20b965,870.42 Cr",
     "minimum_sip": "\u20b9100",
