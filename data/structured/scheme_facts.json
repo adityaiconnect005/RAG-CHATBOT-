@@ -1,7 +1,7 @@
 {
   "hdfc-liquid-fund-direct-growth": {
     "scheme_id": "hdfc-liquid-fund-direct-growth",
-    "nav": "Rs 5552.65940 (as of 16-08-2026)",
+    "nav": null,
     "expense_ratio": "0.2%",
     "fund_size": "\u20b965,870.42 Cr",
     "minimum_sip": "\u20b9100",
@@ -48,7 +48,7 @@
     "riskometer": "Very High",
     "benchmark": "Nifty 200 Momentum 30 Total Return Index",
     "lock_in": null,
-    "return1y": "+2.8%"
+    "return1y": "+2.5%"
   },
   "hdfc-pharma-and-healthcare-fund-direct-growth": {
     "scheme_id": "hdfc-pharma-and-healthcare-fund-direct-growth",
@@ -60,7 +60,7 @@
     "riskometer": "Very High",
     "benchmark": "BSE Healthcare Total Return Index",
     "lock_in": null,
-    "return1y": "+27.1%"
+    "return1y": "+25.0%"
   },
   "hdfc-manufacturing-fund-direct-growth": {
     "scheme_id": "hdfc-manufacturing-fund-direct-growth",
@@ -72,7 +72,7 @@
     "riskometer": "Very High",
     "benchmark": "Nifty India Manufacturing Total Return Index",
     "lock_in": null,
-    "return1y": "+15.3%"
+    "return1y": "+14.6%"
   },
   "hdfc-medium-term-debt-fund-direct-growth": {
     "scheme_id": "hdfc-medium-term-debt-fund-direct-growth",
@@ -110,7 +110,7 @@
     "riskometer": "Very High",
     "benchmark": "NIFTY 100 Quality 30 Total Return Index",
     "lock_in": null,
-    "return1y": "+6.7%"
+    "return1y": "+6.3%"
   },
   "hdfc-silver-etf-fof-direct-growth": {
     "scheme_id": "hdfc-silver-etf-fof-direct-growth",
@@ -153,7 +153,7 @@
   },
   "hdfc-equity-fund-direct-growth": {
     "scheme_id": "hdfc-equity-fund-direct-growth",
-    "nav": "Rs 12.94800 (as of 26-02-2018)",
+    "nav": null,
     "expense_ratio": "0.74%",
     "fund_size": "\u20b9110,736.41 Cr",
     "minimum_sip": "\u20b9100",
@@ -211,7 +211,7 @@
     "riskometer": "Very High",
     "benchmark": "Nifty Transportation & Logistics Total Return Index",
     "lock_in": null,
-    "return1y": "+23.9%"
+    "return1y": "+23.5%"
   },
   "hdfc-gold-etf-fund-of-fund-direct-plan-growth": {
     "scheme_id": "hdfc-gold-etf-fund-of-fund-direct-plan-growth",
@@ -331,7 +331,7 @@
   },
   "hdfc-low-duration-fund-direct-growth": {
     "scheme_id": "hdfc-low-duration-fund-direct-growth",
-    "nav": "Rs 67.32850 (as of 14-08-2026)",
+    "nav": null,
     "expense_ratio": "0.46%",
     "fund_size": "\u20b918,420.45 Cr",
     "minimum_sip": "\u20b9100",
@@ -352,7 +352,7 @@
     "riskometer": "Very High",
     "benchmark": "BSE Teck Total Return Index",
     "lock_in": null,
-    "return1y": "-6.5%"
+    "return1y": "-5.9%"
   },
   "hdfc-defence-fund-direct-growth": {
     "scheme_id": "hdfc-defence-fund-direct-growth",
@@ -377,6 +377,6 @@
     "riskometer": "Very High",
     "benchmark": "NIFTY 100 Low Volatility 30 Total Return Index",
     "lock_in": null,
-    "return1y": "+5.0%"
+    "return1y": "+3.4%"
   }
 }
