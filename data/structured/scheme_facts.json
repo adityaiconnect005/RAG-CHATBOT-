@@ -22,7 +22,7 @@
     "riskometer": "Moderately High",
     "benchmark": "NIFTY Midcap 150 Total Return Index",
     "lock_in": null,
-    "return3y": "+20.2%",
+    "return3y": "+20.1%",
     "return5y": "+20.8%"
   },
   "hdfc-balanced-advantage-fund-direct-growth": {
@@ -35,7 +35,7 @@
     "riskometer": "Moderately High Riskometer",
     "benchmark": "NIFTY 50 Hybrid Composite Debt 50:50 Index",
     "lock_in": null,
-    "return3y": "+13.4%",
+    "return3y": "+13.3%",
     "return5y": "+15.7%"
   },
   "hdfc-nifty200-momentum-30-index-fund-direct-growth": {
@@ -90,7 +90,7 @@
   "hdfc-focused-fund-direct-growth": {
     "scheme_id": "hdfc-focused-fund-direct-growth",
     "nav": "Rs 268.57900 (as of 18-08-2026)",
-    "expense_ratio": "0.79%",
+    "expense_ratio": "0.8%",
     "fund_size": "\u20b927,924.78 Cr",
     "minimum_sip": "\u20b9100",
     "rating": "5",
@@ -122,8 +122,8 @@
     "riskometer": "Very High",
     "benchmark": "Domestic Price of Silver",
     "lock_in": null,
-    "return1y": "+99.4%",
-    "return3y": "+46.4%"
+    "return1y": "+96.0%",
+    "return3y": "+45.2%"
   },
   "hdfc-large-and-mid-cap-fund-direct-growth": {
     "scheme_id": "hdfc-large-and-mid-cap-fund-direct-growth",
@@ -135,8 +135,8 @@
     "riskometer": "Moderately High Riskometer",
     "benchmark": "NIFTY Large Midcap 250 Total Return Index",
     "lock_in": null,
-    "return3y": "+15.6%",
-    "return5y": "+16.3%"
+    "return3y": "+15.4%",
+    "return5y": "+16.2%"
   },
   "hdfc-value-fund-direct-plan-growth": {
     "scheme_id": "hdfc-value-fund-direct-plan-growth",
@@ -148,13 +148,13 @@
     "riskometer": "Moderately High Riskometer",
     "benchmark": "NIFTY 500 Total Return Index",
     "lock_in": null,
-    "return3y": "+18.1%",
-    "return5y": "+15.4%"
+    "return3y": "+17.9%",
+    "return5y": "+15.3%"
   },
   "hdfc-equity-fund-direct-growth": {
     "scheme_id": "hdfc-equity-fund-direct-growth",
     "nav": "Rs 125.24200 (as of 18-08-2026)",
-    "expense_ratio": "0.74%",
+    "expense_ratio": "0.77%",
     "fund_size": "\u20b9110,736.41 Cr",
     "minimum_sip": "\u20b9100",
     "rating": "5",
@@ -198,21 +198,21 @@
     "riskometer": "Moderately High",
     "benchmark": "BSE Sensex Total Return Index",
     "lock_in": null,
-    "return3y": "+6.9%",
-    "return5y": "+7.8%"
+    "return3y": "+6.8%",
+    "return5y": "+7.7%"
   },
   "hdfc-transportation-and-logistics-fund-direct-growth": {
     "scheme_id": "hdfc-transportation-and-logistics-fund-direct-growth",
     "nav": "Rs 20.98500 (as of 18-08-2026)",
-    "expense_ratio": "1.08%",
+    "expense_ratio": "1.07%",
     "fund_size": "\u20b91,955.13 Cr",
     "minimum_sip": "\u20b9100",
     "rating": "--",
     "riskometer": "Very High",
     "benchmark": "Nifty Transportation & Logistics Total Return Index",
     "lock_in": null,
-    "return1y": "+20.0%",
-    "return3y": "+28.0%"
+    "return1y": "+18.5%",
+    "return3y": "+28.2%"
   },
   "hdfc-gold-etf-fund-of-fund-direct-plan-growth": {
     "scheme_id": "hdfc-gold-etf-fund-of-fund-direct-plan-growth",
@@ -224,8 +224,8 @@
     "riskometer": "Moderately High Riskometer",
     "benchmark": "Domestic Price of Gold",
     "lock_in": null,
-    "return3y": "+36.3%",
-    "return5y": "+25.2%"
+    "return3y": "+36.0%",
+    "return5y": "+25.1%"
   },
   "hdfc-ultra-short-term-fund-direct-growth": {
     "scheme_id": "hdfc-ultra-short-term-fund-direct-growth",
@@ -251,8 +251,8 @@
     "riskometer": "Very High",
     "benchmark": "Nifty 500 Multicap 50:25:25 Total Return Index",
     "lock_in": null,
-    "return1y": "+2.2%",
-    "return3y": "+14.1%"
+    "return1y": "+1.2%",
+    "return3y": "+13.9%"
   },
   "hdfc-money-market-fund-direct-growth": {
     "scheme_id": "hdfc-money-market-fund-direct-growth",
@@ -277,8 +277,8 @@
     "riskometer": "Very High",
     "benchmark": "NIFTY Next 50 Total Return Index",
     "lock_in": null,
-    "return1y": "+10.8%",
-    "return3y": "+19.7%"
+    "return1y": "+9.4%",
+    "return3y": "+19.4%"
   },
   "hdfc-small-cap-fund-direct-growth": {
     "scheme_id": "hdfc-small-cap-fund-direct-growth",
@@ -290,8 +290,8 @@
     "riskometer": "Moderately High Riskometer",
     "benchmark": "BSE 250 SmallCap Total Return Index",
     "lock_in": null,
-    "return3y": "+13.0%",
-    "return5y": "+16.3%"
+    "return3y": "+12.9%",
+    "return5y": "+16.2%"
   },
   "hdfc-taxsaver-direct-growth": {
     "scheme_id": "hdfc-taxsaver-direct-growth",
@@ -303,8 +303,8 @@
     "riskometer": "Moderately High",
     "benchmark": "NIFTY 500 Total Return Index",
     "lock_in": "3 Years",
-    "return3y": "+15.2%",
-    "return5y": "+15.9%"
+    "return3y": "+15.1%",
+    "return5y": "+15.8%"
   },
   "hdfc-top-100-fund-direct-growth": {
     "scheme_id": "hdfc-top-100-fund-direct-growth",
@@ -327,7 +327,7 @@
     "riskometer": "Moderately High Riskometer",
     "benchmark": "NIFTY 50 Total Return Index",
     "lock_in": null,
-    "return3y": "+8.7%",
+    "return3y": "+8.6%",
     "return5y": "+8.8%"
   },
   "hdfc-low-duration-fund-direct-growth": {
@@ -365,8 +365,8 @@
     "riskometer": "Very High",
     "benchmark": "Nifty India Defence Total Return Index",
     "lock_in": null,
-    "return1y": "+33.1%",
-    "return3y": "+42.3%"
+    "return1y": "+31.8%",
+    "return3y": "+41.5%"
   },
   "hdfc-nifty100-low-volatility-30-index-fund-direct-growth": {
     "scheme_id": "hdfc-nifty100-low-volatility-30-index-fund-direct-growth",
