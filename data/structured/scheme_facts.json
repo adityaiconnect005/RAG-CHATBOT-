@@ -48,7 +48,7 @@
     "riskometer": "Very High",
     "benchmark": "Nifty 200 Momentum 30 Total Return Index",
     "lock_in": null,
-    "return1y": "+2.5%"
+    "return1y": "+0.7%"
   },
   "hdfc-pharma-and-healthcare-fund-direct-growth": {
     "scheme_id": "hdfc-pharma-and-healthcare-fund-direct-growth",
@@ -60,7 +60,7 @@
     "riskometer": "Very High",
     "benchmark": "BSE Healthcare Total Return Index",
     "lock_in": null,
-    "return1y": "+25.0%"
+    "return1y": "+24.1%"
   },
   "hdfc-manufacturing-fund-direct-growth": {
     "scheme_id": "hdfc-manufacturing-fund-direct-growth",
@@ -72,7 +72,7 @@
     "riskometer": "Very High",
     "benchmark": "Nifty India Manufacturing Total Return Index",
     "lock_in": null,
-    "return1y": "+14.6%"
+    "return1y": "+11.7%"
   },
   "hdfc-medium-term-debt-fund-direct-growth": {
     "scheme_id": "hdfc-medium-term-debt-fund-direct-growth",
@@ -110,7 +110,7 @@
     "riskometer": "Very High",
     "benchmark": "NIFTY 100 Quality 30 Total Return Index",
     "lock_in": null,
-    "return1y": "+6.3%"
+    "return1y": "+2.2%"
   },
   "hdfc-silver-etf-fof-direct-growth": {
     "scheme_id": "hdfc-silver-etf-fof-direct-growth",
@@ -353,7 +353,7 @@
     "riskometer": "Very High",
     "benchmark": "BSE Teck Total Return Index",
     "lock_in": null,
-    "return1y": "-5.9%"
+    "return1y": "-10.2%"
   },
   "hdfc-defence-fund-direct-growth": {
     "scheme_id": "hdfc-defence-fund-direct-growth",
@@ -378,6 +378,6 @@
     "riskometer": "Very High",
     "benchmark": "NIFTY 100 Low Volatility 30 Total Return Index",
     "lock_in": null,
-    "return1y": "+3.4%"
+    "return1y": "-0.6%"
   }
 }
