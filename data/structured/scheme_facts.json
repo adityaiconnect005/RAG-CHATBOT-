@@ -22,8 +22,8 @@
     "riskometer": "Very High",
     "benchmark": "Nifty 500 Multicap 50:25:25 Total Return Index",
     "lock_in": null,
-    "return1y": "-3.8%",
-    "return3y": "+10.9%"
+    "return1y": "-3.0%",
+    "return3y": "+11.4%"
   },
   "hdfc-large-and-mid-cap-fund-direct-growth": {
     "scheme_id": "hdfc-large-and-mid-cap-fund-direct-growth",
@@ -136,8 +136,8 @@
     "riskometer": "Moderately High Riskometer",
     "benchmark": "BSE 250 SmallCap Total Return Index",
     "lock_in": null,
-    "return3y": "+10.3%",
-    "return5y": "+14.6%"
+    "return3y": "+10.9%",
+    "return5y": "+14.8%"
   },
   "hdfc-nifty-50-index-fund-direct-growth": {
     "scheme_id": "hdfc-nifty-50-index-fund-direct-growth",
@@ -175,8 +175,8 @@
     "riskometer": "Moderately Low",
     "benchmark": "CRISIL Short Duration Debt A-II Index",
     "lock_in": null,
-    "return3y": "+7.4%",
-    "return5y": "+6.5%"
+    "return3y": "+7.5%",
+    "return5y": "+6.6%"
   },
   "hdfc-mid-cap-fund-direct-growth": {
     "scheme_id": "hdfc-mid-cap-fund-direct-growth",
@@ -258,7 +258,7 @@
   },
   "hdfc-liquid-fund-direct-growth": {
     "scheme_id": "hdfc-liquid-fund-direct-growth",
-    "nav": "Rs 5583.66180 (as of 18-09-2026)",
+    "nav": "Rs 5585.40520 (as of 20-09-2026)",
     "expense_ratio": "0.2%",
     "fund_size": "\u20b971,323.35 Cr",
     "minimum_sip": "\u20b9100",
@@ -292,8 +292,8 @@
     "riskometer": "Very High",
     "benchmark": "Nifty India Defence Total Return Index",
     "lock_in": null,
-    "return1y": "+18.9%",
-    "return3y": "+36.5%"
+    "return1y": "+21.1%",
+    "return3y": "+37.0%"
   },
   "hdfc-nifty200-momentum-30-index-fund-direct-growth": {
     "scheme_id": "hdfc-nifty200-momentum-30-index-fund-direct-growth",
