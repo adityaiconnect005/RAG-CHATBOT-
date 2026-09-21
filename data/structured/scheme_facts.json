@@ -113,7 +113,7 @@
     "riskometer": "Very High",
     "benchmark": "Nifty India Manufacturing Total Return Index",
     "lock_in": null,
-    "return1y": "+8.0%"
+    "return1y": "+5.7%"
   },
   "hdfc-mutual-funds": {
     "scheme_id": "hdfc-mutual-funds",
@@ -241,7 +241,7 @@
     "riskometer": "Very High",
     "benchmark": "BSE Healthcare Total Return Index",
     "lock_in": null,
-    "return1y": "+27.5%"
+    "return1y": "+27.3%"
   },
   "hdfc-value-fund-direct-plan-growth": {
     "scheme_id": "hdfc-value-fund-direct-plan-growth",
@@ -305,7 +305,7 @@
     "riskometer": "Very High",
     "benchmark": "Nifty 200 Momentum 30 Total Return Index",
     "lock_in": null,
-    "return1y": "+0.5%"
+    "return1y": "-2.3%"
   },
   "hdfc-bse-sensex-index-fund-direct-growth": {
     "scheme_id": "hdfc-bse-sensex-index-fund-direct-growth",
@@ -330,7 +330,7 @@
     "riskometer": "Very High",
     "benchmark": "NIFTY 100 Low Volatility 30 Total Return Index",
     "lock_in": null,
-    "return1y": "-5.2%"
+    "return1y": "-6.1%"
   },
   "hdfc-nifty100-quality-30-index-fund-direct-growth": {
     "scheme_id": "hdfc-nifty100-quality-30-index-fund-direct-growth",
@@ -342,7 +342,7 @@
     "riskometer": "Very High",
     "benchmark": "NIFTY 100 Quality 30 Total Return Index",
     "lock_in": null,
-    "return1y": "-3.4%"
+    "return1y": "-5.2%"
   },
   "hdfc-balanced-advantage-fund-direct-growth": {
     "scheme_id": "hdfc-balanced-advantage-fund-direct-growth",
