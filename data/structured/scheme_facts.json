@@ -50,7 +50,7 @@
   },
   "hdfc-liquid-fund-direct-growth": {
     "scheme_id": "hdfc-liquid-fund-direct-growth",
-    "nav": "Rs 5595.37560 (as of 01-10-2026)",
+    "nav": "Rs 5596.27790 (as of 02-10-2026)",
     "expense_ratio": "0.2%",
     "fund_size": "\u20b971,323.35 Cr",
     "minimum_sip": "\u20b9100",
@@ -163,6 +163,19 @@
     "lock_in": null,
     "return3y": "+7.8%",
     "return5y": "+6.7%"
+  },
+  "hdfc-taxsaver-direct-growth": {
+    "scheme_id": "hdfc-taxsaver-direct-growth",
+    "nav": null,
+    "expense_ratio": "1.21%",
+    "fund_size": "\u20b915,991.78 Cr",
+    "minimum_sip": "\u20b9500",
+    "rating": "5",
+    "riskometer": "Moderately High",
+    "benchmark": "NIFTY 500 Total Return Index",
+    "lock_in": "3 Years",
+    "return3y": "+11.3%",
+    "return5y": "+13.0%"
   },
   "hdfc-mutual-funds": {
     "scheme_id": "hdfc-mutual-funds",
