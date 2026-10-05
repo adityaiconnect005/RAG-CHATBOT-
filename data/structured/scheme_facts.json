@@ -164,19 +164,6 @@
     "return3y": "+7.8%",
     "return5y": "+6.7%"
   },
-  "hdfc-taxsaver-direct-growth": {
-    "scheme_id": "hdfc-taxsaver-direct-growth",
-    "nav": null,
-    "expense_ratio": "1.21%",
-    "fund_size": "\u20b915,991.78 Cr",
-    "minimum_sip": "\u20b9500",
-    "rating": "5",
-    "riskometer": "Moderately High",
-    "benchmark": "NIFTY 500 Total Return Index",
-    "lock_in": "3 Years",
-    "return3y": "+11.3%",
-    "return5y": "+13.0%"
-  },
   "hdfc-mutual-funds": {
     "scheme_id": "hdfc-mutual-funds",
     "nav": null,
