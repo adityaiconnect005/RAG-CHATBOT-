@@ -170,7 +170,7 @@
   "hdfc-manufacturing-fund-direct-growth": {
     "scheme_id": "hdfc-manufacturing-fund-direct-growth",
     "nav": "Rs 12.19900 (as of 23-11-2026)",
-    "expense_ratio": "0.94%",
+    "expense_ratio": "0.93%",
     "fund_size": "\u20b99,726.26 Cr",
     "minimum_sip": "\u20b9100",
     "rating": "--",
@@ -257,15 +257,13 @@
   "hdfc-silver-etf-fof-direct-growth": {
     "scheme_id": "hdfc-silver-etf-fof-direct-growth",
     "nav": null,
-    "expense_ratio": "0.22%",
-    "fund_size": "\u20b93,787.89 Cr",
-    "minimum_sip": "\u20b9100",
-    "rating": "--",
-    "riskometer": "Very High",
-    "benchmark": "Domestic Price of Silver",
-    "lock_in": null,
-    "return1y": "+0.3%",
-    "return3y": "+26.1%"
+    "expense_ratio": null,
+    "fund_size": null,
+    "minimum_sip": null,
+    "rating": null,
+    "riskometer": null,
+    "benchmark": null,
+    "lock_in": null
   },
   "hdfc-small-cap-fund-direct-growth": {
     "scheme_id": "hdfc-small-cap-fund-direct-growth",
